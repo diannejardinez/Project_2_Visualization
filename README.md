@@ -16,5 +16,5 @@ Files:
 
 Disclaimers/Notes:
 - Transformation of data:
-	- Includes more than 1 Olympian for a Gold, Silver, and Bronze medal for each event
+	- Does not include 1 Olympian only for a Gold, Silver, and Bronze medal for that event (For example, Gymnastics Women's Team Portable Apparatus during 1956 Summer Olympics only has one gold medalist for all of 1920 to 2016, so this is not included in the datset)
 	- Teams that recieve medals are counted for each medal and not by one medal. (For example, if 4 people on a team recieve gold medals, data will count 4 gold medals)
