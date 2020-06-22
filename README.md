@@ -12,11 +12,11 @@ Files:
 
 - `female-sport-events.ipynb`: Jupyter notebook to transform Female-Sports data(gold, silver, bronze)
 
-- `Female-Events`: Directory for body composition and age for gold, silver, bronze medallists data(csv and json)
+- `Female-Events`: Directory for Female body composition and age for gold, silver, bronze medallists data(csv and json)
 
-- `male-sport-events.ipynb`: Drafting Jupyter notebook to transform Female-Sports data(gold and bronze complete)
+- `male-sport-events.ipynb`: Drafting Jupyter notebook to transform Male-Sports data(gold and bronze complete)
 
-- `Male-Events`: Drafting Directory for body composition and age for gold and bronze medallists data(csv and json)
+- `Male-Events`: Drafting Directory for Male body composition and age for gold and bronze medallists data(csv and json)
 
 Disclaimers:
 - Transformation of data:
