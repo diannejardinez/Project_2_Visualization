@@ -1,0 +1,290 @@
+Event,Age,Height,Weight,Sex
+Ice Hockey Men's Ice Hockey,26.0,5.97,185.22,Male
+Gymnastics Men's Individual All-Around,24.0,5.48,141.12,Male
+Gymnastics Men's Team All-Around,24.0,5.48,136.71,Male
+Alpine Skiing Men's Giant Slalom,25.0,5.91,176.40,Male
+Alpine Skiing Men's Super G,26.0,5.87,194.04,Male
+Rowing Men's Coxless Pairs,25.0,6.23,191.84,Male
+"Fencing Men's epee, Individual",28.0,6.10,180.81,Male
+"Athletics Men's 1,500 metres",25.0,5.79,143.33,Male
+Hockey Men's Hockey,25.0,5.82,165.38,Male
+Figure Skating Mixed Team,26.0,5.74,157.66,Male
+"Wrestling Men's Middleweight, Greco-Roman",26.0,5.81,176.40,Male
+"Athletics Men's 10,000 metres",26.0,5.64,135.61,Male
+Athletics Men's Long Jump,24.0,5.97,157.66,Male
+Gymnastics Men's Floor Exercise,22.0,5.41,136.71,Male
+Gymnastics Men's Rings,24.0,5.35,136.71,Male
+Swimming Men's 4 x 200 metres Freestyle Relay,22.0,6.09,176.40,Male
+Swimming Men's 4 x 100 metres Freestyle Relay,22.0,6.23,187.43,Male
+"Canoeing Men's Kayak Doubles, 500 metres",24.0,6.15,189.63,Male
+Swimming Men's 4 x 100 metres Medley Relay,22.0,6.00,176.40,Male
+Volleyball Men's Volleyball,26.0,6.36,191.84,Male
+Basketball Men's Basketball,24.0,6.46,207.27,Male
+"Fencing Men's epee, Team",27.0,6.07,171.99,Male
+Alpine Skiing Men's Combined,25.0,5.84,188.53,Male
+Boxing Men's Welterweight,23.0,5.76,147.74,Male
+Football Men's Football,23.0,5.84,160.97,Male
+Boxing Men's Featherweight,22.0,5.51,125.69,Male
+Boxing Men's Bantamweight,22.0,5.45,119.07,Male
+Bobsleigh Men's Four,29.0,5.97,198.45,Male
+Boxing Men's Heavyweight,23.0,6.20,200.66,Male
+Boxing Men's Lightweight,23.0,5.61,132.30,Male
+Athletics Men's Standing Long Jump,22.0,6.17,171.99,Male
+"Canoeing Men's Canadian Doubles, Slalom",24.0,5.73,163.17,Male
+Swimming Men's 50 metres Freestyle,24.0,6.33,183.02,Male
+Swimming Men's 100 metres Freestyle,22.0,6.38,187.43,Male
+Rugby Sevens Men's Rugby Sevens,27.0,5.87,198.45,Male
+Rowing Men's Coxless Fours,25.0,6.27,196.25,Male
+Water Polo Men's Water Polo,26.0,6.20,198.45,Male
+Boxing Men's Light-Welterweight,23.0,5.69,141.12,Male
+Athletics Men's 4 x 100 metres Relay,24.0,5.84,163.17,Male
+"Equestrianism Mixed Jumping, Team",35.0,5.84,158.76,Male
+Beach Volleyball Men's Beach Volleyball,28.0,6.23,196.25,Male
+"Canoeing Men's Kayak Singles, Slalom",23.0,5.87,160.97,Male
+Baseball Men's Baseball,25.0,5.97,187.43,Male
+Sailing Mixed 5.5 metres,34.0,5.95,180.81,Male
+"Cycling Men's Team Pursuit, 4,000 metres",23.0,5.97,160.97,Male
+Athletics Men's 400 metres Hurdles,25.0,6.07,165.38,Male
+Athletics Men's 4 x 400 metres Relay,23.0,5.91,160.97,Male
+"Wrestling Men's Lightweight, Freestyle",25.0,5.64,149.94,Male
+"Short Track Speed Skating Men's 5,000 metres Relay",22.0,5.71,154.35,Male
+Weightlifting Men's Middle-Heavyweight,24.0,5.74,198.45,Male
+Rowing Men's Coxed Eights,26.0,6.27,198.45,Male
+Shooting Men's Skeet,37.0,5.87,181.91,Male
+Shooting Men's Double Trap,30.0,5.87,173.09,Male
+Shooting Men's Trap,32.0,5.79,185.22,Male
+"Equestrianism Mixed Jumping, Individual",32.0,5.74,152.15,Male
+Sailing Mixed One Person Dinghy,27.0,6.07,189.63,Male
+Weightlifting Men's Super-Heavyweight,28.0,5.97,303.19,Male
+"Wrestling Men's Light-Heavyweight, Freestyle",24.0,5.91,198.45,Male
+Athletics Men's Discus Throw,26.0,6.23,240.34,Male
+Bobsleigh Men's Two,30.0,6.00,202.86,Male
+"Wrestling Men's Heavyweight, Greco-Roman",26.0,6.09,218.30,Male
+Judo Men's Half-Lightweight,25.0,5.56,145.53,Male
+Diving Men's Platform,24.0,5.64,143.33,Male
+"Shooting Men's Air Rifle, 10 metres",30.0,5.77,163.17,Male
+"Shooting Men's Rapid-Fire Pistol, 25 metres",28.0,5.74,167.58,Male
+Handball Men's Handball,27.0,6.23,202.86,Male
+Sailing Mixed Two Person Heavyweight Dinghy,30.0,5.91,171.99,Male
+"Shooting Men's Small-Bore Rifle, Three Positions, 50 metres",29.0,5.79,174.19,Male
+Figure Skating Men's Singles,21.0,5.58,134.50,Male
+"Athletics Men's Cross-Country, Team",24.0,5.56,135.61,Male
+Athletics Men's Triple Jump,26.0,6.04,168.68,Male
+Boxing Men's Flyweight,22.0,5.40,112.45,Male
+"Canoeing Men's Kayak Fours, 1,000 metres",25.0,6.07,188.53,Male
+Athletics Men's 10 kilometres Walk,20.0,5.94,156.56,Male
+Cross Country Skiing Men's Team Sprint,25.0,5.81,170.89,Male
+Rowing Men's Lightweight Coxless Fours,28.0,6.05,160.97,Male
+Boxing Men's Middleweight,23.0,5.87,165.38,Male
+"Wrestling Men's Featherweight, Greco-Roman",25.0,5.41,136.71,Male
+Table Tennis Men's Doubles,24.0,5.71,145.53,Male
+Short Track Speed Skating Men's 500 metres,22.0,5.68,155.45,Male
+"Short Track Speed Skating Men's 1,500 metres",27.0,5.69,154.35,Male
+"Canoeing Men's Canadian Doubles, 500 metres",24.0,5.95,176.40,Male
+Tennis Men's Doubles,25.0,6.10,174.19,Male
+"Athletics Men's 3,000 metres Steeplechase",24.0,5.84,144.43,Male
+"Speed Skating Men's 1,500 metres",26.0,5.91,167.58,Male
+"Cycling Men's Individual Pursuit, 4,000 metres",24.0,5.97,165.38,Male
+Sailing Mixed Multihull,30.0,5.97,160.97,Male
+"Wrestling Men's Light-Heavyweight, Greco-Roman",27.0,5.91,194.04,Male
+Biathlon Men's 4 x 7.5 kilometres Relay,27.0,5.84,156.56,Male
+Weightlifting Men's Bantamweight,24.0,5.22,123.48,Male
+Diving Men's Springboard,22.0,5.61,144.43,Male
+Biathlon Men's 10 kilometres Sprint,28.0,5.94,158.76,Male
+Athletics Men's 20 kilometres Walk,27.0,5.99,149.94,Male
+Gymnastics Men's Horse Vault,23.0,5.45,141.12,Male
+Gymnastics Men's Pommelled Horse,22.0,5.54,142.22,Male
+Gymnastics Men's Horizontal Bar,24.0,5.54,136.71,Male
+Rowing Men's Double Sculls,26.0,6.23,191.84,Male
+"Wrestling Men's Light-Flyweight, Greco-Roman",24.0,5.05,105.84,Male
+Cross Country Skiing Men's 4 x 10 kilometres Relay,27.0,5.79,156.56,Male
+Cross Country Skiing Men's 15 kilometres,28.0,5.97,160.97,Male
+"Canoeing Men's Kayak Singles, 1,000 metres",25.0,6.10,191.84,Male
+Skeleton Men's Skeleton,30.0,6.02,175.30,Male
+"Wrestling Men's Middleweight, Freestyle",26.0,5.74,173.09,Male
+"Ski Jumping Men's Normal Hill, Individual",24.0,5.89,140.02,Male
+Athletics Men's 800 metres,24.0,5.84,147.74,Male
+Athletics Men's Hammer Throw,28.0,6.15,237.04,Male
+Athletics Men's 200 metres,22.0,5.91,160.97,Male
+Weightlifting Men's Middleweight,25.0,5.41,169.78,Male
+Athletics Men's 50 kilometres Walk,30.0,5.84,138.91,Male
+"Wrestling Men's Bantamweight, Freestyle",25.0,5.33,126.79,Male
+Badminton Mixed Doubles,27.0,6.09,174.19,Male
+Athletics Men's Pole Vault,24.0,5.99,165.38,Male
+Boxing Men's Light-Flyweight,22.0,5.28,105.84,Male
+Badminton Men's Doubles,26.0,5.84,160.97,Male
+Athletics Men's Shot Put,25.0,6.22,262.39,Male
+Biathlon Men's 20 kilometres,24.0,5.89,165.38,Male
+Weightlifting Men's Light-Heavyweight,25.0,5.66,184.12,Male
+Judo Men's Middleweight,25.0,5.89,189.63,Male
+Luge Mixed (Men)'s Doubles,27.0,5.84,180.81,Male
+Athletics Men's Decathlon,24.0,6.07,183.02,Male
+"Shooting Men's Running Target, 50 metres",22.0,5.64,148.84,Male
+"Canoeing Men's Canadian Singles, Slalom",26.0,5.92,163.17,Male
+Cycling Men's Keirin,29.0,5.97,189.63,Male
+"Fencing Men's Foil, Individual",26.0,6.00,169.78,Male
+Badminton Men's Singles,22.0,5.89,157.66,Male
+"Canoeing Men's Kayak Doubles, 1,000 metres",26.0,5.91,176.40,Male
+"Canoeing Men's Kayak Doubles, 10,000 metres",27.0,5.84,164.27,Male
+Athletics Men's High Jump,22.0,6.27,165.38,Male
+"Shooting Men's Air Pistol, 10 metres",33.0,5.84,185.22,Male
+"Fencing Men's Foil, Team",25.0,5.97,160.97,Male
+Swimming Men's 200 metres Butterfly,21.0,6.04,169.78,Male
+Athletics Men's Javelin Throw,26.0,6.09,200.66,Male
+"Athletics Men's 5,000 metres",25.0,5.71,136.71,Male
+"Athletics Men's 3,000 metres, Team",23.0,5.64,134.50,Male
+Athletics Men's 400 metres,23.0,6.02,167.58,Male
+Archery Men's Individual,25.0,5.87,159.86,Male
+Rowing Men's Quadruple Sculls,25.0,6.30,202.86,Male
+Athletics Men's 100 metres,24.0,5.84,160.97,Male
+"Wrestling Men's Welterweight, Greco-Roman",26.0,5.64,160.97,Male
+"Fencing Men's Sabre, Team",29.0,5.91,168.68,Male
+Nordic Combined Men's Team,24.0,5.91,147.74,Male
+Rowing Men's Coxed Fours,24.0,6.14,196.25,Male
+Shooting Mixed Trap,32.0,6.00,189.63,Male
+Boxing Men's Light-Middleweight,22.0,5.84,156.56,Male
+"Equestrianism Mixed Dressage, Individual",40.0,6.00,154.35,Male
+"Shooting Mixed Small-Bore Rifle, Prone, 50 metres",32.0,5.86,164.27,Male
+"Shooting Men's Free Pistol, 50 metres",28.0,5.73,167.58,Male
+"Wrestling Men's Flyweight, Greco-Roman",27.0,5.28,116.31,Male
+Sailing Mixed Three Person Keelboat,32.0,6.00,184.12,Male
+"Equestrianism Mixed Three-Day Event, Team",34.0,5.87,158.76,Male
+"Ski Jumping Men's Large Hill, Team",24.0,5.84,134.50,Male
+"Cycling Men's Road Race, Individual",25.0,5.91,159.86,Male
+Athletics Men's 110 metres Hurdles,24.0,6.09,171.99,Male
+Diving Men's Synchronized Springboard,23.0,5.71,156.56,Male
+Sailing Men's Two Person Dinghy,26.0,5.89,157.66,Male
+"Wrestling Men's Heavyweight, Freestyle",28.0,6.07,216.09,Male
+Alpine Skiing Men's Downhill,27.0,5.91,180.81,Male
+Judo Men's Half-Heavyweight,28.0,6.14,209.47,Male
+Boxing Men's Light-Heavyweight,24.0,6.04,178.61,Male
+Modern Pentathlon Men's Individual,27.0,5.91,158.76,Male
+"Wrestling Men's Welterweight, Freestyle",25.0,5.64,163.17,Male
+Swimming Men's 400 metres Individual Medley,20.0,6.04,163.17,Male
+Swimming Men's 200 metres Backstroke,22.0,6.02,171.99,Male
+Cycling Men's Team Sprint,26.0,5.91,191.84,Male
+"Wrestling Men's Super-Heavyweight, Freestyle",27.0,6.17,264.60,Male
+Sailing Mixed Two Person Keelboat,34.0,6.02,194.04,Male
+"Swimming Men's 1,500 metres Freestyle",21.0,6.09,176.40,Male
+"Wrestling Men's Super-Heavyweight, Greco-Roman",26.0,6.23,286.65,Male
+Modern Pentathlon Men's Team,26.0,5.91,157.66,Male
+"Short Track Speed Skating Men's 1,000 metres",24.0,5.68,149.94,Male
+Weightlifting Men's Lightweight,28.0,5.38,148.29,Male
+Taekwondo Men's Welterweight,24.0,6.27,176.40,Male
+"Cycling Men's Tandem Sprint, 2,000 metres",22.0,5.69,163.17,Male
+Gymnastics Men's Parallel Bars,24.0,5.50,132.30,Male
+Weightlifting Men's Featherweight,25.0,5.25,136.71,Male
+Swimming Men's 100 metres Backstroke,20.0,6.25,170.89,Male
+Judo Men's Heavyweight,25.0,6.30,264.60,Male
+"Speed Skating Men's 5,000 metres",24.0,6.02,170.89,Male
+Swimming Men's 200 metres Freestyle,21.0,6.30,194.04,Male
+Archery Men's Team,24.0,5.99,181.91,Male
+"Wrestling Men's Bantamweight, Greco-Roman",26.0,5.33,125.69,Male
+Biathlon Men's 15 kilometres Mass Start,32.0,5.84,147.74,Male
+Weightlifting Men's Heavyweight I,28.0,5.71,220.50,Male
+Cycling Men's 100 kilometres Team Time Trial,23.0,5.94,165.38,Male
+Speed Skating Men's Team Pursuit (8 laps),28.0,5.99,177.50,Male
+"Shooting Men's Small-Bore Rifle, Prone, 50 metres",33.0,5.84,171.99,Male
+Cycling Men's Individual Time Trial,27.0,6.07,152.15,Male
+Judo Men's Lightweight,25.0,5.69,157.66,Male
+"Canoeing Men's Canadian Doubles, 1,000 metres",24.0,5.87,176.40,Male
+Table Tennis Men's Team,31.0,5.94,158.76,Male
+Weightlifting Men's Heavyweight,26.0,5.91,232.63,Male
+Luge Men's Singles,25.0,5.92,185.22,Male
+"Shooting Men's Free Rifle, Three Positions, 300 metres",37.0,5.58,187.43,Male
+Judo Men's Open Class,24.0,6.04,235.94,Male
+Rowing Men's Coxed Pairs,26.0,6.10,183.02,Male
+Cross Country Skiing Men's 50 kilometres,28.0,5.76,154.35,Male
+Speed Skating Men's 500 metres,24.0,5.76,165.38,Male
+Diving Men's Synchronized Platform,23.0,5.64,143.33,Male
+Cycling Men's Sprint,26.0,5.82,179.71,Male
+"Canoeing Men's Canadian Singles, 1,000 metres",26.0,6.04,185.22,Male
+Alpine Skiing Men's Slalom,23.0,5.84,171.99,Male
+Swimming Men's 200 metres Individual Medley,22.0,6.17,176.40,Male
+Snowboarding Men's Parallel Giant Slalom,30.0,6.07,187.43,Male
+"Canoeing Men's Kayak Singles, 500 metres",25.0,6.04,189.63,Male
+"Wrestling Men's Featherweight, Freestyle",25.0,5.43,136.71,Male
+Judo Men's Half-Middleweight,25.0,5.84,178.61,Male
+Swimming Men's 400 metres Freestyle,21.0,6.00,176.40,Male
+"Cycling Men's Mountainbike, Cross-Country",26.0,5.66,146.63,Male
+Rowing Men's Single Sculls,29.0,6.14,194.04,Male
+Sailing Mixed Two Person Dinghy,24.0,5.77,148.84,Male
+Triathlon Men's Olympic Distance,24.0,5.94,152.15,Male
+Rowing Men's Lightweight Double Sculls,27.0,5.97,156.56,Male
+Tennis Mixed Doubles,36.0,6.18,183.02,Male
+Swimming Men's 100 metres Butterfly,21.0,6.10,169.78,Male
+Shooting Mixed Skeet,25.0,5.71,165.38,Male
+"Ski Jumping Men's Large Hill, Individual",21.0,5.81,141.12,Male
+"Fencing Men's Sabre, Individual",29.0,5.87,169.78,Male
+Boxing Men's Super-Heavyweight,25.0,6.23,200.66,Male
+Weightlifting Men's Heavyweight II,29.0,5.94,242.55,Male
+Freestyle Skiing Men's Moguls,26.0,5.74,163.17,Male
+"Wrestling Men's Lightweight, Greco-Roman",26.0,5.51,147.74,Male
+"Equestrianism Mixed Dressage, Team",40.0,5.77,149.94,Male
+"Canoeing Men's Canadian Singles, 500 metres",23.0,6.04,187.43,Male
+"Speed Skating Men's 1,000 metres",25.0,5.91,171.99,Male
+Tennis Men's Singles,22.0,6.07,173.09,Male
+Taekwondo Men's Heavyweight,26.0,6.36,209.47,Male
+"Wrestling Men's Flyweight, Freestyle",24.0,5.30,114.66,Male
+Judo Men's Extra-Lightweight,23.0,5.45,132.30,Male
+Taekwondo Men's Flyweight,22.0,5.91,128.99,Male
+Swimming Men's 200 metres Breaststroke,22.0,5.97,165.38,Male
+Weightlifting Men's Flyweight,25.0,5.02,123.48,Male
+Cycling Men's Omnium,26.0,5.99,167.58,Male
+"Cycling Men's 1,000 metres Time Trial",22.0,5.95,176.40,Male
+"Canoeing Men's Kayak Singles, 200 metres",31.0,5.91,200.66,Male
+Figure Skating Mixed Pairs,28.0,5.81,163.17,Male
+Freestyle Skiing Men's Aerials,22.0,5.66,154.35,Male
+"Speed Skating Men's 10,000 metres",27.0,5.97,180.81,Male
+Snowboarding Men's Boardercross,21.0,6.00,180.81,Male
+Athletics Men's Marathon,27.0,5.61,132.30,Male
+Figure Skating Mixed Ice Dancing,28.0,5.81,157.66,Male
+Sailing Men's Windsurfer,24.0,5.86,154.35,Male
+"Shooting Mixed Free Pistol, 50 metres",27.0,5.91,163.17,Male
+Trampolining Men's Individual,23.0,5.58,141.12,Male
+Sailing Mixed Skiff,29.0,5.87,162.07,Male
+Swimming Men's 100 metres Breaststroke,22.0,6.14,177.50,Male
+"Equestrianism Men's Three-Day Event, Team",29.0,5.71,154.35,Male
+"Equestrianism Mixed Three-Day Event, Individual",30.0,5.79,154.35,Male
+Curling Men's Curling,30.0,5.95,174.19,Male
+"Athletics Men's Cross-Country, Individual",26.0,5.58,130.09,Male
+Sailing Men's Two Person Keelboat,37.0,6.17,220.50,Male
+Cross Country Skiing Men's 30 kilometres,26.0,5.87,163.17,Male
+"Shooting Mixed Rapid-Fire Pistol, 25 metres",28.0,5.79,157.66,Male
+Biathlon Men's 12.5 kilometres Pursuit,31.0,5.97,165.38,Male
+Cross Country Skiing Men's Sprint,28.0,6.02,177.50,Male
+Cycling Men's Points Race,22.0,5.84,169.78,Male
+Nordic Combined Men's Individual,24.0,5.82,149.94,Male
+"Shooting Mixed Running Target, 50 metres",34.0,5.84,167.58,Male
+Taekwondo Men's Featherweight,24.0,5.94,149.94,Male
+Nordic Combined Men's Sprint,26.0,5.87,145.53,Male
+Freestyle Skiing Men's Ski Cross,30.0,6.07,191.84,Male
+"Cycling Men's Road Race, Team",22.0,5.73,162.07,Male
+"Athletics Men's Javelin Throw, Freestyle",22.0,5.84,174.19,Male
+Canoeing Men's Kayak Relay 4 x 500 metres,22.0,5.92,165.38,Male
+Cycling Men's Madison,30.0,5.87,170.89,Male
+"Canoeing Men's Kayak Doubles, 200 metres",28.0,5.97,187.43,Male
+Sailing Men's Skiff,27.0,6.00,176.40,Male
+Sailing Men's One Person Dinghy,30.0,6.00,202.86,Male
+Snowboarding Men's Halfpipe,20.0,5.91,160.97,Male
+Biathlon Mixed 2 x 6 kilometres and 2 x 7.5 kilometres Relay,24.0,5.82,145.53,Male
+"Shooting Men's Trap, Team",30.0,5.94,226.01,Male
+"Shooting Men's Running Target, 10 metres",27.0,5.82,176.40,Male
+"Wrestling Men's Light-Flyweight, Freestyle",25.0,5.12,105.84,Male
+"Shooting Mixed Small-Bore Rifle, Three Positions, 50 metres",28.0,5.81,171.99,Male
+Table Tennis Men's Singles,24.0,5.91,152.15,Male
+Tug-Of-War Men's Tug-Of-War,26.0,5.91,179.71,Male
+"Weightlifting Men's Unlimited, Two Hands",25.0,5.58,178.61,Male
+Athletics Men's Pentathlon,27.0,6.10,183.02,Male
+Athletics Men's 56-pound Weight Throw,38.0,5.95,222.71,Male
+Sailing Men's One Person Heavyweight Dinghy,26.0,6.33,218.30,Male
+Swimming Men's 10 kilometres Open Water,22.0,6.00,158.76,Male
+Athletics Men's 60 metres,26.0,5.79,155.45,Male
+"Shooting Mixed Free Rifle, Three Positions, 300 metres",31.0,5.94,170.89,Male
+Cross Country Skiing Men's 30 km Skiathlon,29.0,5.91,154.35,Male
+Cycling Men's BMX,24.0,5.84,152.15,Male
+"Canoeing Men's Canadian Singles, 200 metres",24.0,5.82,188.53,Male
+"Athletics Men's 1,600 metres Medley Relay",18.0,5.97,160.97,Male
+Athletics Men's Standing High Jump,22.0,6.10,164.27,Male
+Luge Mixed Team Relay,30.0,5.91,198.45,Male
+"Equestrianism Men's Jumping, Team",30.0,5.74,143.33,Male
