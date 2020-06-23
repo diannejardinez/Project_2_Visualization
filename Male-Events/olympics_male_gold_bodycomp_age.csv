@@ -1,0 +1,544 @@
+Event,Season,Sex,Medal,sno,ID,Age,Height,Weight,Year
+Aeronautics Mixed Aeronautics,Summer,M,Gold,214105.0,107506.0,26.0,,,1936.0
+Alpine Skiing Men's Combined,Winter,M,Gold,182856.5,91883.5,26.0,178.5,81.5,1996.0
+Alpine Skiing Men's Downhill,Winter,M,Gold,169465.5,85105.0,23.5,183.0,85.5,1982.0
+Alpine Skiing Men's Giant Slalom,Winter,M,Gold,146723.0,73643.0,24.0,180.0,79.0,1984.0
+Alpine Skiing Men's Slalom,Winter,M,Gold,196899.5,98867.5,24.5,180.0,82.0,1982.0
+Alpine Skiing Men's Super G,Winter,M,Gold,126528.0,63718.5,27.5,180.0,85.0,2000.0
+Alpinism Mixed Alpinism,Summer,M,Gold,213142.0,107029.0,27.0,,,1932.0
+Alpinism Mixed Alpinism,Winter,M,Gold,173124.0,87013.0,38.0,,,1924.0
+"Archery Men's Au Chapelet, 33 metres",Summer,M,Gold,249066.0,124694.0,34.0,,,1900.0
+"Archery Men's Au Chapelet, 50 metres",Summer,M,Gold,164459.0,82573.0,47.0,,,1900.0
+"Archery Men's Au Cordon Dore, 33 metres",Summer,M,Gold,249068.0,124694.0,34.0,,,1900.0
+"Archery Men's Au Cordon Dore, 50 metres",Summer,M,Gold,95035.0,48121.0,24.0,,,1900.0
+Archery Men's Championnat Du Monde,Summer,M,Gold,95036.0,48121.0,24.0,,,1900.0
+Archery Men's Continental Style,Summer,M,Gold,84814.0,43038.0,41.0,,,1908.0
+Archery Men's Double American Round,Summer,M,Gold,30850.0,15893.0,26.0,,,1904.0
+Archery Men's Double York Round,Summer,M,Gold,43769.0,22466.5,33.0,,,1906.0
+Archery Men's Individual,Summer,M,Gold,151760.5,76363.0,22.0,179.0,72.0,1994.0
+"Archery Men's Pole Archery, Large Birds, Individual",Summer,M,Gold,42771.0,22068.0,,,,1920.0
+"Archery Men's Pole Archery, Large Birds, Team",Summer,M,Gold,171473.0,86102.5,,,,1920.0
+"Archery Men's Pole Archery, Small Birds, Individual",Summer,M,Gold,249245.0,124789.0,,,,1920.0
+"Archery Men's Pole Archery, Small Birds, Team",Summer,M,Gold,171472.0,86102.5,,,,1920.0
+Archery Men's Sur La Perche a La Herse,Summer,M,Gold,71713.0,36505.0,28.0,,,1900.0
+Archery Men's Sur La Perche a La Pyramide,Summer,M,Gold,85434.0,43310.0,38.0,,,1900.0
+"Archery Men's Target Archery, 28 metres, Individual",Summer,M,Gold,249071.0,124694.0,54.0,,,1920.0
+"Archery Men's Target Archery, 28 metres, Team",Summer,M,Gold,248487.5,124406.0,36.5,,,1920.0
+"Archery Men's Target Archery, 33 metres, Individual",Summer,M,Gold,249072.0,124694.0,54.0,,,1920.0
+"Archery Men's Target Archery, 33 metres, Team",Summer,M,Gold,61034.0,31215.0,44.0,,,1920.0
+"Archery Men's Target Archery, 50 metres, Individual",Summer,M,Gold,30491.0,15721.0,44.0,,,1920.0
+"Archery Men's Target Archery, 50 metres, Team",Summer,M,Gold,61035.0,31215.0,44.0,,,1920.0
+Archery Men's Team,Summer,M,Gold,123569.5,62400.0,24.0,180.0,78.0,2002.0
+Archery Men's Team Round,Summer,M,Gold,232847.0,116867.5,59.5,165.0,,1904.0
+Art Competitions Mixed Architecture,Summer,M,Gold,147819.5,74304.0,39.5,,,1912.0
+"Art Competitions Mixed Architecture, Architectural Designs",Summer,M,Gold,146012.0,73399.5,40.5,176.0,75.0,1932.0
+"Art Competitions Mixed Architecture, Designs For Town Planning",Summer,M,Gold,139620.0,70111.0,42.0,,,1936.0
+Art Competitions Mixed Literature,Summer,M,Gold,64253.5,32793.0,33.5,,,1922.0
+"Art Competitions Mixed Literature, Epic Works",Summer,M,Gold,157938.0,79282.0,45.0,,,1936.0
+"Art Competitions Mixed Literature, Lyric Works",Summer,M,Gold,242682.0,121681.0,36.5,,,1932.0
+Art Competitions Mixed Music,Summer,M,Gold,88689.0,44814.0,28.0,,,1916.0
+"Art Competitions Mixed Music, Compositions For Orchestra",Summer,M,Gold,153504.0,77213.5,37.5,,,1942.0
+"Art Competitions Mixed Music, Compositions For Solo Or Chorus",Summer,M,Gold,97011.0,49111.0,40.0,,,1936.0
+Art Competitions Mixed Painting,Summer,M,Gold,144969.5,73046.5,39.0,,,1918.0
+"Art Competitions Mixed Painting, Applied Arts",Summer,M,Gold,55607.0,28501.0,33.0,,,1936.0
+"Art Competitions Mixed Painting, Drawings And Water Colors",Summer,M,Gold,64067.0,32649.0,28.5,,,1930.0
+"Art Competitions Mixed Painting, Graphic Arts",Summer,M,Gold,81083.0,41175.0,47.0,,,1932.0
+"Art Competitions Mixed Painting, Paintings",Summer,M,Gold,239406.0,119993.0,56.0,,,1932.0
+Art Competitions Mixed Sculpturing,Summer,M,Gold,55753.0,28568.0,45.0,,,1920.0
+"Art Competitions Mixed Sculpturing, Medals And Reliefs",Summer,M,Gold,102876.5,52107.0,36.5,,,1930.0
+"Art Competitions Mixed Sculpturing, Reliefs",Summer,M,Gold,232708.0,116727.0,48.0,,,1936.0
+"Art Competitions Mixed Sculpturing, Statues",Summer,M,Gold,212713.5,106671.0,48.0,,,1934.0
+"Athletics Men's 1,500 metres",Summer,M,Gold,115303.0,58429.0,24.0,176.0,65.0,1960.0
+"Athletics Men's 1,500 metres Walk",Summer,M,Gold,25214.0,13197.0,24.0,179.0,60.0,1906.0
+"Athletics Men's 1,600 metres Medley Relay",Summer,M,Gold,153752.5,77432.5,24.5,179.0,70.5,1908.0
+Athletics Men's 10 kilometres Walk,Summer,M,Gold,82821.0,42068.0,26.0,177.0,64.0,1924.0
+Athletics Men's 10 mile Walk,Summer,M,Gold,132569.0,66731.0,33.0,175.0,67.0,1908.0
+"Athletics Men's 10,000 metres",Summer,M,Gold,144502.0,72628.0,26.0,174.0,60.0,1970.0
+Athletics Men's 100 metres,Summer,M,Gold,88287.0,44773.0,23.0,183.0,75.0,1960.0
+Athletics Men's 110 metres Hurdles,Summer,M,Gold,126246.0,63659.0,23.0,185.0,75.0,1960.0
+"Athletics Men's 2,500 metres Steeplechase",Summer,M,Gold,178305.0,89626.0,27.0,169.0,65.0,1900.0
+"Athletics Men's 2,590 metres Steeplechase",Summer,M,Gold,138946.0,69800.0,22.0,173.0,61.0,1904.0
+Athletics Men's 20 kilometres Walk,Summer,M,Gold,98019.0,49611.0,24.0,178.0,64.0,1986.0
+Athletics Men's 200 metres,Summer,M,Gold,137690.0,69210.0,23.0,182.0,73.0,1964.0
+Athletics Men's 200 metres Hurdles,Summer,M,Gold,111146.0,56145.0,22.5,181.5,70.5,1902.0
+"Athletics Men's 3 mile, Team",Summer,M,Gold,88964.0,45105.0,23.0,168.5,57.5,1908.0
+"Athletics Men's 3,000 metres Steeplechase",Summer,M,Gold,115694.0,58614.0,27.0,175.0,64.0,1972.0
+"Athletics Men's 3,000 metres Walk",Summer,M,Gold,153880.0,77413.5,22.5,171.0,55.0,1913.0
+"Athletics Men's 3,000 metres, Team",Summer,M,Gold,156439.0,78588.0,23.5,174.5,65.0,1920.0
+"Athletics Men's 3,200 metres Steeplechase",Summer,M,Gold,206384.0,103600.0,22.0,170.0,60.0,1908.0
+"Athletics Men's 3,500 metres Walk",Summer,M,Gold,132568.0,66731.0,33.0,175.0,67.0,1908.0
+"Athletics Men's 4 mile, Team",Summer,M,Gold,188850.0,94865.0,20.0,176.0,74.0,1904.0
+Athletics Men's 4 x 100 metres Relay,Summer,M,Gold,109168.5,55191.0,23.0,180.0,74.5,1974.0
+Athletics Men's 4 x 400 metres Relay,Summer,M,Gold,150752.0,75629.0,23.0,183.0,75.0,1978.0
+"Athletics Men's 4,000 metres Steeplechase",Summer,M,Gold,200852.0,100882.0,22.0,,,1900.0
+Athletics Men's 400 metres,Summer,M,Gold,137783.0,69259.0,22.0,183.0,75.5,1960.0
+Athletics Men's 400 metres Hurdles,Summer,M,Gold,119066.0,59953.0,24.0,186.0,75.0,1966.0
+Athletics Men's 5 mile,Summer,M,Gold,173100.0,86944.5,24.0,165.0,53.0,1907.0
+"Athletics Men's 5,000 metres",Summer,M,Gold,132828.0,66851.0,26.5,175.0,60.0,1970.0
+"Athletics Men's 5,000 metres, Team",Summer,M,Gold,202022.0,101468.0,23.0,176.5,70.5,1900.0
+Athletics Men's 50 kilometres Walk,Summer,M,Gold,124627.0,62932.0,30.0,178.0,64.0,1980.0
+Athletics Men's 56-pound Weight Throw,Summer,M,Gold,104260.5,52642.0,36.0,187.5,107.0,1912.0
+Athletics Men's 60 metres,Summer,M,Gold,107264.5,54216.0,23.0,175.0,69.5,1902.0
+Athletics Men's 800 metres,Summer,M,Gold,179488.0,90192.0,23.0,183.0,71.5,1960.0
+Athletics Men's All-Around Championship,Summer,M,Gold,117809.0,59615.0,34.0,,,1904.0
+"Athletics Men's Cross-Country, Individual",Summer,M,Gold,173961.0,87390.0,22.0,174.0,65.0,1920.0
+"Athletics Men's Cross-Country, Team",Summer,M,Gold,141825.0,71203.0,26.0,172.0,63.0,1916.0
+Athletics Men's Decathlon,Summer,M,Gold,163889.0,82250.0,25.0,186.0,88.0,1968.0
+Athletics Men's Discus Throw,Summer,M,Gold,113063.0,57280.0,27.0,192.0,112.5,1960.0
+"Athletics Men's Discus Throw, Both Hands",Summer,M,Gold,234971.0,117837.0,21.0,191.0,92.5,1912.0
+"Athletics Men's Discus Throw, Greek Style",Summer,M,Gold,162468.0,81781.5,31.5,186.0,91.5,1907.0
+Athletics Men's Hammer Throw,Summer,M,Gold,166270.0,83502.0,29.0,185.0,106.0,1964.0
+Athletics Men's High Jump,Summer,M,Gold,131788.0,66320.0,23.0,191.5,80.0,1960.0
+Athletics Men's Javelin Throw,Summer,M,Gold,170175.0,85513.0,26.0,187.0,88.0,1968.0
+"Athletics Men's Javelin Throw, Both Hands",Summer,M,Gold,207229.0,103984.0,20.0,181.0,81.0,1912.0
+"Athletics Men's Javelin Throw, Freestyle",Summer,M,Gold,136508.0,68647.0,27.0,190.0,88.0,1907.0
+Athletics Men's Long Jump,Summer,M,Gold,137692.0,69210.0,24.0,184.0,74.0,1960.0
+Athletics Men's Marathon,Summer,M,Gold,122982.0,62160.0,28.0,170.0,57.25,1960.0
+Athletics Men's Pentathlon,Summer,M,Gold,136008.5,68431.0,24.0,183.5,78.0,1916.0
+Athletics Men's Pentathlon (Ancient),Summer,M,Gold,156245.0,78465.0,25.0,183.0,80.0,1906.0
+Athletics Men's Pole Vault,Summer,M,Gold,99007.5,50105.5,24.0,183.0,75.0,1958.0
+Athletics Men's Shot Put,Summer,M,Gold,154305.0,77472.0,24.0,190.5,116.5,1960.0
+"Athletics Men's Shot Put, Both Hands",Summer,M,Gold,204283.0,102565.0,28.0,195.0,115.0,1912.0
+Athletics Men's Standing High Jump,Summer,M,Gold,65577.0,33557.0,30.0,185.0,79.0,1906.0
+Athletics Men's Standing Long Jump,Summer,M,Gold,65581.0,33557.0,30.0,185.0,79.0,1906.0
+Athletics Men's Standing Triple Jump,Summer,M,Gold,65577.5,33557.0,28.0,185.0,79.0,1902.0
+Athletics Men's Stone Throw,Summer,M,Gold,77865.0,39535.0,26.0,185.0,81.0,1906.0
+Athletics Men's Triple Jump,Summer,M,Gold,175085.0,87968.0,25.0,183.0,74.0,1960.0
+Badminton Men's Doubles,Summer,M,Gold,118582.5,60003.5,27.5,181.0,74.0,2004.0
+Badminton Men's Singles,Summer,M,Gold,99666.0,50431.0,24.0,178.0,70.0,2004.0
+Badminton Mixed Doubles,Summer,M,Gold,202189.0,101349.5,22.0,179.5,74.5,2006.0
+Baseball Men's Baseball,Summer,M,Gold,135314.0,68087.0,26.0,183.0,86.0,2000.0
+Basketball Men's Basketball,Summer,M,Gold,115546.0,58536.0,25.0,198.0,95.0,1980.0
+Basque Pelota Men's Two-Man Teams With Cesta,Summer,M,Gold,151631.5,76270.5,26.0,,,1900.0
+Beach Volleyball Men's Beach Volleyball,Summer,M,Gold,95362.5,48385.5,30.0,190.0,92.0,2006.0
+Biathlon Men's 10 kilometres Sprint,Winter,M,Gold,88381.5,44809.0,24.0,178.5,69.5,1996.0
+Biathlon Men's 12.5 kilometres Pursuit,Winter,M,Gold,60633.0,31028.5,28.0,180.5,69.0,2008.0
+Biathlon Men's 15 kilometres Mass Start,Winter,M,Gold,233089.0,116916.0,28.0,176.0,72.0,2010.0
+Biathlon Men's 20 kilometres,Winter,M,Gold,137283.0,69012.0,28.0,178.0,72.5,1988.0
+Biathlon Men's 4 x 7.5 kilometres Relay,Winter,M,Gold,119863.5,60682.0,26.0,179.0,75.0,1992.0
+Biathlon Mixed 2 x 6 kilometres and 2 x 7.5 kilometres Relay,Winter,M,Gold,127903.5,64433.5,34.0,181.5,71.0,2014.0
+Bobsleigh Men's Four,Winter,M,Gold,124185.0,62691.5,29.0,185.0,94.5,1980.0
+Bobsleigh Men's Four/Five,Winter,M,Gold,182306.0,91640.0,33.0,173.0,,1928.0
+Bobsleigh Men's Two,Winter,M,Gold,144458.5,72505.5,31.0,184.5,93.0,1982.0
+Boxing Men's Bantamweight,Summer,M,Gold,151074.0,75820.0,21.0,166.0,54.0,1968.0
+Boxing Men's Featherweight,Summer,M,Gold,166639.0,83707.0,20.0,168.0,57.0,1964.0
+Boxing Men's Flyweight,Summer,M,Gold,123619.5,62449.0,22.0,165.0,51.0,1970.0
+Boxing Men's Heavyweight,Summer,M,Gold,206161.0,103491.0,24.0,190.0,91.0,1968.0
+Boxing Men's Light-Flyweight,Summer,M,Gold,94883.0,48034.0,23.0,165.0,48.0,1992.0
+Boxing Men's Light-Heavyweight,Summer,M,Gold,153316.0,76944.0,23.0,184.0,81.0,1972.0
+Boxing Men's Light-Middleweight,Summer,M,Gold,154053.0,77344.0,26.0,176.0,71.0,1976.0
+Boxing Men's Light-Welterweight,Summer,M,Gold,128768.0,64815.0,23.0,171.0,64.0,1984.0
+Boxing Men's Lightweight,Summer,M,Gold,141782.0,71127.0,23.0,170.0,60.0,1968.0
+Boxing Men's Middleweight,Summer,M,Gold,142178.0,71328.0,23.5,182.0,75.0,1968.0
+Boxing Men's Super-Heavyweight,Summer,M,Gold,110686.0,55982.0,23.0,195.0,100.75,2000.0
+Boxing Men's Welterweight,Summer,M,Gold,151437.5,76033.5,24.0,176.0,67.0,1970.0
+"Canoeing Men's Canadian Doubles, 1,000 metres",Summer,M,Gold,135429.5,68067.5,24.0,178.0,80.0,1980.0
+"Canoeing Men's Canadian Doubles, 10,000 metres",Summer,M,Gold,145210.0,72877.0,24.0,173.0,72.0,1950.0
+"Canoeing Men's Canadian Doubles, 500 metres",Summer,M,Gold,164463.5,82621.5,24.0,180.0,80.5,1992.0
+"Canoeing Men's Canadian Doubles, Slalom",Summer,M,Gold,96781.5,49006.0,26.0,177.0,75.0,2002.0
+"Canoeing Men's Canadian Singles, 1,000 metres",Summer,M,Gold,97463.0,49334.0,25.0,183.0,84.0,1980.0
+"Canoeing Men's Canadian Singles, 10,000 metres",Summer,M,Gold,92256.0,46724.0,27.0,179.5,80.5,1952.0
+"Canoeing Men's Canadian Singles, 200 metres",Summer,M,Gold,38995.5,20080.0,28.0,185.0,93.0,2014.0
+"Canoeing Men's Canadian Singles, 500 metres",Summer,M,Gold,95439.0,48318.0,25.0,184.0,83.0,1992.0
+"Canoeing Men's Canadian Singles, Slalom",Summer,M,Gold,70741.0,36038.5,24.0,183.0,74.0,2002.0
+"Canoeing Men's Folding Kayak Doubles, 10 kilometres",Summer,M,Gold,66081.0,33646.5,21.0,,,1936.0
+"Canoeing Men's Folding Kayak Singles, 10 kilometres",Summer,M,Gold,99690.0,50441.0,27.0,,,1936.0
+"Canoeing Men's Kayak Doubles, 1,000 metres",Summer,M,Gold,124514.5,62860.0,27.0,183.0,84.0,1980.0
+"Canoeing Men's Kayak Doubles, 10,000 metres",Summer,M,Gold,189105.5,94855.0,26.0,175.0,73.5,1950.0
+"Canoeing Men's Kayak Doubles, 200 metres",Summer,M,Gold,126302.0,63722.5,23.5,186.5,87.5,2014.0
+"Canoeing Men's Kayak Doubles, 500 metres",Summer,M,Gold,128955.0,64990.0,25.0,181.5,85.0,1992.0
+"Canoeing Men's Kayak Fours, 1,000 metres",Summer,M,Gold,113986.5,57751.5,25.0,186.5,87.0,1990.0
+Canoeing Men's Kayak Relay 4 x 500 metres,Summer,M,Gold,158965.0,79959.0,24.5,178.5,80.0,1960.0
+"Canoeing Men's Kayak Singles, 1,000 metres",Summer,M,Gold,97716.0,49457.0,27.0,185.0,81.5,1980.0
+"Canoeing Men's Kayak Singles, 10,000 metres",Summer,M,Gold,99729.0,50441.0,28.5,176.0,72.0,1950.0
+"Canoeing Men's Kayak Singles, 200 metres",Summer,M,Gold,123740.5,62335.5,29.5,177.5,80.0,2014.0
+"Canoeing Men's Kayak Singles, 500 metres",Summer,M,Gold,122987.0,62161.0,25.0,187.0,89.5,1992.0
+"Canoeing Men's Kayak Singles, Slalom",Summer,M,Gold,91697.0,46467.0,23.5,179.5,73.5,2002.0
+Cricket Men's Cricket,Summer,M,Gold,43042.0,22192.0,24.0,,,1900.0
+Croquet Mixed Doubles,Summer,M,Gold,60157.0,30637.5,18.5,,,1900.0
+"Croquet Mixed Singles, One Ball",Summer,M,Gold,10961.0,5989.0,15.0,,,1900.0
+"Croquet Mixed Singles, Two Balls",Summer,M,Gold,257687.0,129049.0,58.0,,,1900.0
+Cross Country Skiing Men's 10 kilometres,Winter,M,Gold,246201.0,123284.0,28.0,180.0,73.0,1992.0
+Cross Country Skiing Men's 10/10 kilometres Pursuit,Winter,M,Gold,35263.0,18190.5,29.5,189.0,82.0,2002.0
+Cross Country Skiing Men's 10/15 kilometres Pursuit,Winter,M,Gold,5427.0,3069.0,26.0,190.0,82.0,1998.0
+Cross Country Skiing Men's 15 kilometres,Winter,M,Gold,85604.0,43396.0,26.0,180.5,74.0,1980.0
+Cross Country Skiing Men's 18 kilometres,Winter,M,Gold,112434.5,56752.0,28.5,170.0,59.0,1934.0
+Cross Country Skiing Men's 30 kilometres,Winter,M,Gold,172772.0,86808.0,27.0,177.0,68.0,1980.0
+Cross Country Skiing Men's 30 km Skiathlon,Winter,M,Gold,53514.0,27456.0,24.0,182.0,75.0,2010.0
+Cross Country Skiing Men's 4 x 10 kilometres Relay,Winter,M,Gold,154814.0,77713.5,28.0,180.0,71.0,1980.0
+Cross Country Skiing Men's 50 kilometres,Winter,M,Gold,110948.0,56146.5,27.5,180.0,74.0,1970.0
+Cross Country Skiing Men's Sprint,Winter,M,Gold,111618.5,56368.0,27.5,186.0,82.0,2008.0
+Cross Country Skiing Men's Team Sprint,Winter,M,Gold,155833.5,78282.5,27.0,184.0,82.5,2010.0
+Curling Men's Curling,Winter,M,Gold,110512.5,55954.5,31.5,180.0,82.5,2004.0
+Cycling Men's 1 mile,Summer,M,Gold,101142.0,51135.0,20.0,181.0,,1904.0
+"Cycling Men's 1,000 metres Time Trial",Summer,M,Gold,140423.0,70734.5,23.0,180.0,78.0,1970.0
+Cycling Men's 1/2 mile,Summer,M,Gold,101141.0,51135.0,20.0,181.0,,1904.0
+Cycling Men's 1/3 mile,Summer,M,Gold,101140.0,51135.0,20.0,181.0,,1904.0
+Cycling Men's 1/4 mile,Summer,M,Gold,101139.0,51135.0,20.0,181.0,,1904.0
+"Cycling Men's 10,000 metres",Summer,M,Gold,151937.0,76252.0,19.0,,,1896.0
+Cycling Men's 100 kilometres,Summer,M,Gold,42739.5,22000.5,20.5,,,1902.0
+Cycling Men's 100 kilometres Team Time Trial,Summer,M,Gold,135430.0,68093.5,22.0,180.0,74.5,1976.0
+Cycling Men's 12-Hours Race,Summer,M,Gold,213105.0,107006.0,23.0,,,1896.0
+Cycling Men's 2 mile,Summer,M,Gold,58218.0,29791.0,19.0,,,1904.0
+Cycling Men's 20 kilometres,Summer,M,Gold,153493.0,77362.5,28.5,,,1907.0
+Cycling Men's 25 kilometres,Summer,M,Gold,15786.0,8513.0,18.0,,,1900.0
+Cycling Men's 25 mile,Summer,M,Gold,58220.0,29791.0,19.0,,,1904.0
+Cycling Men's 333 metres Time Trial,Summer,M,Gold,201894.0,101187.0,19.5,,,1901.0
+Cycling Men's 5 mile,Summer,M,Gold,212989.0,106953.0,30.0,,,1904.0
+"Cycling Men's 5,000 metres",Summer,M,Gold,180931.0,90870.5,23.0,,,1907.0
+Cycling Men's 50 kilometres,Summer,M,Gold,169371.5,85037.0,26.0,,,1922.0
+Cycling Men's BMX,Summer,M,Gold,230808.0,115836.0,23.0,186.0,90.0,2012.0
+"Cycling Men's Individual Pursuit, 4,000 metres",Summer,M,Gold,74404.5,37849.0,23.5,185.0,79.5,1986.0
+Cycling Men's Individual Time Trial,Summer,M,Gold,181693.5,91206.5,33.0,186.0,80.0,2006.0
+Cycling Men's Keirin,Summer,M,Gold,99557.0,50383.0,28.0,182.0,90.0,2008.0
+Cycling Men's Madison,Summer,M,Gold,100979.0,51010.5,30.5,177.0,72.0,2004.0
+"Cycling Men's Mountainbike, Cross-Country",Summer,M,Gold,78853.0,39895.0,27.0,180.0,68.0,2006.0
+Cycling Men's Omnium,Summer,M,Gold,171901.5,86351.0,23.5,178.5,71.5,2014.0
+Cycling Men's Points Race,Summer,M,Gold,121768.0,61312.5,25.0,178.0,71.0,1994.0
+"Cycling Men's Road Race, Individual",Summer,M,Gold,140719.0,70682.0,23.0,177.0,72.0,1966.0
+"Cycling Men's Road Race, Team",Summer,M,Gold,137069.0,68913.0,21.0,169.0,72.0,1928.0
+Cycling Men's Sprint,Summer,M,Gold,151935.0,76252.0,24.0,183.0,90.0,1964.0
+"Cycling Men's Tandem Sprint, 2,000 metres",Summer,M,Gold,145825.5,73154.5,23.0,175.0,73.0,1942.0
+"Cycling Men's Team Pursuit, 1,980 yards",Summer,M,Gold,138281.5,69693.5,25.5,,,1908.0
+"Cycling Men's Team Pursuit, 4,000 metres",Summer,M,Gold,131697.0,66277.0,23.0,181.0,75.0,1972.0
+Cycling Men's Team Sprint,Summer,M,Gold,115991.0,58744.0,26.0,179.0,82.0,2008.0
+Diving Men's Plain High,Summer,M,Gold,65424.0,33484.0,19.0,168.0,,1920.0
+Diving Men's Platform,Summer,M,Gold,139081.5,69878.0,23.5,173.5,66.0,1966.0
+Diving Men's Springboard,Summer,M,Gold,142837.0,71665.0,23.5,170.0,69.5,1966.0
+Diving Men's Synchronized Platform,Summer,M,Gold,141603.0,71096.5,20.5,163.0,53.0,2008.0
+Diving Men's Synchronized Springboard,Summer,M,Gold,194817.0,97771.0,26.0,169.5,65.0,2008.0
+"Equestrianism Men's Dressage, Individual",Summer,M,Gold,139669.0,70134.0,43.0,,,1928.0
+"Equestrianism Men's Dressage, Team",Summer,M,Gold,138616.5,69640.0,39.5,,,1934.0
+"Equestrianism Men's Jumping, Individual",Summer,M,Gold,123672.5,62344.0,31.0,173.0,70.0,1930.0
+"Equestrianism Men's Jumping, Team",Summer,M,Gold,170842.0,85857.5,32.5,,,1926.0
+"Equestrianism Men's Three-Day Event, Individual",Summer,M,Gold,176591.0,88745.0,32.0,180.0,73.0,1934.0
+"Equestrianism Men's Three-Day Event, Team",Summer,M,Gold,163425.0,82035.0,34.0,177.5,71.0,1932.0
+"Equestrianism Men's Vaulting, Individual",Summer,M,Gold,26846.0,13956.0,25.0,,,1920.0
+"Equestrianism Men's Vaulting, Team",Summer,M,Gold,69481.0,35406.0,25.5,,,1920.0
+"Equestrianism Mixed Dressage, Individual",Summer,M,Gold,120818.0,61116.5,47.0,174.0,71.5,1962.0
+"Equestrianism Mixed Dressage, Team",Summer,M,Gold,123505.5,62374.0,45.0,183.5,71.0,1976.0
+Equestrianism Mixed Four-In-Hand Competition,Summer,M,Gold,167439.0,84123.0,54.0,,,1900.0
+Equestrianism Mixed Hacks And Hunter Combined,Summer,M,Gold,166122.0,83439.0,48.0,,,1900.0
+Equestrianism Mixed High Jump,Summer,M,Gold,159930.5,80348.0,32.5,,,1900.0
+"Equestrianism Mixed Jumping, Individual",Summer,M,Gold,119836.0,60670.0,35.0,176.5,72.0,1984.0
+"Equestrianism Mixed Jumping, Team",Summer,M,Gold,176736.5,88828.0,33.5,176.0,72.0,1988.0
+Equestrianism Mixed Long Jump,Summer,M,Gold,249157.0,124737.0,30.0,,,1900.0
+"Equestrianism Mixed Three-Day Event, Individual",Summer,M,Gold,165127.5,82927.5,32.5,177.5,70.0,1990.0
+"Equestrianism Mixed Three-Day Event, Team",Summer,M,Gold,130870.0,65878.0,32.0,180.0,70.0,1992.0
+"Fencing Men's Foil, Individual",Summer,M,Gold,80312.5,40788.0,26.0,180.0,75.0,1962.0
+"Fencing Men's Foil, Masters, Individual",Summer,M,Gold,175869.5,88298.5,26.0,,,1898.0
+"Fencing Men's Foil, Team",Summer,M,Gold,126067.0,63577.0,27.0,178.0,75.0,1960.0
+"Fencing Men's Sabre, Individual",Summer,M,Gold,131594.0,66230.0,29.0,180.0,78.0,1960.0
+"Fencing Men's Sabre, Individual, Three Hits",Summer,M,Gold,36646.0,18829.0,31.0,,,1906.0
+"Fencing Men's Sabre, Masters, Individual",Summer,M,Gold,147827.0,74351.5,35.5,,,1903.0
+"Fencing Men's Sabre, Team",Summer,M,Gold,151398.5,75964.5,29.0,179.0,77.0,1956.0
+"Fencing Men's Single Sticks, Individual",Summer,M,Gold,249665.0,125020.0,37.0,183.0,,1904.0
+"Fencing Men's epee, Individual",Summer,M,Gold,83972.5,42578.0,28.5,183.5,77.5,1962.0
+"Fencing Men's epee, Masters and Amateurs, Individual",Summer,M,Gold,11356.0,6211.0,25.0,,,1900.0
+"Fencing Men's epee, Masters, Individual",Summer,M,Gold,131419.0,66075.0,32.0,,,1903.0
+"Fencing Men's epee, Team",Summer,M,Gold,128747.0,64806.0,30.0,185.0,79.0,1956.0
+Figure Skating Men's Singles,Summer,M,Gold,145852.5,73466.5,28.0,,,1914.0
+Figure Skating Men's Singles,Winter,M,Gold,118115.0,59556.5,22.0,179.0,70.0,1974.0
+Figure Skating Men's Special Figures,Summer,M,Gold,123223.0,62264.0,34.0,,,1908.0
+Figure Skating Mixed Ice Dancing,Winter,M,Gold,161393.0,81017.0,29.0,175.0,72.0,1994.0
+Figure Skating Mixed Pairs,Summer,M,Gold,68874.0,34968.5,32.0,174.0,73.0,1914.0
+Figure Skating Mixed Pairs,Winter,M,Gold,177654.0,89288.0,27.0,178.0,76.0,1976.0
+Figure Skating Mixed Team,Winter,M,Gold,190229.0,95546.0,24.0,181.0,74.0,2014.0
+Football Men's Football,Summer,M,Gold,133949.5,67439.0,23.0,176.0,73.0,1968.0
+Freestyle Skiing Men's Aerials,Winter,M,Gold,109673.0,55363.5,28.5,177.5,75.0,2004.0
+Freestyle Skiing Men's Halfpipe,Winter,M,Gold,262050.0,131113.0,23.0,183.0,84.0,2014.0
+Freestyle Skiing Men's Moguls,Winter,M,Gold,28363.0,14713.0,22.0,173.0,76.0,2002.0
+Freestyle Skiing Men's Ski Cross,Winter,M,Gold,125898.5,63455.5,24.5,182.5,89.5,2012.0
+Freestyle Skiing Men's Slopestyle,Winter,M,Gold,41210.0,21248.0,22.0,185.0,79.0,2014.0
+Golf Men's Individual,Summer,M,Gold,204265.0,102561.0,36.0,186.0,,1904.0
+Golf Men's Team,Summer,M,Gold,131826.0,66372.0,18.5,178.0,,1904.0
+Gymnastics Men's Club Swinging,Summer,M,Gold,149501.0,75250.0,22.5,,,1918.0
+Gymnastics Men's Floor Exercise,Summer,M,Gold,157576.5,79128.0,22.5,164.5,59.5,1978.0
+Gymnastics Men's Horizontal Bar,Summer,M,Gold,169670.0,85286.0,25.0,167.0,64.0,1968.0
+"Gymnastics Men's Horizontal Bar, Teams",Summer,M,Gold,159392.5,80034.0,25.0,159.0,66.0,1896.0
+Gymnastics Men's Horse Vault,Summer,M,Gold,142792.0,71644.0,25.0,166.0,62.5,1964.0
+Gymnastics Men's Individual All-Around,Summer,M,Gold,137538.0,69121.5,26.0,166.5,59.0,1962.0
+"Gymnastics Men's Individual All-Around, 4 Events",Summer,M,Gold,93168.0,47181.0,25.0,,,1904.0
+"Gymnastics Men's Individual All-Around, 5 Events",Summer,M,Gold,183910.0,92434.0,32.0,,,1906.0
+"Gymnastics Men's Individual All-Around, Apparatus Work",Summer,M,Gold,226587.0,113874.0,24.0,180.0,,1904.0
+"Gymnastics Men's Individual All-Around, Field Sports",Summer,M,Gold,63429.0,32512.0,25.0,,,1904.0
+Gymnastics Men's Parallel Bars,Summer,M,Gold,114537.0,57998.0,26.0,163.0,59.0,1970.0
+"Gymnastics Men's Parallel Bars, Teams",Summer,M,Gold,159390.5,80034.0,25.0,159.0,66.0,1896.0
+Gymnastics Men's Pommelled Horse,Summer,M,Gold,142366.5,71482.5,24.0,169.0,61.0,1974.0
+Gymnastics Men's Rings,Summer,M,Gold,89658.0,45442.5,25.0,164.0,60.0,1974.0
+Gymnastics Men's Rope Climbing,Summer,M,Gold,15720.0,8474.0,25.0,168.5,59.0,1906.0
+Gymnastics Men's Side Horse,Summer,M,Gold,154415.0,77725.0,29.0,,,1914.0
+Gymnastics Men's Team All-Around,Summer,M,Gold,144882.0,72706.0,24.0,164.0,59.0,1928.0
+"Gymnastics Men's Team All-Around, Free System",Summer,M,Gold,150269.5,75399.0,24.0,,,1912.0
+"Gymnastics Men's Team All-Around, Swedish System",Summer,M,Gold,139650.0,70124.0,24.0,177.0,73.0,1916.0
+Gymnastics Men's Tumbling,Summer,M,Gold,262490.0,131332.0,17.0,,,1932.0
+Handball Men's Handball,Summer,M,Gold,125655.0,63409.0,27.0,190.5,93.0,1992.0
+Hockey Men's Hockey,Summer,M,Gold,141231.5,70880.5,26.0,178.0,75.0,1972.0
+Ice Hockey Men's Ice Hockey,Summer,M,Gold,77609.0,39430.0,22.5,179.5,71.5,1920.0
+Ice Hockey Men's Ice Hockey,Winter,M,Gold,148909.0,74694.0,25.0,182.0,85.0,1980.0
+Jeu De Paume Men's Singles,Summer,M,Gold,82805.0,42060.0,19.0,,,1908.0
+Judo Men's Extra-Lightweight,Summer,M,Gold,141814.0,71439.5,23.5,164.0,60.0,1998.0
+Judo Men's Half-Heavyweight,Summer,M,Gold,137319.0,69052.5,24.5,185.0,100.0,1994.0
+Judo Men's Half-Lightweight,Summer,M,Gold,187355.5,94086.5,25.5,164.0,66.0,1998.0
+Judo Men's Half-Middleweight,Summer,M,Gold,127209.0,64167.0,23.0,179.5,79.5,1994.0
+Judo Men's Heavyweight,Summer,M,Gold,181914.0,91430.0,26.0,185.0,122.5,1992.0
+Judo Men's Lightweight,Summer,M,Gold,135522.0,68190.0,23.0,172.0,73.0,1992.0
+Judo Men's Middleweight,Summer,M,Gold,215824.0,108359.0,26.0,181.0,86.0,1992.0
+Judo Men's Open Class,Summer,M,Gold,206348.0,103576.0,30.0,180.0,103.0,1976.0
+Lacrosse Men's Lacrosse,Summer,M,Gold,57756.0,29586.0,27.0,174.0,75.0,1906.0
+Luge Men's Singles,Winter,M,Gold,132006.5,66468.0,24.5,180.5,87.5,1990.0
+Luge Mixed (Men)'s Doubles,Winter,M,Gold,126629.0,63859.0,24.0,180.0,79.0,1988.0
+Luge Mixed Team Relay,Winter,M,Gold,141392.0,70950.0,26.0,184.0,88.0,2014.0
+Military Ski Patrol Men's Military Ski Patrol,Winter,M,Gold,111155.0,56238.5,25.0,,,1924.0
+Modern Pentathlon Men's Individual,Summer,M,Gold,156479.5,78542.5,27.0,181.0,73.0,1970.0
+Modern Pentathlon Men's Team,Summer,M,Gold,159722.0,80154.0,27.0,181.0,73.5,1972.0
+Motorboating Mixed A-Class (Open),Summer,M,Gold,239707.0,120129.0,46.0,,,1908.0
+Motorboating Mixed B-Class (Under 60 Feet),Summer,M,Gold,198177.0,99504.0,29.0,,,1908.0
+Motorboating Mixed C-Class,Summer,M,Gold,198178.0,99504.0,29.0,,,1908.0
+Nordic Combined Men's Individual,Winter,M,Gold,126542.5,63824.5,26.5,179.0,68.0,1970.0
+"Nordic Combined Men's Large Hill / 10 km, Individual",Winter,M,Gold,68309.5,34829.5,25.5,181.5,66.0,2012.0
+"Nordic Combined Men's Normal Hill / 10 km, Individual",Winter,M,Gold,102328.0,51678.0,24.0,176.0,61.0,2012.0
+Nordic Combined Men's Sprint,Winter,M,Gold,106964.5,54024.5,26.0,178.0,66.5,2004.0
+Nordic Combined Men's Team,Winter,M,Gold,144007.0,72272.0,26.0,178.0,67.0,2002.0
+Polo Men's Polo,Summer,M,Gold,150967.5,75791.0,35.5,178.0,,1920.0
+Racquets Men's Doubles,Summer,M,Gold,97784.5,49381.0,26.0,176.0,,1908.0
+Racquets Men's Singles,Summer,M,Gold,172624.0,86723.0,29.0,,,1908.0
+Roque Men's Singles,Summer,M,Gold,105199.0,53238.0,64.0,,,1904.0
+Rowing Men's 17-Man Naval Rowing Boats,Summer,M,Gold,142868.0,71683.0,,,,1906.0
+Rowing Men's 6-Man Naval Rowing Boats,Summer,M,Gold,236288.0,118471.0,,,,1906.0
+Rowing Men's Coxed Eights,Summer,M,Gold,114731.0,58124.5,24.0,191.0,89.0,1964.0
+Rowing Men's Coxed Fours,Summer,M,Gold,135526.0,68130.5,24.0,189.0,89.0,1954.0
+"Rowing Men's Coxed Fours, Inriggers",Summer,M,Gold,91334.0,46307.0,27.0,,,1912.0
+"Rowing Men's Coxed Fours, Outriggers",Summer,M,Gold,68939.0,35157.0,26.0,,,1912.0
+Rowing Men's Coxed Pairs,Summer,M,Gold,106466.0,53831.0,25.0,187.0,88.0,1958.0
+Rowing Men's Coxed Pairs (1 kilometres),Summer,M,Gold,37861.0,19456.0,24.0,,,1906.0
+Rowing Men's Coxed Pairs (1 mile),Summer,M,Gold,37862.0,19456.0,24.0,,,1906.0
+Rowing Men's Coxless Fours,Summer,M,Gold,144228.5,72376.0,25.0,192.0,90.0,1970.0
+Rowing Men's Coxless Pairs,Summer,M,Gold,131852.0,66356.0,26.0,192.0,89.5,1970.0
+Rowing Men's Double Sculls,Summer,M,Gold,104008.5,52687.5,27.0,187.0,87.0,1970.0
+Rowing Men's Lightweight Coxless Fours,Summer,M,Gold,95511.0,48348.0,27.0,184.5,72.0,2006.0
+Rowing Men's Lightweight Double Sculls,Summer,M,Gold,128271.5,64583.0,28.0,181.5,73.5,2006.0
+Rowing Men's Quadruple Sculls,Summer,M,Gold,193391.0,97121.5,24.0,194.0,93.0,1996.0
+Rowing Men's Single Sculls,Summer,M,Gold,117620.0,59569.0,26.0,189.0,92.0,1962.0
+Rugby Men's Rugby,Summer,M,Gold,153852.0,77231.0,24.0,178.0,74.5,1920.0
+Rugby Sevens Men's Rugby Sevens,Summer,M,Gold,197643.0,99232.0,26.0,189.0,98.0,2016.0
+Sailing Men's One Person Dinghy,Summer,M,Gold,129649.0,65271.0,27.0,183.0,89.0,2004.0
+Sailing Men's One Person Heavyweight Dinghy,Summer,M,Gold,108912.5,54749.0,32.0,190.0,92.5,2014.0
+Sailing Men's Skiff,Summer,M,Gold,143478.5,72262.5,25.5,183.5,79.0,2014.0
+Sailing Men's Two Person Dinghy,Summer,M,Gold,151186.5,75854.5,29.0,182.5,68.5,2002.0
+Sailing Men's Two Person Keelboat,Summer,M,Gold,163682.5,82210.0,35.0,185.0,97.5,2008.0
+Sailing Men's Windsurfer,Summer,M,Gold,165781.5,83508.0,25.5,184.5,70.0,2002.0
+Sailing Mixed 0-0.5 Ton,Summer,M,Gold,143004.0,71976.0,,,,1900.0
+Sailing Mixed 0.5-1 Ton,Summer,M,Gold,65779.5,33597.0,30.0,,,1900.0
+Sailing Mixed 1-2 Ton,Summer,M,Gold,177611.0,89271.0,44.0,,,1900.0
+Sailing Mixed 10 metres,Summer,M,Gold,108475.0,54879.5,31.0,180.0,,1920.0
+Sailing Mixed 10-20 Ton,Summer,M,Gold,103903.0,52517.5,44.0,,,1900.0
+Sailing Mixed 12 foot,Summer,M,Gold,96101.0,48660.0,21.0,,,1920.0
+Sailing Mixed 12 metres,Summer,M,Gold,108671.5,54944.5,36.0,180.0,,1912.0
+Sailing Mixed 2-3 Ton,Summer,M,Gold,65599.5,33564.0,32.5,,,1900.0
+Sailing Mixed 20+ Ton,Summer,M,Gold,194994.0,97858.0,,,,1900.0
+Sailing Mixed 3-10 Ton,Summer,M,Gold,102892.5,52034.0,50.0,,,1900.0
+Sailing Mixed 30 metres,Summer,M,Gold,144121.0,72336.0,27.0,,,1920.0
+Sailing Mixed 40 metres,Summer,M,Gold,152314.0,76650.5,24.0,,,1920.0
+Sailing Mixed 5.5 metres,Summer,M,Gold,218629.5,109797.0,25.5,183.0,79.0,1960.0
+Sailing Mixed 6 metres,Summer,M,Gold,133976.0,67457.5,34.5,,,1930.0
+Sailing Mixed 6.5 metres,Summer,M,Gold,35903.0,18441.0,23.0,184.0,,1920.0
+Sailing Mixed 7 metres,Summer,M,Gold,101053.0,51004.0,42.0,,,1914.0
+Sailing Mixed 8 metres,Summer,M,Gold,107110.0,54133.0,32.5,174.5,,1924.0
+Sailing Mixed Multihull,Summer,M,Gold,136759.0,68766.0,33.0,180.0,73.0,1992.0
+Sailing Mixed One Person Dinghy,Summer,M,Gold,111862.0,56635.0,24.0,182.5,85.0,1968.0
+Sailing Mixed Open,Summer,M,Gold,84234.0,42795.0,29.0,,,1900.0
+Sailing Mixed Skiff,Summer,M,Gold,114505.5,57936.0,28.0,181.0,77.5,2004.0
+Sailing Mixed Three Person Keelboat,Summer,M,Gold,105446.0,53339.0,33.0,183.0,87.0,1972.0
+Sailing Mixed Two Person Dinghy,Summer,M,Gold,130990.5,65948.5,23.5,176.5,69.0,1980.0
+Sailing Mixed Two Person Heavyweight Dinghy,Summer,M,Gold,114813.5,57840.5,26.5,182.0,80.0,1974.0
+Sailing Mixed Two Person Keelboat,Summer,M,Gold,141053.5,70822.0,34.5,183.0,90.0,1970.0
+Sailing Mixed Windsurfer,Summer,M,Gold,115846.0,58679.0,24.0,175.0,65.0,1988.0
+"Shooting Men's Air Pistol, 10 metres",Summer,M,Gold,114313.0,57835.5,29.5,175.0,77.5,2002.0
+"Shooting Men's Air Rifle, 10 metres",Summer,M,Gold,92804.0,47019.0,25.0,174.0,70.0,2000.0
+Shooting Men's Double Trap,Summer,M,Gold,65003.5,33285.5,29.0,183.0,84.0,2006.0
+"Shooting Men's Dueling Pistol Au Commandement, 25 metres",Summer,M,Gold,222076.0,111602.0,29.0,,,1906.0
+Shooting Men's Dueling Pistol Au Vise 20 metres,Summer,M,Gold,163126.0,81899.0,54.0,,,1906.0
+"Shooting Men's Dueling Pistol, 30 metres",Summer,M,Gold,131861.0,66359.0,20.0,,,1912.0
+"Shooting Men's Dueling Pistol, 30 metres, Team",Summer,M,Gold,108028.0,54501.0,31.5,175.0,,1912.0
+"Shooting Men's Free Pistol, 25 metres",Summer,M,Gold,134557.0,67726.0,52.0,,,1906.0
+"Shooting Men's Free Pistol, 30 metres",Summer,M,Gold,180286.0,90607.0,27.0,,,1896.0
+"Shooting Men's Free Pistol, 50 metres",Summer,M,Gold,131859.0,66359.0,31.5,176.0,79.5,1964.0
+"Shooting Men's Free Pistol, 50 metres, Team",Summer,M,Gold,138159.5,69425.0,34.0,174.5,,1912.0
+"Shooting Men's Free Pistol, 50 yards",Summer,M,Gold,247980.0,124156.0,33.0,,,1908.0
+"Shooting Men's Free Pistol, 50 yards, Team",Summer,M,Gold,44704.0,22966.0,43.0,,,1908.0
+"Shooting Men's Free Rifle, 1,000 Yards",Summer,M,Gold,159298.0,79961.0,60.0,,,1908.0
+"Shooting Men's Free Rifle, 400, 600 and 800 metres, Team",Summer,M,Gold,69848.0,35572.0,25.0,177.0,,1924.0
+"Shooting Men's Free Rifle, Any Position, 300 metres",Summer,M,Gold,157847.0,79237.0,28.0,,,1906.0
+"Shooting Men's Free Rifle, Kneeling, 300 metres",Summer,M,Gold,227236.0,114177.0,33.0,168.0,,1900.0
+"Shooting Men's Free Rifle, Prone, 300 metres",Summer,M,Gold,182520.0,91740.0,32.0,170.0,,1900.0
+"Shooting Men's Free Rifle, Prone, 600 metres",Summer,M,Gold,69847.0,35572.0,32.0,,,1924.0
+"Shooting Men's Free Rifle, Standing, 300 metres",Summer,M,Gold,145982.0,73260.0,28.0,,,1900.0
+"Shooting Men's Free Rifle, Three Positions, 300 metres",Summer,M,Gold,77667.5,39456.5,31.0,172.0,77.5,1934.0
+"Shooting Men's Free Rifle, Three Positions, 300 metres, Team",Summer,M,Gold,132840.0,66870.0,33.0,175.0,,1908.0
+"Shooting Men's Military Pistol, 25 metres",Summer,M,Gold,180285.0,90606.0,25.0,,,1896.0
+"Shooting Men's Military Pistol, 30 metres",Summer,M,Gold,181713.0,91332.0,35.0,,,1920.0
+"Shooting Men's Military Pistol, Team",Summer,M,Gold,115627.0,58587.0,39.0,175.5,,1920.0
+"Shooting Men's Military Revolver, 1873-1874 Gras Model, 20 metres",Summer,M,Gold,71674.0,36489.0,,,,1906.0
+"Shooting Men's Military Revolver, 20 metres",Summer,M,Gold,200059.0,100476.0,41.0,,,1906.0
+"Shooting Men's Military Rifle, 1873-1874 Gras Model, Kneeling Or Standing, 200 metres",Summer,M,Gold,163130.0,81899.0,54.0,,,1906.0
+"Shooting Men's Military Rifle, 200 metres",Summer,M,Gold,113465.0,57486.0,,,,1896.0
+"Shooting Men's Military Rifle, 200, 400, 500 and 600 metres, Team",Summer,M,Gold,68519.0,34808.0,32.0,180.0,,1912.0
+"Shooting Men's Military Rifle, 200/500/600/800/900/1,000 Yards, Team",Summer,M,Gold,99165.0,50145.5,36.5,,,1908.0
+"Shooting Men's Military Rifle, 300 metres and 600 metres, Prone, Team",Summer,M,Gold,178458.0,89706.0,35.0,180.0,,1920.0
+"Shooting Men's Military Rifle, Any Position, 600 metres",Summer,M,Gold,43289.0,22312.0,31.0,170.0,,1912.0
+"Shooting Men's Military Rifle, Kneeling Or Standing, 300 metres",Summer,M,Gold,200063.0,100476.0,41.0,,,1906.0
+"Shooting Men's Military Rifle, Prone, 300 metres",Summer,M,Gold,176819.0,88904.0,35.0,,,1920.0
+"Shooting Men's Military Rifle, Prone, 300 metres, Team",Summer,M,Gold,135510.0,68189.0,35.0,180.0,,1920.0
+"Shooting Men's Military Rifle, Prone, 600 metres",Summer,M,Gold,109158.0,55202.0,32.0,,,1920.0
+"Shooting Men's Military Rifle, Prone, 600 metres, Team",Summer,M,Gold,135512.0,68189.0,35.0,183.0,,1920.0
+"Shooting Men's Military Rifle, Standing, 300 metres",Summer,M,Gold,178456.0,89706.0,35.0,180.0,,1920.0
+"Shooting Men's Military Rifle, Standing, 300 metres, Team",Summer,M,Gold,171029.0,85949.0,43.0,,,1920.0
+"Shooting Men's Military Rifle, Three Positions, 300 metres",Summer,M,Gold,193604.0,97174.0,24.0,,,1912.0
+"Shooting Men's Muzzle-Loading Pistol, 25 metres",Summer,M,Gold,72214.0,36739.0,,,,1896.0
+"Shooting Men's Rapid-Fire Pistol, 25 metres",Summer,M,Gold,187184.0,94074.0,35.0,168.0,73.0,1984.0
+"Shooting Men's Running Target, 10 metres",Summer,M,Gold,197176.5,98869.5,26.0,175.0,75.0,1998.0
+"Shooting Men's Running Target, 50 metres",Summer,M,Gold,115884.0,58392.5,22.5,172.5,70.5,1986.0
+"Shooting Men's Running Target, Double Shot",Summer,M,Gold,141585.5,71087.5,38.5,,,1916.0
+"Shooting Men's Running Target, Double Shot, Team",Summer,M,Gold,168548.0,84709.0,36.0,,,1920.0
+"Shooting Men's Running Target, Single And Double Shot",Summer,M,Gold,168212.0,84538.5,34.0,,,1954.0
+"Shooting Men's Running Target, Single Shot",Summer,M,Gold,205098.0,102974.5,35.5,,,1916.0
+"Shooting Men's Running Target, Single Shot, Team",Summer,M,Gold,168551.0,84709.0,41.0,,,1920.0
+Shooting Men's Skeet,Summer,M,Gold,89843.5,45525.0,25.5,173.0,80.0,2006.0
+"Shooting Men's Small Bore-Rifle, Standing, 50 metres, Team",Summer,M,Gold,173773.0,87298.0,31.0,182.0,,1920.0
+"Shooting Men's Small-Bore Rifle, 50 and 100 yards, Team",Summer,M,Gold,126810.5,63831.0,30.0,168.0,,1908.0
+"Shooting Men's Small-Bore Rifle, Any Position, 50 metres",Summer,M,Gold,96333.0,48783.0,32.0,182.0,,1912.0
+"Shooting Men's Small-Bore Rifle, Disappearing Target, 25 metres",Summer,M,Gold,35499.0,18257.0,32.0,,,1912.0
+"Shooting Men's Small-Bore Rifle, Disappearing Target, 25 metres, Team",Summer,M,Gold,35486.5,18256.0,32.0,175.0,,1912.0
+"Shooting Men's Small-Bore Rifle, Disappearing Target, 25 yards",Summer,M,Gold,231277.0,116044.0,33.0,,,1908.0
+"Shooting Men's Small-Bore Rifle, Moving Target, 25 yards",Summer,M,Gold,70284.0,35781.0,26.0,,,1908.0
+"Shooting Men's Small-Bore Rifle, Prone, 50 and 100 yards",Summer,M,Gold,35788.0,18393.0,46.0,,,1908.0
+"Shooting Men's Small-Bore Rifle, Prone, 50 metres",Summer,M,Gold,120763.0,61101.0,26.0,178.0,80.0,1984.0
+"Shooting Men's Small-Bore Rifle, Prone, 50 metres, Team",Summer,M,Gold,175783.5,88327.0,36.5,168.0,,1912.0
+"Shooting Men's Small-Bore Rifle, Standing, 50 metres",Summer,M,Gold,173772.0,87298.0,24.0,,,1920.0
+"Shooting Men's Small-Bore Rifle, Three Positions, 50 metres",Summer,M,Gold,52328.0,26880.0,32.0,174.5,78.0,1992.0
+Shooting Men's Trap,Summer,M,Gold,65569.0,33555.0,32.0,178.0,86.0,1960.0
+"Shooting Men's Trap, Double Shot, 14 metres",Summer,M,Gold,157191.0,78929.0,49.0,,,1906.0
+"Shooting Men's Trap, Single Shot, 16 metres",Summer,M,Gold,157172.0,78927.0,21.0,,,1906.0
+"Shooting Men's Trap, Team",Summer,M,Gold,154138.0,77366.0,40.5,179.0,,1916.0
+"Shooting Mixed Free Pistol, 50 metres",Summer,M,Gold,174147.5,87446.5,30.0,177.0,82.0,1974.0
+"Shooting Mixed Free Rifle, Three Positions, 300 metres",Summer,M,Gold,133592.0,67060.5,32.0,176.5,79.5,1970.0
+"Shooting Mixed Rapid-Fire Pistol, 25 metres",Summer,M,Gold,194190.5,97499.5,34.0,178.0,71.0,1974.0
+"Shooting Mixed Running Target, 50 metres",Summer,M,Gold,224547.0,112798.0,30.0,181.0,87.0,1976.0
+Shooting Mixed Skeet,Summer,M,Gold,192250.0,96574.0,27.0,179.5,83.0,1978.0
+"Shooting Mixed Small-Bore Rifle, Prone, 50 metres",Summer,M,Gold,180648.5,90749.5,25.0,176.0,73.0,1974.0
+"Shooting Mixed Small-Bore Rifle, Three Positions, 50 metres",Summer,M,Gold,187414.5,94142.5,28.5,176.0,77.5,1974.0
+Shooting Mixed Trap,Summer,M,Gold,88664.0,44945.0,34.0,180.0,83.0,1980.0
+"Short Track Speed Skating Men's 1,000 metres",Winter,M,Gold,118315.0,59850.0,24.0,172.0,65.0,2002.0
+"Short Track Speed Skating Men's 1,500 metres",Winter,M,Gold,112209.0,56622.0,20.0,173.0,66.5,2008.0
+"Short Track Speed Skating Men's 5,000 metres Relay",Winter,M,Gold,95156.0,48187.0,24.0,173.0,71.0,2002.0
+Short Track Speed Skating Men's 500 metres,Winter,M,Gold,81939.0,41569.5,24.0,173.0,68.0,2004.0
+Skeleton Men's Skeleton,Winter,M,Gold,127605.0,64277.0,29.0,182.5,83.0,2004.0
+"Ski Jumping Men's Large Hill, Individual",Winter,M,Gold,167397.0,84077.5,21.5,173.0,57.5,1990.0
+"Ski Jumping Men's Large Hill, Team",Winter,M,Gold,167399.5,84077.5,23.5,180.0,63.0,2000.0
+"Ski Jumping Men's Normal Hill, Individual",Winter,M,Gold,113587.5,57536.0,24.0,173.0,60.0,1974.0
+Snowboarding Men's Boardercross,Winter,M,Gold,259161.0,129738.0,29.0,185.0,91.0,2010.0
+Snowboarding Men's Giant Slalom,Winter,M,Gold,197931.0,99376.0,26.0,178.0,81.0,1998.0
+Snowboarding Men's Halfpipe,Winter,M,Gold,220427.0,110714.0,22.0,175.0,70.0,2006.0
+Snowboarding Men's Parallel Giant Slalom,Winter,M,Gold,213739.5,107338.0,26.5,181.0,88.5,2008.0
+Snowboarding Men's Parallel Slalom,Winter,M,Gold,260572.0,130402.0,27.0,179.0,82.0,2014.0
+Snowboarding Men's Slopestyle,Winter,M,Gold,125306.0,63232.0,20.0,178.0,75.0,2014.0
+"Speed Skating Men's 1,000 metres",Winter,M,Gold,93200.0,47192.0,25.0,185.0,86.0,1994.0
+"Speed Skating Men's 1,500 metres",Winter,M,Gold,124917.5,63061.0,26.0,182.5,78.0,1970.0
+"Speed Skating Men's 10,000 metres",Winter,M,Gold,120880.0,61149.0,25.0,183.5,82.0,1976.0
+"Speed Skating Men's 5,000 metres",Winter,M,Gold,124850.5,63030.0,27.5,184.0,80.0,1974.0
+Speed Skating Men's 500 metres,Winter,M,Gold,108245.0,54713.0,24.0,180.0,78.0,1972.0
+Speed Skating Men's Allround,Winter,M,Gold,239749.0,120150.0,30.0,167.0,67.0,1924.0
+Speed Skating Men's Team Pursuit (8 laps),Winter,M,Gold,103154.5,52150.0,24.0,183.5,80.0,2010.0
+"Swimming Men's 1,000 metres Freestyle",Summer,M,Gold,106745.0,53973.0,28.0,,,1900.0
+"Swimming Men's 1,200 metres Freestyle",Summer,M,Gold,88456.0,44875.0,18.0,,,1896.0
+"Swimming Men's 1,500 metres Freestyle",Summer,M,Gold,156288.0,78491.0,20.0,185.0,75.5,1968.0
+Swimming Men's 10 kilometres Open Water,Summer,M,Gold,248689.0,124495.0,27.0,192.0,86.0,2012.0
+Swimming Men's 100 Yard Backstroke,Summer,M,Gold,27950.0,14482.0,23.0,,,1904.0
+Swimming Men's 100 metres Backstroke,Summer,M,Gold,152766.0,76659.0,21.0,190.0,84.5,1970.0
+Swimming Men's 100 metres Breaststroke,Summer,M,Gold,120312.0,60893.0,23.0,183.0,80.0,1992.0
+Swimming Men's 100 metres Butterfly,Summer,M,Gold,187891.0,94406.0,22.0,186.0,84.0,1992.0
+Swimming Men's 100 metres Freestyle,Summer,M,Gold,160655.0,80613.0,22.0,191.0,80.0,1964.0
+Swimming Men's 100 metres Freestyle For Sailors,Summer,M,Gold,147806.0,74168.0,,,,1896.0
+Swimming Men's 100 yard Freestyle,Summer,M,Gold,254347.0,127339.0,23.0,187.0,83.0,1904.0
+Swimming Men's 200 metres Backstroke,Summer,M,Gold,142476.0,71479.0,21.0,189.0,84.0,1988.0
+Swimming Men's 200 metres Breaststroke,Summer,M,Gold,120313.0,60893.0,20.5,184.0,77.0,1968.0
+Swimming Men's 200 metres Butterfly,Summer,M,Gold,187896.0,94406.0,22.0,188.0,80.0,1986.0
+Swimming Men's 200 metres Freestyle,Summer,M,Gold,164579.5,82649.5,20.5,189.0,78.0,1990.0
+Swimming Men's 200 metres Individual Medley,Summer,M,Gold,132869.0,66883.0,22.0,191.0,86.0,1996.0
+Swimming Men's 200 metres Obstacle Course,Summer,M,Gold,131871.0,66363.0,20.0,,,1900.0
+Swimming Men's 200 metres Team Swimming,Summer,M,Gold,118189.0,59573.0,19.5,,,1900.0
+Swimming Men's 220 yard Freestyle,Summer,M,Gold,48925.0,25215.0,19.0,183.0,70.0,1904.0
+Swimming Men's 4 x 100 metres Freestyle Relay,Summer,M,Gold,109617.5,55418.5,22.0,190.0,84.0,1992.0
+Swimming Men's 4 x 100 metres Medley Relay,Summer,M,Gold,126739.0,63912.0,22.0,188.0,84.0,1988.0
+Swimming Men's 4 x 200 metres Freestyle Relay,Summer,M,Gold,141427.0,70965.0,21.0,188.0,81.0,1968.0
+Swimming Men's 4 x 250 metres Freestyle Relay,Summer,M,Gold,148841.5,75021.5,23.0,187.0,83.0,1906.0
+Swimming Men's 4 x 50 Yard Freestyle Relay,Summer,M,Gold,86008.0,43626.0,22.5,183.0,70.0,1904.0
+"Swimming Men's 4,000 metres Freestyle",Summer,M,Gold,106746.0,53973.0,28.0,,,1900.0
+Swimming Men's 400 metres Breaststroke,Summer,M,Gold,81833.0,41360.0,19.0,,,1916.0
+Swimming Men's 400 metres Freestyle,Summer,M,Gold,204269.5,102563.0,20.0,185.0,79.0,1966.0
+Swimming Men's 400 metres Individual Medley,Summer,M,Gold,114246.5,57644.5,21.0,187.5,83.0,1990.0
+Swimming Men's 440 Yard Breaststroke,Summer,M,Gold,267090.0,133620.0,20.0,,,1904.0
+Swimming Men's 440 yard Freestyle,Summer,M,Gold,48926.0,25215.0,19.0,183.0,70.0,1904.0
+Swimming Men's 50 metres Freestyle,Summer,M,Gold,88823.0,45039.0,22.0,198.0,87.0,2000.0
+Swimming Men's 50 yard Freestyle,Summer,M,Gold,254346.0,127339.0,23.0,187.0,83.0,1904.0
+Swimming Men's 500 metres Freestyle,Summer,M,Gold,170080.0,85477.0,20.0,,,1896.0
+Swimming Men's 880 yard Freestyle,Summer,M,Gold,197537.0,99175.0,21.0,,,1904.0
+Swimming Men's One Mile Freestyle,Summer,M,Gold,217306.5,109032.5,21.0,165.0,66.0,1905.0
+Swimming Men's Plunge For Distance,Summer,M,Gold,55277.0,28347.0,29.0,,,1904.0
+Swimming Men's Underwater Swimming,Summer,M,Gold,54462.0,27933.0,18.0,,,1900.0
+Table Tennis Men's Doubles,Summer,M,Gold,141925.0,71243.5,23.0,171.0,63.0,1996.0
+Table Tennis Men's Singles,Summer,M,Gold,200349.0,100393.0,24.0,175.5,71.0,2002.0
+Table Tennis Men's Team,Summer,M,Gold,256551.0,128456.0,27.0,176.0,72.0,2012.0
+Taekwondo Men's Featherweight,Summer,M,Gold,207612.0,104185.0,21.0,180.0,68.0,2008.0
+Taekwondo Men's Flyweight,Summer,M,Gold,164564.0,82626.0,22.0,180.0,58.0,2008.0
+Taekwondo Men's Heavyweight,Summer,M,Gold,118442.0,59916.0,26.0,191.0,91.0,2008.0
+Taekwondo Men's Welterweight,Summer,M,Gold,142441.0,71467.0,25.0,186.0,80.0,2008.0
+Tennis Men's Doubles,Summer,M,Gold,134656.5,67737.5,26.0,183.0,80.0,1956.0
+"Tennis Men's Doubles, Covered Courts",Summer,M,Gold,79482.5,40348.0,31.5,,,1910.0
+Tennis Men's Singles,Summer,M,Gold,166370.5,83558.0,24.0,187.5,82.0,1956.0
+"Tennis Men's Singles, Covered Courts",Summer,M,Gold,81455.5,41368.0,30.5,,,1910.0
+Tennis Mixed Doubles,Summer,M,Gold,159975.0,80274.0,27.0,191.0,87.0,1920.0
+"Tennis Mixed Doubles, Covered Courts",Summer,M,Gold,56253.0,28817.0,39.0,,,1912.0
+Trampolining Men's Individual,Summer,M,Gold,143255.0,71898.0,23.0,172.0,62.0,2008.0
+Triathlon Men's Olympic Distance,Summer,M,Gold,36277.0,18641.0,26.0,184.0,70.0,2008.0
+Tug-Of-War Men's Tug-Of-War,Summer,M,Gold,132858.0,66880.0,30.0,183.0,99.0,1908.0
+Volleyball Men's Volleyball,Summer,M,Gold,153106.5,76846.0,27.0,195.0,89.0,1990.0
+Water Polo Men's Water Polo,Summer,M,Gold,120210.0,60844.0,26.0,187.0,91.0,1972.0
+Weightlifting Men's All-Around Dumbbell Contest,Summer,M,Gold,178758.0,89847.0,21.0,,,1904.0
+Weightlifting Men's Bantamweight,Summer,M,Gold,171142.5,85991.0,26.0,152.0,56.0,1982.0
+Weightlifting Men's Featherweight,Summer,M,Gold,159627.0,80114.0,24.0,156.0,60.0,1972.0
+Weightlifting Men's Flyweight,Summer,M,Gold,178636.0,89786.0,23.0,153.0,54.0,1984.0
+Weightlifting Men's Heavyweight,Summer,M,Gold,226374.5,113679.0,26.0,180.0,105.0,1962.0
+Weightlifting Men's Heavyweight I,Summer,M,Gold,159478.0,80040.0,27.0,177.0,97.0,1988.0
+Weightlifting Men's Heavyweight II,Summer,M,Gold,236481.0,118574.0,24.0,182.0,112.0,1988.0
+Weightlifting Men's Light-Heavyweight,Summer,M,Gold,141785.0,71130.0,25.0,172.0,83.0,1972.0
+Weightlifting Men's Lightweight,Summer,M,Gold,129133.0,65015.0,24.0,165.5,67.0,1968.0
+Weightlifting Men's Middle-Heavyweight,Summer,M,Gold,117332.0,59405.0,25.0,174.0,93.0,1984.0
+Weightlifting Men's Middleweight,Summer,M,Gold,129537.0,65210.0,25.0,169.5,75.0,1972.0
+Weightlifting Men's Super-Heavyweight,Summer,M,Gold,170009.0,85347.5,25.5,185.0,155.0,1994.0
+"Weightlifting Men's Unlimited, One Hand",Summer,M,Gold,145796.5,73549.5,24.0,182.5,108.0,1901.0
+"Weightlifting Men's Unlimited, Two Hands",Summer,M,Gold,112109.0,56781.0,21.5,,,1904.0
+"Wrestling Men's All-Around, Greco-Roman",Summer,M,Gold,107703.0,54447.0,26.0,,,1906.0
+"Wrestling Men's Bantamweight, Freestyle",Summer,M,Gold,163582.5,82169.0,25.0,165.0,57.0,1962.0
+"Wrestling Men's Bantamweight, Greco-Roman",Summer,M,Gold,169615.0,85218.5,24.5,162.0,57.0,1966.0
+"Wrestling Men's Featherweight, Freestyle",Summer,M,Gold,117104.0,59302.0,24.0,168.0,62.0,1968.0
+"Wrestling Men's Featherweight, Greco-Roman",Summer,M,Gold,149182.0,74830.0,26.0,167.0,62.0,1970.0
+"Wrestling Men's Flyweight, Freestyle",Summer,M,Gold,189520.5,95195.0,23.0,160.5,56.0,1970.0
+"Wrestling Men's Flyweight, Greco-Roman",Summer,M,Gold,141833.0,71148.0,25.0,161.0,54.5,1972.0
+"Wrestling Men's Heavyweight, Freestyle",Summer,M,Gold,166071.0,83407.0,26.0,185.0,100.0,1968.0
+"Wrestling Men's Heavyweight, Greco-Roman",Summer,M,Gold,140353.0,70460.0,28.0,185.0,100.0,1966.0
+"Wrestling Men's Light-Flyweight, Freestyle",Summer,M,Gold,118612.5,60005.0,23.0,157.0,48.0,1982.0
+"Wrestling Men's Light-Flyweight, Greco-Roman",Summer,M,Gold,146121.0,73319.0,23.0,160.0,48.0,1984.0
+"Wrestling Men's Light-Heavyweight, Freestyle",Summer,M,Gold,175360.0,88133.0,24.5,180.0,88.5,1972.0
+"Wrestling Men's Light-Heavyweight, Greco-Roman",Summer,M,Gold,168149.0,84463.5,26.0,177.0,87.25,1970.0
+"Wrestling Men's Lightweight, Freestyle",Summer,M,Gold,113551.0,57524.5,24.0,170.0,68.0,1966.0
+"Wrestling Men's Lightweight, Greco-Roman",Summer,M,Gold,147772.0,74148.0,25.0,170.0,68.0,1964.0
+"Wrestling Men's Middleweight A, Greco-Roman",Summer,M,Gold,109051.0,55139.0,27.0,,,1912.0
+"Wrestling Men's Middleweight, Freestyle",Summer,M,Gold,133191.5,67013.5,27.0,175.0,82.0,1970.0
+"Wrestling Men's Middleweight, Greco-Roman",Summer,M,Gold,124184.0,62730.0,26.0,176.0,82.0,1968.0
+"Wrestling Men's Super-Heavyweight, Freestyle",Summer,M,Gold,67072.5,34195.0,27.0,190.0,120.0,1994.0
+"Wrestling Men's Super-Heavyweight, Greco-Roman",Summer,M,Gold,118267.5,59837.5,26.0,193.0,117.5,1994.0
+"Wrestling Men's Unlimited Class, Greco-Roman",Summer,M,Gold,214351.0,107613.0,26.0,159.0,70.0,1896.0
+"Wrestling Men's Welterweight, Freestyle",Summer,M,Gold,175358.0,88131.0,25.0,171.0,73.0,1972.0
+"Wrestling Men's Welterweight, Greco-Roman",Summer,M,Gold,118888.5,60163.0,26.0,173.0,74.5,1978.0
