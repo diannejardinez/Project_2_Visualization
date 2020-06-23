@@ -1,205 +1,220 @@
-Event,Age,Height,Weight,Female
-Football Women's Football,25.0,5.61,138.91,Female
-Taekwondo Women's Flyweight,21.0,5.46,108.05,Female
-Swimming Women's 4 x 100 metres Medley Relay,18.0,5.66,136.71,Female
-Diving Women's Synchronized Springboard,26.0,5.50,130.09,Female
-Speed Skating Women's Team Pursuit (6 laps),28.0,5.58,141.12,Female
-Basketball Women's Basketball,25.0,6.02,160.97,Female
-Gymnastics Women's Team All-Around,18.0,5.12,103.64,Female
-Cross Country Skiing Women's 3 x 5 kilometres Relay,28.0,5.36,119.07,Female
-Rowing Women's Coxed Eights,25.0,5.91,160.97,Female
-Volleyball Women's Volleyball,25.0,5.87,154.35,Female
-Curling Women's Curling,30.0,5.41,136.71,Female
-Swimming Women's 400 metres Freestyle,19.0,5.68,141.12,Female
-Swimming Women's 800 metres Freestyle,18.0,5.61,132.30,Female
-Rowing Women's Coxed Quadruple Sculls,23.0,5.58,147.74,Female
-Gymnastics Women's Horse Vault,17.0,5.12,94.81,Female
-Handball Women's Handball,27.0,5.74,149.94,Female
-Ice Hockey Women's Ice Hockey,22.0,5.48,143.33,Female
-Hockey Women's Hockey,26.0,5.48,132.30,Female
-Rhythmic Gymnastics Women's Group,18.0,5.64,112.45,Female
-Biathlon Women's 4 x 7.5 kilometres Relay,26.0,5.54,126.79,Female
-Biathlon Women's 10 kilometres Pursuit,28.0,5.53,121.28,Female
-Biathlon Women's 15 kilometres,27.0,5.35,125.69,Female
-Water Polo Women's Water Polo,25.0,5.74,154.35,Female
-"Fencing Women's Sabre, Team",26.0,5.68,158.76,Female
-Athletics Women's 4 x 400 metres Relay,25.0,5.58,128.99,Female
-"Speed Skating Women's 1,000 metres",25.0,5.48,138.91,Female
-Cross Country Skiing Women's 4 x 5 kilometres Relay,28.0,5.58,127.89,Female
-Swimming Women's 4 x 100 metres Freestyle Relay,20.0,5.74,143.33,Female
-Diving Women's Platform,22.0,5.22,112.45,Female
-Athletics Women's Long Jump,26.0,5.61,131.20,Female
-Taekwondo Women's Featherweight,22.0,5.69,125.69,Female
-"Short Track Speed Skating Women's 3,000 metres Relay",23.0,5.41,131.20,Female
-Softball Women's Softball,27.0,5.58,147.74,Female
-Modern Pentathlon Women's Individual,26.0,5.81,132.30,Female
-Judo Women's Middleweight,24.0,5.71,154.35,Female
-Gymnastics Women's Individual All-Around,18.0,5.22,105.84,Female
-Gymnastics Women's Floor Exercise,18.0,5.18,101.43,Female
-Luge Women's Singles,23.0,5.64,147.74,Female
-Sailing Women's One Person Dinghy,25.0,5.58,138.91,Female
-Athletics Women's 400 metres,23.0,5.68,135.61,Female
-"Wrestling Women's Lightweight, Freestyle",27.0,5.31,127.89,Female
-Rowing Women's Coxless Pairs,26.0,5.91,165.38,Female
-"Canoeing Women's Kayak Fours, 500 metres",25.0,5.64,147.74,Female
-Swimming Women's 100 metres Butterfly,21.0,5.58,134.50,Female
-Athletics Women's 4 x 100 metres Relay,23.0,5.51,132.30,Female
-Figure Skating Mixed Ice Dancing,26.0,5.41,112.45,Female
-Rowing Women's Coxed Fours,24.0,5.81,163.17,Female
-Athletics Women's Discus Throw,29.0,5.84,185.22,Female
-Rowing Women's Single Sculls,26.0,5.91,165.38,Female
-Biathlon Women's 7.5 kilometres Sprint,26.0,5.45,125.69,Female
-Boxing Women's Lightweight,26.0,5.45,132.30,Female
-Athletics Women's Marathon,29.0,5.31,103.64,Female
-"Cycling Women's Individual Pursuit, 3,000 metres",29.0,5.58,130.09,Female
-Archery Women's Team,23.0,5.46,132.30,Female
-Speed Skating Women's 500 metres,25.0,5.68,141.12,Female
-"Athletics Women's 3,000 metres Steeplechase",25.0,5.48,119.07,Female
-"Shooting Women's Sporting Pistol, 25 metres",36.0,5.35,138.91,Female
-Swimming Women's 100 metres Backstroke,20.0,5.68,138.91,Female
-Athletics Women's 100 metres,23.0,5.59,127.89,Female
-Cross Country Skiing Women's 10 kilometres,32.0,5.41,127.89,Female
-"Speed Skating Women's 1,500 metres",26.0,5.50,133.40,Female
-Archery Women's Individual,23.0,5.48,134.50,Female
-"Athletics Women's 5,000 metres",24.0,5.45,106.94,Female
-Tennis Women's Singles,23.0,5.76,135.61,Female
-"Fencing Women's epee, Team",26.0,5.66,141.12,Female
-"Speed Skating Women's 3,000 metres",26.0,5.48,133.40,Female
-Athletics Women's High Jump,26.0,5.86,136.71,Female
-Swimming Women's 200 metres Breaststroke,19.0,5.58,141.12,Female
-Freestyle Skiing Women's Moguls,25.0,5.48,132.30,Female
-Biathlon Women's 4 x 6 kilometres Relay,30.0,5.48,123.48,Female
-Rowing Women's Quadruple Sculls,25.0,5.91,165.38,Female
-Diving Women's Springboard,24.0,5.35,119.07,Female
-Swimming Women's 4 x 200 metres Freestyle Relay,22.0,5.86,145.53,Female
-"Canoeing Women's Kayak Doubles, 500 metres",26.0,5.54,146.63,Female
-Swimming Women's 400 metres Individual Medley,18.0,5.58,125.69,Female
-"Canoeing Women's Kayak Singles, Slalom",29.0,5.54,123.48,Female
-Swimming Women's 200 metres Freestyle,22.0,5.84,141.12,Female
-"Athletics Women's 1,500 metres",27.0,5.51,122.38,Female
-Shooting Women's Skeet,35.0,5.58,145.53,Female
-Synchronized Swimming Women's Duet,22.0,5.48,119.07,Female
-Synchronized Swimming Women's Team,22.0,5.48,121.28,Female
-Taekwondo Women's Heavyweight,24.0,5.82,158.76,Female
-"Fencing Women's Foil, Team",27.0,5.45,127.89,Female
-Rowing Women's Double Sculls,25.0,5.84,160.97,Female
-"Equestrianism Mixed Dressage, Individual",38.0,5.64,127.89,Female
-Athletics Women's Heptathlon,27.0,5.77,141.12,Female
-Swimming Women's 200 metres Backstroke,20.0,5.63,143.33,Female
-Sailing Women's Three Person Keelboat,27.0,5.51,147.74,Female
-Cross Country Skiing Women's 5/10 kilometres Pursuit,24.0,5.38,119.07,Female
-Biathlon Women's 3 x 7.5 kilometres Relay,26.0,5.48,121.28,Female
-Diving Women's Synchronized Platform,22.0,5.09,114.66,Female
-Athletics Women's 800 metres,28.0,5.45,121.28,Female
-Rugby Sevens Women's Rugby Sevens,26.0,5.58,149.94,Female
-Sailing Women's Two Person Dinghy,28.0,5.69,140.02,Female
-Cycling Women's Team Pursuit,26.0,5.51,140.02,Female
-Swimming Women's 200 metres Butterfly,21.0,5.58,132.30,Female
-Rhythmic Gymnastics Women's Individual,20.0,5.64,108.05,Female
-Athletics Women's 400 metres Hurdles,25.0,5.71,138.91,Female
-Gymnastics Women's Balance Beam,19.0,4.99,99.23,Female
-"Shooting Women's Air Rifle, 10 metres",26.0,5.41,116.87,Female
-Athletics Women's 200 metres,24.0,5.58,132.30,Female
-"Equestrianism Mixed Three-Day Event, Team",34.0,5.54,135.61,Female
-"Equestrianism Mixed Dressage, Team",35.0,5.58,130.09,Female
-Alpine Skiing Women's Giant Slalom,24.0,5.51,141.12,Female
-"Canoeing Women's Kayak Singles, 500 metres",26.0,5.58,145.53,Female
-"Fencing Women's Foil, Individual",28.0,5.50,130.09,Female
-Freestyle Skiing Women's Aerials,28.0,5.27,122.38,Female
-Figure Skating Mixed Pairs,23.0,5.18,105.84,Female
-Swimming Women's 100 metres Freestyle,19.0,5.71,145.53,Female
-Athletics Women's Shot Put,27.0,5.74,199.55,Female
-Judo Women's Heavyweight,28.0,5.74,220.50,Female
-Snowboarding Women's Halfpipe,25.0,5.35,127.89,Female
-"Wrestling Women's Heavyweight, Freestyle",29.0,5.71,158.76,Female
-Figure Skating Women's Singles,21.0,5.28,114.66,Female
-Athletics Women's Pentathlon,23.0,5.58,143.33,Female
-Cycling Women's Points Race,31.0,5.61,133.40,Female
-Tennis Women's Doubles,25.0,5.61,131.20,Female
-Rowing Women's Lightweight Double Sculls,28.0,5.68,130.09,Female
-Swimming Women's 50 metres Freestyle,25.0,5.91,149.94,Female
-Figure Skating Mixed Team,22.0,5.25,111.35,Female
-Athletics Women's 100 metres Hurdles,28.0,5.48,125.69,Female
-"Athletics Women's 3,000 metres",24.0,5.58,110.25,Female
-Alpine Skiing Women's Downhill,24.0,5.51,145.53,Female
-Table Tennis Women's Singles,24.0,5.41,124.58,Female
-Weightlifting Women's Flyweight,24.0,4.82,105.84,Female
-Cross Country Skiing Women's 15 kilometres,26.0,5.43,120.17,Female
-"Shooting Women's Small-Bore Rifle, Three Positions, 50 metres",27.0,5.41,121.28,Female
-"Athletics Women's 10,000 metres",31.0,5.28,105.84,Female
-Athletics Women's 80 metres Hurdles,24.0,5.46,128.99,Female
-"Wrestling Women's Flyweight, Freestyle",25.0,5.05,105.84,Female
-Trampolining Women's Individual,23.0,5.25,110.25,Female
-Shooting Women's Trap,29.0,5.61,154.35,Female
-Beach Volleyball Women's Beach Volleyball,30.0,5.97,154.35,Female
-Skeleton Women's Skeleton,26.0,5.51,126.79,Female
-Swimming Women's 200 metres Individual Medley,21.0,5.74,141.12,Female
-Athletics Women's Hammer Throw,23.0,5.64,171.99,Female
-Judo Women's Extra-Lightweight,22.0,5.15,105.84,Female
-Judo Women's Half-Heavyweight,25.0,5.59,171.99,Female
-Table Tennis Women's Team,27.0,5.18,121.28,Female
-Weightlifting Women's Light-Heavyweight,22.0,5.28,152.15,Female
-Sailing Women's Windsurfer,26.0,5.58,130.09,Female
-"Cycling Women's Mountainbike, Cross-Country",32.0,5.46,117.97,Female
-Triathlon Women's Olympic Distance,29.0,5.45,123.48,Female
-Athletics Women's Triple Jump,28.0,5.76,135.61,Female
-Cycling Women's Omnium,23.0,5.69,142.22,Female
-Biathlon Women's 12.5 kilometres Mass Start,30.0,5.35,125.69,Female
-"Shooting Women's Air Pistol, 10 metres",26.0,5.35,138.91,Female
-"Canoeing Women's Kayak Singles, 200 metres",32.0,5.58,144.43,Female
-Alpine Skiing Women's Combined,24.0,5.54,146.63,Female
-Gymnastics Women's Uneven Bars,19.0,5.12,101.43,Female
-Judo Women's Half-Middleweight,27.0,5.41,138.91,Female
-Taekwondo Women's Welterweight,24.0,5.74,147.74,Female
-Bobsleigh Women's Two,28.0,5.71,168.68,Female
-Boxing Women's Flyweight,28.0,5.25,112.45,Female
-Cross Country Skiing Women's Sprint,29.0,5.58,137.81,Female
-Alpine Skiing Women's Slalom,23.0,5.51,134.50,Female
-Table Tennis Women's Doubles,22.0,5.41,121.28,Female
-Athletics Women's Pole Vault,23.0,5.71,141.12,Female
-Judo Women's Lightweight,24.0,5.31,125.69,Female
-Athletics Women's Javelin Throw,23.0,5.68,158.76,Female
-"Fencing Women's epee, Individual",26.0,5.71,134.50,Female
-Snowboarding Women's Parallel Giant Slalom,28.0,5.66,133.40,Female
-Short Track Speed Skating Women's 500 metres,21.0,5.38,132.30,Female
-"Short Track Speed Skating Women's 1,500 metres",22.0,5.46,135.61,Female
-Judo Women's Half-Lightweight,24.0,5.20,114.66,Female
-Rowing Women's Coxless Fours,25.0,5.99,166.48,Female
-Cross Country Skiing Women's 5 kilometres,26.0,5.31,124.58,Female
-Shooting Women's Double Trap,35.0,5.38,180.81,Female
-Badminton Women's Doubles,24.0,5.61,132.30,Female
-Weightlifting Women's Middleweight,26.0,5.25,138.91,Female
-Weightlifting Women's Super-Heavyweight,22.0,5.74,269.01,Female
-Swimming Women's 10 kilometres Open Water,23.0,5.64,143.33,Female
-"Cycling Women's Road Race, Individual",24.0,5.51,132.30,Female
-Cycling Women's Sprint,25.0,5.58,154.35,Female
-Sailing Women's Skiff,24.0,5.56,143.33,Female
-Cycling Women's BMX,25.0,5.58,143.33,Female
-Swimming Women's 100 metres Breaststroke,21.0,5.51,134.50,Female
-Freestyle Skiing Women's Ski Cross,24.0,5.66,145.53,Female
-Alpine Skiing Women's Super G,24.0,5.51,138.91,Female
-Tennis Mixed Doubles,34.0,5.61,140.02,Female
-Badminton Women's Singles,23.0,5.61,143.33,Female
-Cycling Women's Individual Time Trial,32.0,5.74,141.12,Female
-"Speed Skating Women's 5,000 metres",28.0,5.56,133.40,Female
-Cross Country Skiing Women's Team Sprint,28.0,5.64,138.91,Female
-Weightlifting Women's Featherweight,26.0,5.09,116.87,Female
-"Fencing Women's Sabre, Individual",21.0,5.61,149.94,Female
-Cross Country Skiing Women's 20 kilometres,28.0,5.54,123.48,Female
-Cycling Women's 500 metres Time Trial,26.0,5.69,166.48,Female
-Weightlifting Women's Lightweight,24.0,5.02,127.89,Female
-"Short Track Speed Skating Women's 1,000 metres",17.0,5.45,127.89,Female
-Cross Country Skiing Women's 30 kilometres,31.0,5.54,127.89,Female
-Synchronized Swimming Women's Solo,22.0,5.35,112.45,Female
-Cross Country Skiing Women's 15 km Skiathlon,28.0,5.43,126.79,Female
-Weightlifting Women's Heavyweight,26.0,5.45,165.38,Female
-"Wrestling Women's Middleweight, Freestyle",24.0,5.41,138.91,Female
-Cycling Women's Keirin,28.0,5.41,145.53,Female
-Athletics Women's 10 kilometres Walk,24.0,5.58,123.48,Female
-Boxing Women's Middleweight,26.0,5.77,165.38,Female
-"Equestrianism Mixed Jumping, Team",29.0,5.58,132.30,Female
-Athletics Women's 20 kilometres Walk,24.0,5.25,99.23,Female
-Snowboarding Women's Boardercross,25.0,5.77,138.91,Female
-Cycling Women's Team Sprint,26.0,5.46,149.94,Female
-Biathlon Mixed 2 x 6 kilometres and 2 x 7.5 kilometres Relay,26.0,5.33,126.79,Female
-Badminton Mixed Doubles,27.0,5.64,138.91,Female
+Event,Season,Sex,Medal,Age,Height,Weight,Year
+Alpine Skiing Women's Combined,Winter,F,Bronze,24.0,169.0,66.5,2000
+Alpine Skiing Women's Downhill,Winter,F,Bronze,24.0,168.0,66.0,1992
+Alpine Skiing Women's Giant Slalom,Winter,F,Bronze,24.0,168.0,64.0,1991
+Alpine Skiing Women's Slalom,Winter,F,Bronze,23.0,168.0,61.0,1988
+Alpine Skiing Women's Super G,Winter,F,Bronze,23.5,168.0,63.0,2000
+Archery Women's Individual,Summer,F,Bronze,23.0,167.0,61.0,1996
+Archery Women's Team,Summer,F,Bronze,23.0,166.5,60.0,2002
+"Athletics Women's 1,500 metres",Summer,F,Bronze,27.0,168.0,55.5,1994
+Athletics Women's 10 kilometres Walk,Summer,F,Bronze,23.5,170.0,56.0,1994
+"Athletics Women's 10,000 metres",Summer,F,Bronze,31.0,161.0,48.0,2000
+Athletics Women's 100 metres,Summer,F,Bronze,23.0,170.5,58.0,1974
+Athletics Women's 100 metres Hurdles,Summer,F,Bronze,28.0,167.0,57.0,1992
+Athletics Women's 20 kilometres Walk,Summer,F,Bronze,24.0,160.0,45.0,2008
+Athletics Women's 200 metres,Summer,F,Bronze,24.0,170.0,60.0,1982
+"Athletics Women's 3,000 metres",Summer,F,Bronze,24.0,170.0,50.0,1988
+"Athletics Women's 3,000 metres Steeplechase",Summer,F,Bronze,25.0,167.0,54.0,2012
+Athletics Women's 4 x 100 metres Relay,Summer,F,Bronze,23.0,168.0,60.0,1982
+Athletics Women's 4 x 400 metres Relay,Summer,F,Bronze,25.0,170.0,58.5,1996
+Athletics Women's 400 metres,Summer,F,Bronze,23.0,173.0,61.5,1990
+Athletics Women's 400 metres Hurdles,Summer,F,Bronze,25.0,174.0,63.0,2000
+"Athletics Women's 5,000 metres",Summer,F,Bronze,24.5,166.0,48.5,2006
+Athletics Women's 80 metres Hurdles,Summer,F,Bronze,23.5,166.5,58.5,1954
+Athletics Women's 800 metres,Summer,F,Bronze,28.0,166.0,55.0,1986
+Athletics Women's Discus Throw,Summer,F,Bronze,29.0,178.0,84.0,1980
+Athletics Women's Hammer Throw,Summer,F,Bronze,23.0,172.0,78.0,2008
+Athletics Women's Heptathlon,Summer,F,Bronze,27.0,176.0,64.0,2000
+Athletics Women's High Jump,Summer,F,Bronze,26.0,178.5,62.0,1982
+Athletics Women's Javelin Throw,Summer,F,Bronze,23.0,173.0,72.0,1980
+Athletics Women's Long Jump,Summer,F,Bronze,26.0,171.0,59.5,1982
+Athletics Women's Marathon,Summer,F,Bronze,29.0,162.0,47.0,2000
+Athletics Women's Pentathlon,Summer,F,Bronze,23.0,170.0,65.0,1972
+Athletics Women's Pole Vault,Summer,F,Bronze,23.0,174.0,64.0,2008
+Athletics Women's Shot Put,Summer,F,Bronze,27.0,175.0,90.5,1982
+Athletics Women's Triple Jump,Summer,F,Bronze,28.5,175.5,61.5,2006
+Badminton Mixed Doubles,Summer,F,Bronze,27.0,172.0,63.0,2006
+Badminton Women's Doubles,Summer,F,Bronze,24.5,171.0,60.0,2004
+Badminton Women's Singles,Summer,F,Bronze,23.0,171.0,65.0,2004
+Basketball Women's Basketball,Summer,F,Bronze,25.0,183.5,73.0,1996
+Beach Volleyball Women's Beach Volleyball,Summer,F,Bronze,30.5,182.0,70.0,2006
+Biathlon Mixed 2 x 6 kilometres and 2 x 7.5 kilometres Relay,Winter,F,Bronze,25.5,162.5,57.5,2014
+Biathlon Women's 10 kilometres Pursuit,Winter,F,Bronze,28.0,168.5,55.0,2008
+Biathlon Women's 12.5 kilometres Mass Start,Winter,F,Bronze,30.0,163.0,57.0,2010
+Biathlon Women's 15 kilometres,Winter,F,Bronze,27.0,163.0,57.0,2002
+Biathlon Women's 3 x 7.5 kilometres Relay,Winter,F,Bronze,26.0,167.0,55.0,1992
+Biathlon Women's 4 x 6 kilometres Relay,Winter,F,Bronze,30.0,167.0,56.0,2010
+Biathlon Women's 4 x 7.5 kilometres Relay,Winter,F,Bronze,25.5,169.0,57.5,1998
+Biathlon Women's 7.5 kilometres Sprint,Winter,F,Bronze,26.0,166.0,57.0,2002
+Bobsleigh Women's Two,Winter,F,Bronze,28.5,174.0,76.5,2008
+Boxing Women's Flyweight,Summer,F,Bronze,27.5,160.0,51.0,2014
+Boxing Women's Lightweight,Summer,F,Bronze,26.5,166.0,60.0,2014
+Boxing Women's Middleweight,Summer,F,Bronze,26.0,176.0,75.0,2016
+"Canoeing Women's Kayak Doubles, 500 metres",Summer,F,Bronze,26.0,169.0,66.5,1988
+"Canoeing Women's Kayak Fours, 500 metres",Summer,F,Bronze,25.0,172.0,67.0,2000
+"Canoeing Women's Kayak Singles, 200 metres",Summer,F,Bronze,31.5,170.0,65.5,2014
+"Canoeing Women's Kayak Singles, 500 metres",Summer,F,Bronze,26.0,170.0,66.0,1988
+"Canoeing Women's Kayak Singles, Slalom",Summer,F,Bronze,29.0,169.0,56.0,2004
+Cross Country Skiing Women's 10 kilometres,Winter,F,Bronze,32.0,165.0,58.0,1980
+Cross Country Skiing Women's 15 kilometres,Winter,F,Bronze,26.5,165.5,54.5,1996
+Cross Country Skiing Women's 15 km Skiathlon,Winter,F,Bronze,28.0,165.5,57.5,2008
+Cross Country Skiing Women's 20 kilometres,Winter,F,Bronze,27.5,169.0,56.0,1986
+Cross Country Skiing Women's 3 x 5 kilometres Relay,Winter,F,Bronze,28.5,163.5,54.0,1966
+Cross Country Skiing Women's 30 kilometres,Winter,F,Bronze,31.0,169.0,58.0,2002
+Cross Country Skiing Women's 4 x 5 kilometres Relay,Winter,F,Bronze,28.0,170.0,58.0,1994
+Cross Country Skiing Women's 5 kilometres,Winter,F,Bronze,26.5,162.0,56.5,1982
+Cross Country Skiing Women's 5/10 kilometres Pursuit,Winter,F,Bronze,24.0,164.0,54.0,1994
+Cross Country Skiing Women's 5/5 kilometres Pursuit,Winter,F,Bronze,25.0,167.0,61.0,2002
+Cross Country Skiing Women's Sprint,Winter,F,Bronze,29.0,170.0,62.5,2008
+Cross Country Skiing Women's Team Sprint,Winter,F,Bronze,27.5,172.0,63.0,2010
+Curling Women's Curling,Winter,F,Bronze,30.0,165.0,62.0,2006
+Cycling Women's 500 metres Time Trial,Summer,F,Bronze,26.5,173.5,75.5,2002
+Cycling Women's BMX,Summer,F,Bronze,25.0,170.0,65.0,2012
+"Cycling Women's Individual Pursuit, 3,000 metres",Summer,F,Bronze,29.0,170.0,59.0,2000
+Cycling Women's Individual Time Trial,Summer,F,Bronze,32.0,175.0,64.0,2006
+Cycling Women's Keirin,Summer,F,Bronze,28.5,165.0,66.0,2014
+"Cycling Women's Mountainbike, Cross-Country",Summer,F,Bronze,32.0,166.5,53.5,2006
+Cycling Women's Omnium,Summer,F,Bronze,23.0,173.5,64.5,2014
+Cycling Women's Points Race,Summer,F,Bronze,31.0,171.0,60.5,2002
+"Cycling Women's Road Race, Individual",Summer,F,Bronze,24.0,168.0,60.0,2000
+Cycling Women's Sprint,Summer,F,Bronze,25.0,170.0,70.0,2002
+Cycling Women's Team Pursuit,Summer,F,Bronze,25.5,168.0,63.5,2016
+Cycling Women's Team Sprint,Summer,F,Bronze,26.5,166.5,68.0,2014
+Diving Women's Platform,Summer,F,Bronze,21.5,159.0,51.0,1982
+Diving Women's Springboard,Summer,F,Bronze,24.0,163.0,54.0,1986
+Diving Women's Synchronized Platform,Summer,F,Bronze,22.5,155.0,52.0,2008
+Diving Women's Synchronized Springboard,Summer,F,Bronze,26.0,167.5,59.0,2008
+"Equestrianism Mixed Dressage, Individual",Summer,F,Bronze,38.0,172.0,58.0,2004
+"Equestrianism Mixed Dressage, Team",Summer,F,Bronze,35.0,170.0,59.0,1988
+"Equestrianism Mixed Jumping, Individual",Summer,F,Bronze,33.0,170.0,63.0,1996
+"Equestrianism Mixed Jumping, Team",Summer,F,Bronze,29.0,170.0,60.0,2008
+"Equestrianism Mixed Three-Day Event, Individual",Summer,F,Bronze,33.0,168.0,60.0,2004
+"Equestrianism Mixed Three-Day Event, Team",Summer,F,Bronze,33.5,169.0,61.5,2004
+"Fencing Women's Foil, Individual",Summer,F,Bronze,27.5,167.5,59.0,1986
+"Fencing Women's Foil, Team",Summer,F,Bronze,27.0,166.0,58.0,1984
+"Fencing Women's Sabre, Individual",Summer,F,Bronze,21.0,171.0,68.0,2010
+"Fencing Women's Sabre, Team",Summer,F,Bronze,26.0,173.0,72.0,2016
+"Fencing Women's epee, Individual",Summer,F,Bronze,26.0,174.0,61.0,2006
+"Fencing Women's epee, Team",Summer,F,Bronze,26.0,172.5,64.0,2004
+Figure Skating Mixed Ice Dancing,Winter,F,Bronze,26.0,165.0,51.0,1994
+Figure Skating Mixed Pairs,Winter,F,Bronze,23.0,158.0,48.0,1988
+Figure Skating Mixed Team,Winter,F,Bronze,22.5,160.0,50.5,2014
+Figure Skating Women's Singles,Winter,F,Bronze,21.0,161.0,52.0,1990
+Football Women's Football,Summer,F,Bronze,25.0,171.0,63.0,2008
+Freestyle Skiing Women's Aerials,Winter,F,Bronze,28.0,160.5,55.5,2004
+Freestyle Skiing Women's Halfpipe,Winter,F,Bronze,25.0,158.0,50.0,2014
+Freestyle Skiing Women's Moguls,Winter,F,Bronze,25.0,167.0,60.0,2002
+Freestyle Skiing Women's Ski Cross,Winter,F,Bronze,24.5,172.5,66.0,2012
+Freestyle Skiing Women's Slopestyle,Winter,F,Bronze,25.0,165.0,54.0,2014
+Golf Women's Individual,Summer,F,Bronze,26.0,170.0,85.0,2016
+Gymnastics Women's Balance Beam,Summer,F,Bronze,19.0,152.0,45.0,1988
+Gymnastics Women's Floor Exercise,Summer,F,Bronze,18.0,158.0,46.0,1984
+Gymnastics Women's Horse Vault,Summer,F,Bronze,17.0,156.0,43.0,1988
+Gymnastics Women's Individual All-Around,Summer,F,Bronze,18.5,159.0,48.0,1986
+Gymnastics Women's Team All-Around,Summer,F,Bronze,18.0,156.0,47.0,1984
+Gymnastics Women's Team Portable Apparatus,Summer,F,Bronze,22.0,161.0,56.0,1956
+Gymnastics Women's Uneven Bars,Summer,F,Bronze,19.0,156.0,46.0,1982
+Handball Women's Handball,Summer,F,Bronze,27.0,175.0,68.0,1996
+Hockey Women's Hockey,Summer,F,Bronze,26.0,167.0,60.0,2000
+Ice Hockey Women's Ice Hockey,Winter,F,Bronze,22.5,167.0,65.0,2006
+Judo Women's Extra-Lightweight,Summer,F,Bronze,22.0,157.0,48.0,2004
+Judo Women's Half-Heavyweight,Summer,F,Bronze,25.0,170.5,78.0,2004
+Judo Women's Half-Lightweight,Summer,F,Bronze,24.5,158.5,52.0,2004
+Judo Women's Half-Middleweight,Summer,F,Bronze,27.0,165.0,63.0,2004
+Judo Women's Heavyweight,Summer,F,Bronze,28.0,175.0,100.0,2004
+Judo Women's Lightweight,Summer,F,Bronze,23.5,162.0,57.0,2004
+Judo Women's Middleweight,Summer,F,Bronze,24.5,174.0,70.0,2004
+Luge Mixed Team Relay,Winter,F,Bronze,23.0,170.0,72.0,2014
+Luge Women's Singles,Winter,F,Bronze,23.0,172.0,67.0,1990
+Modern Pentathlon Women's Individual,Summer,F,Bronze,26.0,177.0,60.0,2008
+Rhythmic Gymnastics Women's Group,Summer,F,Bronze,18.0,172.0,51.0,2004
+Rhythmic Gymnastics Women's Individual,Summer,F,Bronze,20.5,172.0,49.0,2002
+Rowing Women's Coxed Eights,Summer,F,Bronze,25.0,180.0,73.0,1996
+Rowing Women's Coxed Fours,Summer,F,Bronze,24.0,177.0,74.0,1984
+Rowing Women's Coxed Quadruple Sculls,Summer,F,Bronze,23.0,170.0,67.0,1980
+Rowing Women's Coxless Fours,Summer,F,Bronze,25.0,182.5,75.5,1992
+Rowing Women's Coxless Pairs,Summer,F,Bronze,26.0,180.0,75.0,1996
+Rowing Women's Double Sculls,Summer,F,Bronze,25.0,178.0,73.0,1996
+Rowing Women's Lightweight Double Sculls,Summer,F,Bronze,27.5,173.0,59.0,2006
+Rowing Women's Quadruple Sculls,Summer,F,Bronze,25.0,180.0,75.0,2000
+Rowing Women's Single Sculls,Summer,F,Bronze,25.5,180.0,75.0,1996
+Rugby Sevens Women's Rugby Sevens,Summer,F,Bronze,26.0,170.0,68.0,2016
+Sailing Mixed Multihull,Summer,F,Bronze,23.0,167.0,57.0,2016
+Sailing Women's One Person Dinghy,Summer,F,Bronze,25.0,170.0,63.0,2004
+Sailing Women's Skiff,Summer,F,Bronze,24.0,169.5,65.0,2016
+Sailing Women's Three Person Keelboat,Summer,F,Bronze,27.0,168.0,67.0,2008
+Sailing Women's Two Person Dinghy,Summer,F,Bronze,28.5,173.5,63.5,2002
+Sailing Women's Windsurfer,Summer,F,Bronze,26.0,170.0,59.0,2004
+"Shooting Women's Air Pistol, 10 metres",Summer,F,Bronze,25.5,163.0,63.0,2002
+"Shooting Women's Air Rifle, 10 metres",Summer,F,Bronze,26.0,165.0,53.0,2000
+Shooting Women's Double Trap,Summer,F,Bronze,35.0,164.0,82.0,2000
+Shooting Women's Skeet,Summer,F,Bronze,35.0,170.0,66.0,2008
+"Shooting Women's Small-Bore Rifle, Three Positions, 50 metres",Summer,F,Bronze,27.0,165.0,55.0,2000
+"Shooting Women's Sporting Pistol, 25 metres",Summer,F,Bronze,36.0,163.0,63.0,2000
+Shooting Women's Trap,Summer,F,Bronze,29.0,171.0,70.0,2008
+"Short Track Speed Skating Women's 1,000 metres",Winter,F,Bronze,17.0,166.0,58.0,2006
+"Short Track Speed Skating Women's 1,500 metres",Winter,F,Bronze,21.5,166.5,61.5,2008
+"Short Track Speed Skating Women's 3,000 metres Relay",Winter,F,Bronze,23.0,165.0,59.5,2002
+Short Track Speed Skating Women's 500 metres,Winter,F,Bronze,21.0,164.0,60.0,2002
+Skeleton Women's Skeleton,Winter,F,Bronze,25.5,168.0,57.5,2008
+"Ski Jumping Women's Normal Hill, Individual",Winter,F,Bronze,18.0,165.0,57.0,2014
+Snowboarding Women's Boardercross,Winter,F,Bronze,25.0,176.0,63.0,2010
+Snowboarding Women's Giant Slalom,Winter,F,Bronze,27.0,182.0,71.0,1998
+Snowboarding Women's Halfpipe,Winter,F,Bronze,25.0,163.0,58.0,2006
+Snowboarding Women's Parallel Giant Slalom,Winter,F,Bronze,28.0,172.5,60.5,2008
+Snowboarding Women's Parallel Slalom,Winter,F,Bronze,26.0,168.0,56.0,2014
+Snowboarding Women's Slopestyle,Winter,F,Bronze,33.0,161.0,61.0,2014
+Softball Women's Softball,Summer,F,Bronze,27.0,170.0,67.0,2000
+"Speed Skating Women's 1,000 metres",Winter,F,Bronze,25.0,167.0,63.0,1988
+"Speed Skating Women's 1,500 metres",Winter,F,Bronze,26.0,167.5,60.5,1990
+"Speed Skating Women's 3,000 metres",Winter,F,Bronze,26.0,167.0,60.5,1990
+"Speed Skating Women's 5,000 metres",Winter,F,Bronze,27.5,169.5,60.5,2000
+Speed Skating Women's 500 metres,Winter,F,Bronze,25.0,173.0,64.0,1992
+Speed Skating Women's Team Pursuit (6 laps),Winter,F,Bronze,28.0,170.0,64.0,2010
+Swimming Women's 10 kilometres Open Water,Summer,F,Bronze,23.0,172.0,65.0,2012
+Swimming Women's 100 metres Backstroke,Summer,F,Bronze,20.0,173.0,63.0,1988
+Swimming Women's 100 metres Breaststroke,Summer,F,Bronze,21.0,168.0,61.0,1992
+Swimming Women's 100 metres Butterfly,Summer,F,Bronze,21.0,170.0,61.0,1986
+Swimming Women's 100 metres Freestyle,Summer,F,Bronze,19.0,174.0,66.0,1988
+Swimming Women's 200 metres Backstroke,Summer,F,Bronze,20.5,171.5,65.0,1994
+Swimming Women's 200 metres Breaststroke,Summer,F,Bronze,19.0,170.0,64.0,1988
+Swimming Women's 200 metres Butterfly,Summer,F,Bronze,21.0,170.0,60.0,1992
+Swimming Women's 200 metres Freestyle,Summer,F,Bronze,22.0,178.0,64.0,1992
+Swimming Women's 200 metres Individual Medley,Summer,F,Bronze,21.0,175.0,64.0,1996
+Swimming Women's 4 x 100 metres Freestyle Relay,Summer,F,Bronze,20.0,175.0,65.0,1992
+Swimming Women's 4 x 100 metres Medley Relay,Summer,F,Bronze,18.0,172.5,62.0,1984
+Swimming Women's 4 x 200 metres Freestyle Relay,Summer,F,Bronze,21.5,178.5,66.0,2008
+Swimming Women's 400 metres Freestyle,Summer,F,Bronze,19.0,173.0,64.0,1984
+Swimming Women's 400 metres Individual Medley,Summer,F,Bronze,18.0,170.0,57.0,1990
+Swimming Women's 50 metres Freestyle,Summer,F,Bronze,25.0,180.0,68.0,2000
+Swimming Women's 800 metres Freestyle,Summer,F,Bronze,18.0,171.0,60.0,1992
+Synchronized Swimming Women's Duet,Summer,F,Bronze,22.0,167.0,54.0,2002
+Synchronized Swimming Women's Solo,Summer,F,Bronze,22.0,163.0,51.0,1988
+Synchronized Swimming Women's Team,Summer,F,Bronze,22.0,167.0,55.0,2004
+Table Tennis Women's Doubles,Summer,F,Bronze,22.0,165.0,55.0,1996
+Table Tennis Women's Singles,Summer,F,Bronze,24.5,165.0,56.5,2002
+Table Tennis Women's Team,Summer,F,Bronze,27.0,158.0,55.0,2012
+Taekwondo Women's Featherweight,Summer,F,Bronze,22.5,173.5,57.0,2010
+Taekwondo Women's Flyweight,Summer,F,Bronze,21.0,166.5,49.0,2010
+Taekwondo Women's Heavyweight,Summer,F,Bronze,24.0,177.5,72.0,2010
+Taekwondo Women's Welterweight,Summer,F,Bronze,23.5,175.0,67.0,2010
+Tennis Mixed Doubles,Summer,F,Bronze,34.5,171.0,63.5,2014
+Tennis Women's Doubles,Summer,F,Bronze,25.0,171.0,59.5,1998
+Tennis Women's Singles,Summer,F,Bronze,23.0,175.5,61.5,1998
+Trampolining Women's Individual,Summer,F,Bronze,23.0,160.0,50.0,2008
+Triathlon Women's Olympic Distance,Summer,F,Bronze,29.0,166.0,56.0,2008
+Volleyball Women's Volleyball,Summer,F,Bronze,25.0,179.0,70.0,1992
+Water Polo Women's Water Polo,Summer,F,Bronze,25.0,175.0,70.0,2008
+Weightlifting Women's Featherweight,Summer,F,Bronze,26.0,155.0,53.0,2008
+Weightlifting Women's Flyweight,Summer,F,Bronze,24.0,147.0,48.0,2008
+Weightlifting Women's Heavyweight,Summer,F,Bronze,26.0,166.0,75.0,2008
+Weightlifting Women's Light-Heavyweight,Summer,F,Bronze,22.0,161.0,69.0,2008
+Weightlifting Women's Lightweight,Summer,F,Bronze,24.0,153.0,58.0,2008
+Weightlifting Women's Middleweight,Summer,F,Bronze,26.0,160.0,63.0,2008
+Weightlifting Women's Super-Heavyweight,Summer,F,Bronze,22.0,175.0,122.0,2008
+"Wrestling Women's Featherweight, Freestyle",Summer,F,Bronze,28.5,162.0,57.0,2016
+"Wrestling Women's Flyweight, Freestyle",Summer,F,Bronze,25.0,154.0,48.0,2012
+"Wrestling Women's Heavyweight, Freestyle",Summer,F,Bronze,29.0,174.0,72.0,2012
+"Wrestling Women's Light-Heavyweight, Freestyle",Summer,F,Bronze,26.5,170.5,71.0,2016
+"Wrestling Women's Lightweight, Freestyle",Summer,F,Bronze,27.0,162.0,58.0,2012
+"Wrestling Women's Middleweight, Freestyle",Summer,F,Bronze,24.0,165.0,63.0,2012
