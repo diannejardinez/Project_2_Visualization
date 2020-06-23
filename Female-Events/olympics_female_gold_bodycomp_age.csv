@@ -1,16 +1,11 @@
 Event,Season,Sex,Medal,sno,ID,Age,Height,Weight,Year
-Alpine Skiing Women's Combined,Winter,F,Gold,125020.5,63093.0,22.5,173.0,72.0,1996.0
-Alpine Skiing Women's Downhill,Winter,F,Gold,135593.0,68224.0,24.0,170.5,64.0,1984.0
-Alpine Skiing Women's Giant Slalom,Winter,F,Gold,153585.0,77079.0,21.0,168.0,64.0,1984.0
-Alpine Skiing Women's Slalom,Winter,F,Gold,126248.0,63673.0,22.0,170.0,62.0,1982.0
+Alpine Skiing Women's Combined,Winter,F,Gold,126250.5,63673.0,23.5,173.0,72.0,2000.0
+Alpine Skiing Women's Downhill,Winter,F,Gold,144588.0,72651.5,25.0,170.5,64.0,1990.0
+Alpine Skiing Women's Giant Slalom,Winter,F,Gold,148105.0,74318.0,21.0,168.0,64.0,1988.0
+Alpine Skiing Women's Slalom,Winter,F,Gold,127478.0,64253.0,22.0,170.0,62.0,1984.0
 Alpine Skiing Women's Super G,Winter,F,Gold,68709.5,35063.5,25.0,167.0,63.0,2000.0
-Alpinism Mixed Alpinism,Summer,F,Gold,60641.0,31057.0,43.0,,,1936.0
-Archery Women's Double Columbia Round,Summer,F,Gold,99506.0,50366.0,44.0,,,1904.0
-Archery Women's Double National Round,Summer,F,Gold,134878.5,67956.5,48.5,,,1906.0
-Archery Women's Individual,Summer,F,Gold,162445.5,81590.0,23.5,167.0,61.5,1994.0
-Archery Women's Team,Summer,F,Gold,119093.0,60274.0,21.0,167.0,59.0,2002.0
-Archery Women's Team Round,Summer,F,Gold,214042.5,107413.5,58.0,,,1904.0
-"Art Competitions Mixed Literature, Lyric Works",Summer,F,Gold,245549.0,122961.0,34.0,,,1948.0
+Archery Women's Individual,Summer,F,Gold,194611.5,97740.5,23.5,167.0,61.5,1994.0
+Archery Women's Team,Summer,F,Gold,119094.0,60274.0,21.0,167.0,59.0,2004.0
 "Athletics Women's 1,500 metres",Summer,F,Gold,109633.0,55508.5,26.5,162.5,50.0,1994.0
 Athletics Women's 10 kilometres Walk,Summer,F,Gold,105591.5,53294.5,27.0,161.5,54.0,1994.0
 "Athletics Women's 10,000 metres",Summer,F,Gold,127530.0,64351.5,25.5,163.5,47.5,2002.0
@@ -20,17 +15,17 @@ Athletics Women's 20 kilometres Walk,Summer,F,Gold,140587.0,70582.0,23.0,160.0,4
 Athletics Women's 200 metres,Summer,F,Gold,76013.0,38711.5,24.0,170.0,59.0,1982.0
 "Athletics Women's 3,000 metres",Summer,F,Gold,203684.0,102261.0,29.0,168.0,54.0,1988.0
 "Athletics Women's 3,000 metres Steeplechase",Summer,F,Gold,209123.0,104992.0,26.0,175.0,54.0,2012.0
-Athletics Women's 4 x 100 metres Relay,Summer,F,Gold,104330.5,52748.0,23.0,168.0,58.0,1980.0
+Athletics Women's 4 x 100 metres Relay,Summer,F,Gold,88838.5,45036.5,23.0,168.0,58.0,1982.0
 Athletics Women's 4 x 400 metres Relay,Summer,F,Gold,134271.0,67602.0,25.0,170.0,58.0,1996.0
 Athletics Women's 400 metres,Summer,F,Gold,167483.0,84127.0,24.5,171.0,60.0,1990.0
 Athletics Women's 400 metres Hurdles,Summer,F,Gold,93905.0,47532.0,26.0,173.0,58.0,2000.0
 "Athletics Women's 5,000 metres",Summer,F,Gold,53862.0,27646.5,26.0,159.0,42.0,2006.0
-Athletics Women's 80 metres Hurdles,Summer,F,Gold,196602.5,98728.5,23.5,171.0,57.0,1954.0
+Athletics Women's 80 metres Hurdles,Summer,F,Gold,192927.0,96880.0,26.0,171.0,57.0,1956.0
 Athletics Women's 800 metres,Summer,F,Gold,159372.5,80020.5,25.0,169.0,57.0,1986.0
 Athletics Women's Discus Throw,Summer,F,Gold,185908.0,93475.0,27.0,180.0,85.0,1976.0
 Athletics Women's Hammer Throw,Summer,F,Gold,156767.0,78744.0,28.0,180.0,85.0,2008.0
 Athletics Women's Heptathlon,Summer,F,Gold,121395.0,61371.0,26.0,178.0,68.0,2000.0
-Athletics Women's High Jump,Summer,F,Gold,124941.0,63076.0,27.0,179.5,61.5,1976.0
+Athletics Women's High Jump,Summer,F,Gold,139576.5,70256.0,25.5,179.5,61.5,1978.0
 Athletics Women's Javelin Throw,Summer,F,Gold,156244.5,78465.5,25.0,171.0,70.5,1978.0
 Athletics Women's Long Jump,Summer,F,Gold,131126.5,66043.0,25.0,171.5,61.0,1982.0
 Athletics Women's Marathon,Summer,F,Gold,172670.0,86753.0,28.0,160.0,48.0,2000.0
@@ -38,10 +33,10 @@ Athletics Women's Pentathlon,Summer,F,Gold,192931.0,96880.0,26.0,173.0,71.0,1972
 Athletics Women's Pole Vault,Summer,F,Gold,103866.0,52554.0,26.0,174.0,64.0,2008.0
 Athletics Women's Shot Put,Summer,F,Gold,134688.5,67701.5,25.5,180.0,93.5,1982.0
 Athletics Women's Triple Jump,Summer,F,Gold,151779.5,76148.5,28.5,175.5,62.5,2006.0
-Badminton Mixed Doubles,Summer,F,Gold,107420.5,54236.5,25.5,169.0,61.0,2006.0
-Badminton Women's Doubles,Summer,F,Gold,130343.5,65606.5,25.0,169.0,62.0,2004.0
-Badminton Women's Singles,Summer,F,Gold,149622.0,75045.0,23.0,173.5,65.0,2004.0
-Basketball Women's Basketball,Summer,F,Gold,154006.0,77323.0,26.0,185.0,74.0,1996.0
+Badminton Mixed Doubles,Summer,F,Gold,135061.0,67958.0,25.0,169.0,61.0,2008.0
+Badminton Women's Doubles,Summer,F,Gold,193919.5,97266.5,24.5,169.0,62.0,2006.0
+Badminton Women's Singles,Summer,F,Gold,149622.0,75045.0,23.0,175.0,65.0,2008.0
+Basketball Women's Basketball,Summer,F,Gold,147674.5,74127.0,26.0,185.0,74.0,1996.0
 Beach Volleyball Women's Beach Volleyball,Summer,F,Gold,201031.5,100941.0,29.5,181.0,72.0,2006.0
 Biathlon Mixed 2 x 6 kilometres and 2 x 7.5 kilometres Relay,Winter,F,Gold,40524.5,20904.5,27.5,164.5,57.5,2014.0
 Biathlon Women's 10 kilometres Pursuit,Winter,F,Gold,182391.5,91597.5,26.5,167.0,58.0,2008.0
@@ -49,7 +44,7 @@ Biathlon Women's 12.5 kilometres Mass Start,Winter,F,Gold,170133.0,85492.0,27.0,
 Biathlon Women's 15 kilometres,Winter,F,Gold,57198.0,29305.0,24.0,165.0,56.0,2002.0
 Biathlon Women's 3 x 7.5 kilometres Relay,Winter,F,Gold,42464.0,21907.0,23.0,174.0,52.0,1992.0
 Biathlon Women's 4 x 6 kilometres Relay,Winter,F,Gold,191540.0,96175.5,28.0,165.5,58.0,2010.0
-Biathlon Women's 4 x 7.5 kilometres Relay,Winter,F,Gold,133622.0,67332.0,25.5,166.0,59.0,1998.0
+Biathlon Women's 4 x 7.5 kilometres Relay,Winter,F,Gold,75096.0,38189.0,26.5,166.0,59.0,1998.0
 Biathlon Women's 7.5 kilometres Sprint,Winter,F,Gold,129848.0,65376.0,25.0,173.0,60.0,2002.0
 Bobsleigh Women's Two,Winter,F,Gold,132812.5,66868.0,28.0,170.0,74.5,2008.0
 Boxing Women's Flyweight,Summer,F,Gold,1494.5,832.0,31.0,164.0,51.0,2014.0
@@ -58,20 +53,20 @@ Boxing Women's Middleweight,Summer,F,Gold,218459.5,109724.0,19.0,175.0,75.0,2014
 "Canoeing Women's Kayak Doubles, 500 metres",Summer,F,Gold,125824.0,63471.5,25.5,172.0,67.5,1988.0
 "Canoeing Women's Kayak Fours, 500 metres",Summer,F,Gold,164961.0,82847.0,26.0,173.0,65.0,2000.0
 "Canoeing Women's Kayak Singles, 200 metres",Summer,F,Gold,36125.0,18563.0,25.0,168.0,63.0,2014.0
-"Canoeing Women's Kayak Singles, 500 metres",Summer,F,Gold,117576.5,59511.0,28.0,169.0,67.0,1982.0
+"Canoeing Women's Kayak Singles, 500 metres",Summer,F,Gold,119760.0,60580.5,28.0,169.0,67.0,1986.0
 "Canoeing Women's Kayak Singles, Slalom",Summer,F,Gold,95907.5,48549.0,30.5,164.5,59.5,2002.0
 Cross Country Skiing Women's 10 kilometres,Winter,F,Gold,127457.5,64211.5,28.0,162.0,59.0,1978.0
 Cross Country Skiing Women's 15 kilometres,Winter,F,Gold,51895.0,26662.5,29.0,165.5,55.5,1996.0
 Cross Country Skiing Women's 15 km Skiathlon,Winter,F,Gold,22682.0,11943.0,29.0,168.0,64.0,2010.0
 Cross Country Skiing Women's 20 kilometres,Winter,F,Gold,180093.0,90553.0,25.5,169.0,62.25,1986.0
-Cross Country Skiing Women's 3 x 5 kilometres Relay,Winter,F,Gold,128724.0,64799.0,28.0,162.5,57.0,1964.0
+Cross Country Skiing Women's 3 x 5 kilometres Relay,Winter,F,Gold,164802.0,82761.0,27.0,163.0,57.0,1964.0
 Cross Country Skiing Women's 30 kilometres,Winter,F,Gold,54761.0,28063.0,31.0,168.0,59.0,2002.0
-Cross Country Skiing Women's 4 x 5 kilometres Relay,Winter,F,Gold,131670.5,66295.0,26.5,167.0,56.0,1994.0
+Cross Country Skiing Women's 4 x 5 kilometres Relay,Winter,F,Gold,133935.0,67447.0,27.0,167.0,56.0,1994.0
 Cross Country Skiing Women's 5 kilometres,Winter,F,Gold,131331.0,66123.0,27.5,162.0,57.0,1982.0
 Cross Country Skiing Women's 5/10 kilometres Pursuit,Winter,F,Gold,265344.0,132791.0,27.0,167.0,58.0,1994.0
 Cross Country Skiing Women's 5/5 kilometres Pursuit,Winter,F,Gold,215092.0,107976.0,27.0,171.0,64.0,2002.0
-Cross Country Skiing Women's Sprint,Winter,F,Gold,42801.0,22055.0,24.0,166.0,64.0,2008.0
-Cross Country Skiing Women's Team Sprint,Winter,F,Gold,88710.0,44946.0,29.0,165.0,58.0,2010.0
+Cross Country Skiing Women's Sprint,Winter,F,Gold,39670.0,20403.0,25.0,168.0,64.0,2006.0
+Cross Country Skiing Women's Team Sprint,Winter,F,Gold,48229.0,24859.0,29.0,165.0,58.0,2010.0
 Curling Women's Curling,Winter,F,Gold,147950.5,74249.0,34.0,167.0,66.0,2006.0
 Cycling Women's 500 metres Time Trial,Summer,F,Gold,84422.0,42654.0,24.5,166.5,70.0,2002.0
 Cycling Women's BMX,Summer,F,Gold,180331.0,90631.0,24.0,158.0,50.0,2012.0
@@ -85,57 +80,55 @@ Cycling Women's Points Race,Summer,F,Gold,144243.5,72755.0,28.5,169.5,65.0,2002.
 Cycling Women's Sprint,Summer,F,Gold,175025.0,87932.5,27.5,165.0,68.0,2002.0
 Cycling Women's Team Pursuit,Summer,F,Gold,205230.0,103052.0,22.0,175.0,62.0,2016.0
 Cycling Women's Team Sprint,Summer,F,Gold,256256.0,128306.5,25.0,166.5,65.5,2014.0
-Diving Women's Plain High,Summer,F,Gold,109126.0,55189.0,17.0,,,1920.0
-Diving Women's Platform,Summer,F,Gold,121501.0,61434.0,18.0,162.0,53.0,1976.0
-Diving Women's Springboard,Summer,F,Gold,86376.0,43787.0,21.0,161.0,52.0,1972.0
+Diving Women's Platform,Summer,F,Gold,121501.0,61434.0,17.0,162.0,53.0,1984.0
+Diving Women's Springboard,Summer,F,Gold,86378.0,43787.0,21.0,162.0,52.0,1984.0
 Diving Women's Synchronized Platform,Summer,F,Gold,138293.0,69477.0,16.5,157.0,47.0,2008.0
 Diving Women's Synchronized Springboard,Summer,F,Gold,199400.0,100177.0,23.5,163.0,51.5,2008.0
 "Equestrianism Mixed Dressage, Individual",Summer,F,Gold,246401.0,123381.0,29.0,172.0,57.0,1996.0
 "Equestrianism Mixed Dressage, Team",Summer,F,Gold,209001.0,104923.0,32.0,169.0,63.0,2000.0
 "Equestrianism Mixed Jumping, Team",Summer,F,Gold,141405.5,71026.5,38.0,168.0,57.5,2006.0
-"Equestrianism Mixed Three-Day Event, Team",Summer,F,Gold,192933.5,96918.5,33.0,167.0,57.0,1988.0
-"Fencing Women's Foil, Individual",Summer,F,Gold,176002.5,88457.0,26.0,168.5,60.0,1974.0
+"Equestrianism Mixed Three-Day Event, Team",Summer,F,Gold,203549.0,102190.0,33.0,167.0,57.0,1992.0
+"Fencing Women's Foil, Individual",Summer,F,Gold,198845.0,99869.0,26.0,168.0,60.0,1984.0
 "Fencing Women's Foil, Team",Summer,F,Gold,171653.5,86257.5,25.5,169.0,59.0,1980.0
 "Fencing Women's Sabre, Individual",Summer,F,Gold,266284.5,133240.0,22.5,173.0,68.0,2010.0
 "Fencing Women's Sabre, Team",Summer,F,Gold,155755.5,78450.0,21.5,168.0,55.5,2012.0
 "Fencing Women's epee, Individual",Summer,F,Gold,167574.0,84193.0,28.0,178.0,69.0,2006.0
 "Fencing Women's epee, Team",Summer,F,Gold,141646.0,71060.0,27.0,174.0,62.0,2004.0
-Figure Skating Mixed Ice Dancing,Winter,F,Gold,121186.0,61272.0,26.0,164.0,50.5,1994.0
-Figure Skating Mixed Pairs,Summer,F,Gold,102965.0,52075.5,29.0,165.0,58.0,1914.0
-Figure Skating Mixed Pairs,Winter,F,Gold,132222.0,66544.0,24.0,159.0,45.0,1976.0
-Figure Skating Mixed Team,Winter,F,Gold,140227.0,70401.0,21.0,159.0,46.5,2014.0
-Figure Skating Women's Singles,Summer,F,Gold,172443.5,86729.5,25.5,,,1914.0
-Figure Skating Women's Singles,Winter,F,Gold,97344.0,49251.5,19.0,162.0,50.0,1974.0
+Figure Skating Mixed Ice Dancing,Winter,F,Gold,102982.0,52148.5,26.0,164.5,50.5,1996.0
+Figure Skating Mixed Pairs,Summer,F,Gold,105597.0,53409.0,35.0,165.0,58.0,1920.0
+Figure Skating Mixed Pairs,Winter,F,Gold,202391.0,101661.0,24.0,158.0,45.0,1992.0
+Figure Skating Mixed Team,Winter,F,Gold,138951.0,69865.0,25.0,159.5,46.5,2014.0
+Figure Skating Women's Singles,Winter,F,Gold,94061.0,47618.0,19.0,162.0,50.0,1980.0
 Football Women's Football,Summer,F,Gold,141152.0,70843.0,26.0,169.0,61.0,2008.0
 Freestyle Skiing Women's Aerials,Winter,F,Gold,119729.5,60353.0,27.5,160.5,56.0,2004.0
 Freestyle Skiing Women's Halfpipe,Winter,F,Gold,27503.0,14276.0,20.0,155.0,63.0,2014.0
 Freestyle Skiing Women's Moguls,Winter,F,Gold,115128.0,58326.0,23.0,166.0,56.5,2002.0
 Freestyle Skiing Women's Ski Cross,Winter,F,Gold,196971.0,98793.0,23.5,178.0,68.0,2012.0
 Freestyle Skiing Women's Slopestyle,Winter,F,Gold,99495.0,50359.0,19.0,170.0,58.0,2014.0
-Golf Women's Individual,Summer,F,Gold,91184.0,45835.5,25.5,168.0,65.0,1958.0
-Gymnastics Women's Balance Beam,Summer,F,Gold,126251.0,63665.0,18.5,153.0,45.0,1984.0
-Gymnastics Women's Floor Exercise,Summer,F,Gold,133190.0,67046.0,18.0,157.0,47.0,1980.0
-Gymnastics Women's Horse Vault,Summer,F,Gold,115591.5,58522.0,19.0,156.5,47.0,1986.0
-Gymnastics Women's Individual All-Around,Summer,F,Gold,101440.0,51302.0,19.0,158.0,45.0,1984.0
-Gymnastics Women's Team All-Around,Summer,F,Gold,138311.0,69483.0,19.0,156.0,46.0,1976.0
-Gymnastics Women's Team Portable Apparatus,Summer,F,Gold,132006.0,66469.5,22.5,160.0,57.0,1952.0
-Gymnastics Women's Uneven Bars,Summer,F,Gold,117262.0,59380.0,19.0,158.5,45.5,1984.0
-Handball Women's Handball,Summer,F,Gold,132803.0,66847.0,25.0,175.0,68.0,1996.0
-Hockey Women's Hockey,Summer,F,Gold,146870.5,73719.0,25.0,168.0,61.0,2000.0
+Golf Women's Individual,Summer,F,Gold,182085.0,91521.0,28.0,168.0,65.0,2016.0
+Gymnastics Women's Balance Beam,Summer,F,Gold,128295.0,64592.0,18.0,153.0,45.0,1984.0
+Gymnastics Women's Floor Exercise,Summer,F,Gold,133193.0,67046.0,18.0,157.0,47.0,1980.0
+Gymnastics Women's Horse Vault,Summer,F,Gold,112692.5,57021.5,19.0,156.5,47.0,1986.0
+Gymnastics Women's Individual All-Around,Summer,F,Gold,133184.0,67046.0,19.0,158.0,45.0,1984.0
+Gymnastics Women's Team All-Around,Summer,F,Gold,133185.0,67046.0,18.0,156.0,46.0,1984.0
+Gymnastics Women's Team Portable Apparatus,Summer,F,Gold,236765.0,118708.0,27.0,160.0,57.0,1956.0
+Gymnastics Women's Uneven Bars,Summer,F,Gold,117262.0,59380.0,17.5,158.5,45.5,1986.0
+Handball Women's Handball,Summer,F,Gold,131364.0,66129.0,25.0,175.0,68.0,1996.0
+Hockey Women's Hockey,Summer,F,Gold,140795.0,70741.5,25.0,168.0,61.0,2000.0
 Ice Hockey Women's Ice Hockey,Winter,F,Gold,132591.0,66741.0,25.0,170.0,70.0,2006.0
 Judo Women's Extra-Lightweight,Summer,F,Gold,173544.0,87200.0,25.0,154.0,48.0,2004.0
-Judo Women's Half-Heavyweight,Summer,F,Gold,118809.0,60130.0,24.0,173.0,75.0,2004.0
+Judo Women's Half-Heavyweight,Summer,F,Gold,163680.0,82315.5,24.0,173.0,75.0,2006.0
 Judo Women's Half-Lightweight,Summer,F,Gold,199320.0,100106.0,28.0,160.0,52.0,2004.0
 Judo Women's Half-Middleweight,Summer,F,Gold,236287.0,118470.0,26.0,162.0,63.0,2004.0
 Judo Women's Heavyweight,Summer,F,Gold,241654.0,121038.0,23.0,173.0,98.0,2004.0
-Judo Women's Lightweight,Summer,F,Gold,81732.0,41499.0,24.0,165.5,58.0,2004.0
+Judo Women's Lightweight,Summer,F,Gold,117168.5,59037.5,24.0,165.5,58.0,2006.0
 Judo Women's Middleweight,Summer,F,Gold,234762.0,117729.0,26.0,168.0,70.0,2004.0
 Luge Mixed Team Relay,Winter,F,Gold,77588.0,39377.0,26.0,183.0,76.0,2014.0
 Luge Women's Singles,Winter,F,Gold,174646.0,87756.5,24.5,170.0,67.0,1990.0
 Modern Pentathlon Women's Individual,Summer,F,Gold,64957.0,33241.0,27.0,172.0,57.0,2008.0
 Rhythmic Gymnastics Women's Group,Summer,F,Gold,133624.0,67271.0,18.0,174.0,51.0,2004.0
 Rhythmic Gymnastics Women's Individual,Summer,F,Gold,112827.0,57156.0,20.0,168.0,43.0,2000.0
-Rowing Women's Coxed Eights,Summer,F,Gold,141591.0,71034.0,26.0,180.0,76.0,1996.0
+Rowing Women's Coxed Eights,Summer,F,Gold,141590.5,71034.0,25.5,180.0,76.0,1996.0
 Rowing Women's Coxed Fours,Summer,F,Gold,137650.5,69172.0,22.0,179.0,76.5,1982.0
 Rowing Women's Coxed Quadruple Sculls,Summer,F,Gold,190429.5,95647.0,22.0,176.0,66.5,1980.0
 Rowing Women's Coxless Fours,Summer,F,Gold,199585.0,100134.0,27.5,176.0,73.5,1992.0
@@ -145,10 +138,6 @@ Rowing Women's Lightweight Double Sculls,Summer,F,Gold,189363.5,95104.0,28.5,174
 Rowing Women's Quadruple Sculls,Summer,F,Gold,144501.5,72523.0,24.5,183.0,76.0,2002.0
 Rowing Women's Single Sculls,Summer,F,Gold,176315.0,88657.0,27.0,181.0,75.0,1996.0
 Rugby Sevens Women's Rugby Sevens,Summer,F,Gold,133238.0,67204.0,23.5,169.0,66.5,2016.0
-Sailing Mixed 1-2 Ton,Summer,F,Gold,51668.0,26559.0,32.0,,,1900.0
-Sailing Mixed 6 metres,Summer,F,Gold,259853.0,130084.0,36.0,,,1952.0
-Sailing Mixed 7 metres,Summer,F,Gold,232298.5,116430.5,30.0,,,1914.0
-Sailing Mixed 8 metres,Summer,F,Gold,94652.0,47903.0,37.0,,,1928.0
 Sailing Mixed Multihull,Summer,F,Gold,36011.0,18500.0,29.0,164.0,63.0,2016.0
 Sailing Women's One Person Dinghy,Summer,F,Gold,204996.0,102930.0,24.0,169.0,65.0,2004.0
 Sailing Women's Skiff,Summer,F,Gold,106140.5,53627.0,25.0,170.0,65.0,2016.0
@@ -157,7 +146,7 @@ Sailing Women's Two Person Dinghy,Summer,F,Gold,170884.0,85840.0,27.5,171.5,64.0
 Sailing Women's Windsurfer,Summer,F,Gold,157233.0,78947.0,26.0,169.0,57.0,2004.0
 Shooting Mixed Skeet,Summer,F,Gold,268916.0,134542.0,24.0,163.0,57.0,1992.0
 "Shooting Women's Air Pistol, 10 metres",Summer,F,Gold,123175.5,62220.0,25.5,162.5,61.5,2002.0
-"Shooting Women's Air Rifle, 10 metres",Summer,F,Gold,218518.0,109755.0,22.0,164.0,54.5,2000.0
+"Shooting Women's Air Rifle, 10 metres",Summer,F,Gold,193351.0,97131.5,22.5,164.0,54.5,2002.0
 Shooting Women's Double Trap,Summer,F,Gold,199717.0,100315.0,25.0,163.0,82.0,2000.0
 Shooting Women's Skeet,Summer,F,Gold,102108.0,51656.0,33.0,171.0,82.0,2008.0
 "Shooting Women's Small-Bore Rifle, Three Positions, 50 metres",Summer,F,Gold,134478.0,67693.0,28.0,162.0,55.0,2000.0
@@ -165,7 +154,7 @@ Shooting Women's Skeet,Summer,F,Gold,102108.0,51656.0,33.0,171.0,82.0,2008.0
 Shooting Women's Trap,Summer,F,Gold,147126.0,73842.0,31.0,169.0,76.0,2008.0
 "Short Track Speed Skating Women's 1,000 metres",Winter,F,Gold,145400.0,73248.5,21.5,165.0,57.0,2004.0
 "Short Track Speed Skating Women's 1,500 metres",Winter,F,Gold,189001.0,94858.0,17.5,165.0,60.0,2008.0
-"Short Track Speed Skating Women's 3,000 metres Relay",Winter,F,Gold,114545.0,57957.5,18.0,165.0,56.0,2002.0
+"Short Track Speed Skating Women's 3,000 metres Relay",Winter,F,Gold,109828.5,55562.0,18.0,165.0,56.0,2004.0
 Short Track Speed Skating Women's 500 metres,Winter,F,Gold,245148.0,122765.0,26.0,163.0,58.0,2002.0
 Skeleton Women's Skeleton,Winter,F,Gold,222627.5,111599.0,26.0,167.5,57.0,2008.0
 "Ski Jumping Women's Normal Hill, Individual",Winter,F,Gold,253776.0,127078.0,22.0,171.0,62.0,2014.0
@@ -175,28 +164,27 @@ Snowboarding Women's Halfpipe,Winter,F,Gold,66777.0,34163.0,20.0,163.0,60.0,2006
 Snowboarding Women's Parallel Giant Slalom,Winter,F,Gold,143331.5,72047.0,26.0,171.5,72.0,2008.0
 Snowboarding Women's Parallel Slalom,Winter,F,Gold,59565.0,30509.0,26.0,168.0,60.0,2014.0
 Snowboarding Women's Slopestyle,Winter,F,Gold,6812.0,3823.0,23.0,160.0,54.0,2014.0
-Softball Women's Softball,Summer,F,Gold,136016.0,68408.5,25.5,171.0,70.0,2002.0
-"Speed Skating Women's 1,000 metres",Winter,F,Gold,169802.0,85350.0,24.0,167.0,63.0,1988.0
-"Speed Skating Women's 1,500 metres",Winter,F,Gold,169608.0,85274.0,24.0,167.5,64.0,1988.0
+Softball Women's Softball,Summer,F,Gold,126938.0,63999.0,25.0,172.0,70.0,2004.0
+"Speed Skating Women's 1,000 metres",Winter,F,Gold,178605.5,89771.5,24.5,169.0,63.0,1990.0
+"Speed Skating Women's 1,500 metres",Winter,F,Gold,169608.0,85274.0,24.0,167.0,64.0,1992.0
 "Speed Skating Women's 3,000 metres",Winter,F,Gold,184185.0,92566.0,23.0,168.0,65.0,1988.0
 "Speed Skating Women's 5,000 metres",Winter,F,Gold,184184.5,92566.0,25.0,168.0,61.0,2000.0
 Speed Skating Women's 500 metres,Winter,F,Gold,134121.0,67528.0,24.0,165.0,62.0,1988.0
 Speed Skating Women's Team Pursuit (6 laps),Winter,F,Gold,152874.0,76719.0,28.0,169.0,64.0,2010.0
 Swimming Women's 10 kilometres Open Water,Summer,F,Gold,201136.0,101041.0,22.0,173.0,65.0,2012.0
-Swimming Women's 100 metres Backstroke,Summer,F,Gold,86758.0,44008.5,17.0,173.0,63.0,1974.0
-Swimming Women's 100 metres Breaststroke,Summer,F,Gold,110140.0,55692.0,19.0,171.0,63.5,1992.0
+Swimming Women's 100 metres Backstroke,Summer,F,Gold,67877.0,34688.0,17.0,173.0,63.0,1988.0
+Swimming Women's 100 metres Breaststroke,Summer,F,Gold,102854.5,52039.0,18.5,171.0,63.5,1992.0
 Swimming Women's 100 metres Butterfly,Summer,F,Gold,168386.5,84570.5,20.0,173.0,63.5,1986.0
-Swimming Women's 100 metres Freestyle,Summer,F,Gold,129016.5,64995.5,20.0,173.5,67.0,1974.0
+Swimming Women's 100 metres Freestyle,Summer,F,Gold,127023.0,64044.5,21.0,173.5,67.0,1986.0
 Swimming Women's 200 metres Backstroke,Summer,F,Gold,61647.0,31565.0,17.0,175.0,65.0,1992.0
-Swimming Women's 200 metres Breaststroke,Summer,F,Gold,144076.0,72282.0,20.0,173.0,61.0,1974.0
+Swimming Women's 200 metres Breaststroke,Summer,F,Gold,125573.0,63367.0,19.0,173.0,61.0,1988.0
 Swimming Women's 200 metres Butterfly,Summer,F,Gold,140840.0,70710.0,20.0,172.0,63.0,1992.0
 Swimming Women's 200 metres Freestyle,Summer,F,Gold,157765.0,79198.0,19.0,174.0,64.0,1992.0
 Swimming Women's 200 metres Individual Medley,Summer,F,Gold,121308.0,61330.0,20.0,175.0,64.0,1996.0
-Swimming Women's 300 metres Freestyle,Summer,F,Gold,23285.0,12248.0,18.0,,,1920.0
-Swimming Women's 4 x 100 metres Freestyle Relay,Summer,F,Gold,150298.0,75395.0,18.0,175.0,64.0,1972.0
+Swimming Women's 4 x 100 metres Freestyle Relay,Summer,F,Gold,154868.0,77716.0,19.0,175.0,64.0,1988.0
 Swimming Women's 4 x 100 metres Medley Relay,Summer,F,Gold,159324.0,79969.0,18.0,173.0,64.0,1988.0
-Swimming Women's 4 x 200 metres Freestyle Relay,Summer,F,Gold,166047.0,83392.0,21.0,176.0,66.5,2008.0
-Swimming Women's 400 metres Freestyle,Summer,F,Gold,113077.0,57069.5,18.0,174.5,63.0,1974.0
+Swimming Women's 4 x 200 metres Freestyle Relay,Summer,F,Gold,157735.0,79171.0,21.0,176.5,66.5,2008.0
+Swimming Women's 400 metres Freestyle,Summer,F,Gold,91521.0,46393.0,17.0,175.0,63.0,1988.0
 Swimming Women's 400 metres Individual Medley,Summer,F,Gold,122113.0,61731.5,18.0,173.0,61.0,1990.0
 Swimming Women's 50 metres Freestyle,Summer,F,Gold,153305.0,77134.5,22.5,179.0,61.0,2002.0
 Swimming Women's 800 metres Freestyle,Summer,F,Gold,71156.0,36236.0,18.0,174.0,62.0,1992.0
@@ -210,14 +198,12 @@ Taekwondo Women's Featherweight,Summer,F,Gold,110107.0,55676.0,21.0,163.0,57.0,2
 Taekwondo Women's Flyweight,Summer,F,Gold,119020.0,60247.0,25.0,166.0,50.0,2008.0
 Taekwondo Women's Heavyweight,Summer,F,Gold,64950.0,33238.0,20.0,183.0,73.0,2008.0
 Taekwondo Women's Welterweight,Summer,F,Gold,135387.0,68122.0,22.0,175.0,67.0,2008.0
-Tennis Mixed Doubles,Summer,F,Gold,124305.0,62786.0,29.0,175.5,63.0,1920.0
-"Tennis Mixed Doubles, Covered Courts",Summer,F,Gold,90021.0,45617.0,33.0,,,1912.0
-Tennis Women's Doubles,Summer,F,Gold,225621.5,113258.5,26.0,176.0,68.0,1998.0
-Tennis Women's Singles,Summer,F,Gold,112766.5,56893.5,20.0,175.0,64.0,1990.0
-"Tennis Women's Singles, Covered Courts",Summer,F,Gold,75461.0,38406.0,28.5,,,1910.0
+Tennis Mixed Doubles,Summer,F,Gold,82135.0,41470.0,26.5,175.5,63.0,2014.0
+Tennis Women's Doubles,Summer,F,Gold,225621.5,113258.5,26.0,176.0,68.0,2002.0
+Tennis Women's Singles,Summer,F,Gold,88613.0,44935.0,21.0,175.0,64.0,2002.0
 Trampolining Women's Individual,Summer,F,Gold,113506.0,57503.0,25.0,158.0,52.0,2008.0
 Triathlon Women's Olympic Distance,Summer,F,Gold,155067.0,77838.0,30.0,166.0,54.0,2008.0
-Volleyball Women's Volleyball,Summer,F,Gold,146653.0,73596.0,24.0,180.0,72.0,1988.0
+Volleyball Women's Volleyball,Summer,F,Gold,148370.0,74443.5,24.0,180.0,72.0,1988.0
 Water Polo Women's Water Polo,Summer,F,Gold,152215.0,76407.0,26.0,178.0,71.0,2008.0
 Weightlifting Women's Featherweight,Summer,F,Gold,106625.0,53926.0,22.0,155.0,53.0,2008.0
 Weightlifting Women's Flyweight,Summer,F,Gold,236100.0,118369.0,25.0,152.0,48.0,2008.0
