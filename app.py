@@ -3,7 +3,7 @@ import os
 import pandas as pd
 # import numpy as np
 
-from sqlalchemy.ext.automap import automap_base
+# from sqlalchemy.ext.automap import automap_base
 # from sqlalchemy.orm import Session
 # from sqlalchemy import create_engine
 
@@ -17,7 +17,7 @@ from flask_sqlalchemy import SQLAlchemy
 #################################################
 
 app = Flask(__name__)
-# app.config['DEBUG'] = True
+app.config['DEBUG'] = True
 
 #################################################
 # Database Setup
@@ -27,23 +27,27 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:postgres@localhos
 #conn = engine.connect()
 #salary_df = pd.read_sql("SELECT * FROM salaries", conn)
 db = SQLAlchemy(app)
-# db.init_app(app)
+db.init_app(app)
+db.metadata.reflect(bind=db.engine, views=True)
 
 # inspector = inspect(db.engine)
 # print(inspector.get_table_names())
 
 
 # # reflect an existing database into a new model
-Base = automap_base()
+# Base = automap_base()
 # # reflect the tables
-Base.prepare(db.engine, reflect=True)
+# Base.prepare(db.engine, reflect=True)
 
 # print(db.engine.table_names())
 # print(Base.metadata.tables.keys())
 # print(Base.classes.keys())
 # Save references to each table
 
-Athletes = Base.classes.athletes
+for t in metadata.sorted_tables:
+    print(t.name)
+
+# Athletes = db.metadata.tables.athletes
 
 
 # print(pd.read_sql_query('select * from athletes', con=db.engine).head())
