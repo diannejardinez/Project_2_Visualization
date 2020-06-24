@@ -6,9 +6,9 @@ Files:
 
 - `olympics_data.ipynb`: Jupyter notebook to transform Olympics data for median Female and Male age, height, weight
 
-- `female_bodycomp_age.csv`: Female gold medallists data(csv)
+- `female_bodycomp_age.json`: Female gold medallists data(json)
 
-- `male_bodycomp_age.csv`: Male gold medallists data(csv)
+- `male_bodycomp_age.json`: Male gold medallists data(json)
 
 - `images`: Sport images - Chosen sports in data (Events will fall into these catagories)
 	- Archery
