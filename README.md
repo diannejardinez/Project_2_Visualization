@@ -2,21 +2,36 @@
 
 Files:
 
-- `athlete_events.csv`: Kaggle - Olympics data
-
 - `olympics_data.csv`: Aastha - Cleaned up - Kaggle - Olympics data
 
-- `data_olympics_data.ipynb`: Jupyter notebook to transform Olympics data
+- `olympics_data.ipynb`: Jupyter notebook to transform Olympics data for median Female and Male age, height, weight
 
-- `Female-Sports`: Directory for Female gold, silver, bronze medallists data(csv)
+- `female_bodycomp_age.csv`: Female gold medallists data(csv)
 
-- `Male-Sports`: Directory for Male gold, silver, bronze medallists data(csv)
+- `male_bodycomp_age.csv`: Male gold medallists data(csv)
 
-- `female_olympics_GSB.ipynb`: Jupyter notebook to transform Female-Sports data(gold, silver, bronze)
-
-- `Female-Events`: Directory for Female body composition and age for gold, silver, bronze medallists data(csv and json)
-
-- `male_olympics_GSB.ipynb`: Jupyter notebook to transform Male-Sports data(gold, silver, bronze)
-
-- `Male-Events`: Directory for Male body composition and age for gold, silver, bronze medallists data(csv and json)
-
+- `images`: Sport images - Chosen sports in data (Events will fall into these catagories)
+	- Archery
+	- Baseball
+	- Basketball
+	- Beach Volleyball
+	- Boxing
+	- Canoeing
+	- Cycling
+	- Diving
+	- Figure Skating
+	- Gymnastics
+	- Judo
+	- Rowing
+	- Shooting
+	- Snowboarding
+	- Soccer
+	- Softball
+	- Speed Skating
+	- Swimming
+	- Taekwondo
+	- Tennis
+	- Volleyball
+	- Water Polo
+	- Weightlifting
+	- Wrestling
