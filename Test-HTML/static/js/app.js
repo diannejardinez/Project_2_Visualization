@@ -9,7 +9,7 @@
 var athleteData = athleteData; 
 
 // Populate dropdown options with the participant id names
-d3.json("static/js/combined_bodycomp_age.json").then((athleteData) => {
+d3.json("data/combined_bodycomp_age.json").then((athleteData) => {
 	console.log(athleteData)
 
 	function filteredTableOptions(htmlId, athleteDataKey) {
@@ -19,9 +19,8 @@ d3.json("static/js/combined_bodycomp_age.json").then((athleteData) => {
 
 	  // Make a new array with only unique values and populate dropdown options with those values
 	  var populatedOptions = Array.from(new Set(athleteData.map(athleteDataKey)));
-	  populatedOptions.forEach(option => filterOption.append('option').attr('value', option).text(option));
+	  populatedOptions.forEach(option => filterOption.append('option').attr('value', option).text(option).order());
 	};
-
 
 	// Calling function to auto populate dropdown options
 	filteredTableOptions('#Sport', (item => item.Sport));
@@ -29,9 +28,6 @@ d3.json("static/js/combined_bodycomp_age.json").then((athleteData) => {
 	filteredTableOptions('#Year', (item => item.Year));
 	filteredTableOptions('#Country', (item => item.Country));
 	filteredTableOptions('#Sex', (item => item.Sex));
-
-
-
 
 }); 
 

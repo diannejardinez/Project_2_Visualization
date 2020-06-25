@@ -3,14 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <title>Olympic - Age and Body Composition</title>
+
+
   <!-- Bootstrap 4 Link -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Linking to customized stylesheet -->
+  <link rel="stylesheet" href="static/style.css">
 
   <!-- Link to D3 -->
   <script src="https://d3js.org/d3.v5.min.js"></script>
 
-  <!-- Linking to customized stylesheet -->
-  <link rel="stylesheet" href="style.css">
+
 
   <title>Olympics - Body Composition</title>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -75,8 +79,7 @@
           <select class="form-control mx-3 mb-3" id="Event" onchange="optionChanged(this.value)">
           <option selected="true" disabled="disabled">Select Event</option>
           </select>
-    </form>
-    <form class="form-inline form-row justify-content-center">
+
           <!-- Filtered Search table options -->
           <!-- Year -->
           <select class="form-control mx-3 mb-3" id="Year" onchange="optionChanged(this.value)">
@@ -108,9 +111,9 @@
 <div class="container d-flex justify-content-center">
   <section class="jumbotron">
     <h1 class="text-center text-danger display-5 justify-content-around mb-5">Top Three Sports</h1>
-    <img class="imagesSports mx-5" src="archery.png" alt="Archery" title="Archery">
-    <img class="imagesSports mx-5" src="basketball.png" alt="Basketball" title="Basketball">
-    <img class="imagesSports mx-5" src="boxing.png" alt="Boxing" title="Boxing">
+    <img class="images mx-5" src="images/archery.png" alt="Archery" title="Archery">
+    <img class="images mx-5" src="images/basketball.png" alt="Basketball" title="Basketball">
+    <img class="images mx-5" src="images/boxing.png" alt="Boxing" title="Boxing">
   </section>
 </div>
 
@@ -160,14 +163,10 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-<!-- <script src="static/js/male_bodycomp_age.json"></script> -->
-<!-- <script src="static/js/female_bodycomp_age.json"></script> -->
-<!--   <script src="static/js/data.js"></script> -->
-<script src="static/js/combined_bodycomp_age.json"></script>
 
 
 
-
+  <script src="data/combined_bodycomp_age.json"></script>
   <script src="static/js/app.js"></script>
   <script src="static/js/plots.js"></script>
 </body>
