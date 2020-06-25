@@ -1,25 +1,7 @@
-     // d3.json("data/combined_bodycomp_age.json").then((importedData) => {
-     //   // console.log(importedData)
-     //  });
-
-
-
 
 function createPlot (indexNumber) { 
      d3.json("data/combined_bodycomp_age.json").then((importedData) => {
        console.log(importedData)
-      // // Use the map method with the arrow function to return all out_ids and their top 3 values
-      // var newIds = importedData.samples.map(data=>(data.otu_ids).slice(0,3))
-
-      // // Use the map method with the arrow function to return all sample_values and their top 3values
-      // var newLabels = importedData.samples.map(data=>(data.otu_labels).slice(0,3))
-
-      // // Use the map method with the arrow function to return all sample_values and their top 3 values
-      // var newValues = importedData.samples.map(data=>(data.sample_values).slice(0,3))
-
-      // // Getting the washing frequency
-
-
 
       // Setting Age, Height, and Weight as the xvalue
       var xValue = ['Age', 'Height', 'Weight'];
@@ -35,8 +17,7 @@ function createPlot (indexNumber) {
       var textValue2 = (importedData[indexNumber +1].Event + " for "+ "<br>" + importedData[indexNumber +1].Country + " in " + importedData[indexNumber +1].Year)
       var textValue3 = (importedData[indexNumber +2].Event + " for "+ "<br>" + importedData[indexNumber +2].Country + " in " + importedData[indexNumber +2].Year)
 
-      //  TO GET TOP 3 FOR EACH SPORT, NEED TO HAVE BAR CHARTS SLICED FROM 0, 1, 2
-    // WORKS- BUT ONLY GETS THE FIRST THREE IN INDEX - WANT TO GET FIRST THREE UNIQUE EVENTS
+    // ONLY GETS THE FIRST THREE IN INDEX - WANT TO GET FIRST THREE UNIQUE EVENTS
       function barChart1() {
 
 

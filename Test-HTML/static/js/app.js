@@ -3,11 +3,6 @@
 // Autofill Filter table options
 ///////////////////////////////////////////////////////////////////////////////////
 
-
-
-// //Setting global variable data to athleteData
-// var athleteData = athleteData; 
-
 // Setting variable for optionChanged() metaDataIndex
 var metaDataIndex;
 
@@ -34,9 +29,7 @@ d3.json("data/combined_bodycomp_age.json").then((athleteData) => {
 
 }); 
 
-
-
-
+///////////////////////////////////////////////////////////////////////////////////
 // // function optionChanged() {
 //   // Setting index number for creatingMetaData() and createPlot()
 //   function setIndexNum(value) {
@@ -52,10 +45,6 @@ d3.json("data/combined_bodycomp_age.json").then((athleteData) => {
       		// console.log("first i:" + i)
       		// console.log("second i:" + (i + 1))
       		// console.log("third i:" + (i + 2))
-//           if(importedData[i].Sport === value) {
-//               console.log("i for setIndexNum() = " + i)
-//               metaDataIndex = i;
-//           }
       }
 //       // Setting metaDataIndex as indexNumber
 //       // indexNumber = metaDataIndex
