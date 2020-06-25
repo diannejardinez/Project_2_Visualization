@@ -5,17 +5,17 @@
 // Autofill Filter table options
 ///////////////////////////////////////////////////////////////////////////////////
 
-//Setting  data to ufoData
-var ufoData = male_gold_dict; 
-// var ufoData = female_gold_dict;
+//Setting  data to athleteData
+var athleteData = male_gold_dict; 
+// var athleteData = female_gold_dict;
  
-function filteredTableOptions(htmlId, ufoDataKey) {
+function filteredTableOptions(htmlId, athleteDataKey) {
 
   // Select the date element and get the raw HTML node
   var filterOption = d3.select(htmlId);
 
   // Make a new array with only unique values and populate dropdown options with those values
-  var populatedOptions = Array.from(new Set(ufoData.map(ufoDataKey)));
+  var populatedOptions = Array.from(new Set(athleteData.map(athleteDataKey)));
   populatedOptions.forEach(option => filterOption.append('option').attr('value', option).text(option));
 };
 
