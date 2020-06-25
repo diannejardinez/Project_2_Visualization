@@ -63,9 +63,7 @@
 </div>
 
 
-
-<!-- Testing Data -->
-    <!-- Filtered Dropdown button -->
+<!-- Filtered Dropdown buttons -->
 <section >
   <div class="container mt-5 mb-5">
     <form class="form-inline form-row justify-content-center">
@@ -74,28 +72,28 @@
           <select class="form-control mx-3 mb-3" id="Sport" onchange="optionChanged(this.value)">
           <option selected="true" disabled="disabled">Select Sport</option>
           </select>
-          <!-- Filtered Search table options -->
+          <!-- Filtered options -->
           <!-- Event -->
           <select class="form-control mx-3 mb-3" id="Event" onchange="optionChanged(this.value)">
           <option selected="true" disabled="disabled">Select Event</option>
           </select>
 
-          <!-- Filtered Search table options -->
+          <!-- Filtered options -->
           <!-- Year -->
           <select class="form-control mx-3 mb-3" id="Year" onchange="optionChanged(this.value)">
           <option selected="true" disabled="disabled">Select Year</option>
           </select>
-          <!-- Filtered Search table options -->
+          <!-- Filtered options -->
           <!-- Country -->
           <select class="form-control mx-3 mb-3" id="Country" onchange="optionChanged(this.value)">
           <option selected="true" disabled="disabled">Select Country</option>
           </select>
-          <!-- Filtered Search table options -->
+          <!-- Filtered options -->
           <!-- Gender -->
           <select class="form-control mx-3 mb-3" id="Sex" onchange="optionChanged(this.value)">
           <option selected="true" disabled="disabled">Select Gender</option>
           </select>
-          <!-- Filtered Search table options -->
+          <!-- Filtered options -->
     </form>
     <form class="form-inline form-row justify-content-center">
         <button id="submitButton" type="submit" class="btn btn-dark btn-md mx-3">Submit</button>
@@ -111,9 +109,9 @@
 <div class="container d-flex justify-content-center">
   <section class="jumbotron">
     <h1 class="text-center text-danger display-5 justify-content-around mb-5">Top Three Sports</h1>
-    <img class="images mx-5" src="images/archery.png" alt="Archery" title="Archery">
+<!--     <img class="images mx-5" src="images/archery.png" alt="Archery" title="Archery">
     <img class="images mx-5" src="images/basketball.png" alt="Basketball" title="Basketball">
-    <img class="images mx-5" src="images/boxing.png" alt="Boxing" title="Boxing">
+    <img class="images mx-5" src="images/boxing.png" alt="Boxing" title="Boxing"> -->
   </section>
 </div>
 
@@ -134,14 +132,17 @@
 <div class="container d-flex justify-content-center ">
       <div class="row">
         <div class="col-md-4"> 
+        <!-- First sport bar chart -->
           <div class="" id="plot1"></div>
         </div>
 
         <div class="col-md-4"> 
+        <!-- Second sport bar chart -->
           <div class="" id="plot2"></div>
         </div>
 
         <div class="col-md-4"> 
+        <!-- Third sport bar chart -->
           <div class="" id="plot3"></div>
         </div>
       </div>
