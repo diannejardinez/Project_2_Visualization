@@ -3,8 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <title>Olympic - age and Body Composition</title>
-
-
   <!-- Bootstrap 4 Link -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -13,8 +11,6 @@
 
   <!-- Link to D3 -->
   <script src="https://d3js.org/d3.v5.min.js"></script>
-
-
 
   <title>Olympics - Body Composition</title>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -67,52 +63,32 @@
 <section >
   <div class="container mt-5 mb-5">
     <form class="form-inline form-row justify-content-center">
-
-          <!-- sport -->
-          <select class="form-control mx-3 mb-3" id="sport" onchange="optionChanged(this.value)">
-          <option selected="true" disabled="disabled">Select Sport</option>
-          </select>
-          <!-- Filtered options -->
-          <!-- event -->
-          <select class="form-control mx-3 mb-3" id="event" onchange="optionChanged(this.value)">
-          <option selected="true" disabled="disabled">Select Event</option>
-          </select>
-
-          <!-- Filtered options -->
-          <!-- year -->
-          <select class="form-control mx-3 mb-3" id="year" onchange="optionChanged(this.value)">
-          <option selected="true" disabled="disabled">Select Year</option>
-          </select>
-          <!-- Filtered options -->
-          <!-- country -->
-          <select class="form-control mx-3 mb-3" id="country" onchange="optionChanged(this.value)">
-          <option selected="true" disabled="disabled">Select Country</option>
-          </select>
-          <!-- Filtered options -->
           <!-- Gender -->
           <select class="form-control mx-3 mb-3" id="sex" onchange="optionChanged(this.value)">
           <option selected="true" disabled="disabled">Select Gender</option>
           </select>
           <!-- Filtered options -->
     </form>
-<!--     <form class="form-inline form-row justify-content-center">
-        <button id="submitButton" type="submit" class="btn btn-dark btn-md mx-3">Submit</button>
-        <button id="resetButton" type="submit" class="btn btn-dark btn-md mx-3">Reset</button>
-    </form> -->
   </div>
 </section>
 
                         
-
-
 <!-- Top 3 sports -->
 <div class="container d-flex justify-content-center">
-  <section class="jumbotron">
-    <h1 class="text-center text-danger display-5 justify-content-around mb-5">Top Three sports</h1>
-<!--     <img class="images mx-5" src="images/archery.png" alt="Archery" title="Archery">
-    <img class="images mx-5" src="images/basketball.png" alt="Basketball" title="Basketball">
-    <img class="images mx-5" src="images/boxing.png" alt="Boxing" title="Boxing"> -->
-  </section>
+  <div class="row">
+    <section class="jumbotron mr-5">
+      <h3 class="text-center text-danger display-5 justify-content-around mb-5">Event with the <br>Oldest, Tallest, Heaviest </h3>
+      <img class="images mr-5" src="images/cycling.png" alt="cycling" title="cycling">
+      <img class="images mr-5" src="images/basketball.png" alt="basketball" title="basketball">
+      <img class="images" src="images/weightlifting.png" alt="weightlifting" title="weightlifting">
+    </section>
+    <section class="jumbotron">
+      <h3 class="text-center text-danger display-5 justify-content-around mb-5">Event with the <br>Youngest, Shortest, Lightest</h3>
+      <img class="images mr-5" src="images/swimming.png" alt="swimming" title="swimming">
+      <img class="images mr-5" src="images/weightlifting.png" alt="weightlifting" title="weightlifting">
+      <img class="images" src="images/gymnastics.png" alt="gymnastics" title="gymnastics">
+    </section>
+  </div>
 </div>
 
 <!-- Horizontal line -->
@@ -129,35 +105,31 @@
   </div>
 </div>
 
-<div class="container d-flex justify-content-center ">
+<div class="container d-flex justify-content-center mb-5">
       <div class="row">
-        <div class="col-md-4"> 
+        <div class="col-md-12"> 
         <!-- First sport bar chart -->
           <div class="" id="plot1"></div>
         </div>
-
-        <div class="col-md-4"> 
-        <!-- Second sport bar chart -->
+      </div>
+</div>
+<div class="container d-flex justify-content-center ">
+      <div class="row">
+        <div class="col-md-12"> 
+        <!-- First sport bar chart -->
           <div class="" id="plot2"></div>
         </div>
-
-        <div class="col-md-4"> 
-        <!-- Third sport bar chart -->
+      </div>
+</div>
+<div class="container d-flex justify-content-center ">
+      <div class="row">
+        <div class="col-md-12"> 
+        <!-- First sport bar chart -->
           <div class="" id="plot3"></div>
         </div>
       </div>
 </div>
 
-<!-- Analysis -->
-<div class="container">
-        <div class="card border-secondary mb-3">
-          <div class="card-header text-center bg-dark text-white"><h4>Analysis</h4></div>
-          <div class="card-body">
-            <h4 class="card-title"></h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio euismod lacinia at quis risus sed vulputate. Pellentesque id nibh tortor id aliquet.</p>
-          </div>
-      </div>
-</div>
 
 <!-- JS, Popper.js, and jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -165,10 +137,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 
-
-
-  <script src="data/combined_bodycomp_age.json"></script>
-  <script src="static/js/app.js"></script>
+<!--   <script src="data/combined_bodycomp_age_test.json"></script>
+ -->  <script src="app.js"></script>
 <!--   <script src="static/js/plots.js"></script> -->
 </body>
 </html>
