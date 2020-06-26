@@ -110,22 +110,18 @@ body {
 }
 
 .hero h1 {
-
+  font-size: 30px;
   animation: title 1.2s forwards linear;
   color: white;
   margin-top: 200px;
-
 }
 
-
 .hero p {
-  
-  font-size: 4rem;
+  font-size: 28px;
   opacity: 0;
   animation: subtitle 1.2s forwards linear;
   animation-delay: 1.2s;
   color: red;
-
 }
 
 .barChartRace{

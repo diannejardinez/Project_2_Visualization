@@ -36,11 +36,6 @@ def index():
     """Return the homepage."""
     return render_template("index.html")
 
-
-@app.route("/replay")
-def replay():
-    return render_template("index.html")
-
 @app.route("/test")
 def testingDB():
     result  =  medals_by_year.query.all()

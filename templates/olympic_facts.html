@@ -5,6 +5,7 @@
 
   <meta charset="utf-8">
   <title>Olympics</title>
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -15,6 +16,8 @@
 
   <link rel="stylesheet" href="../static/assets/css/styles.css">
 
+  <link rel="icon" href="data:,"> <!-- to avoid favicon error -->
+
 </head>
 
 <body>
@@ -24,6 +27,7 @@
 
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="row">
+  
         <div class="navbar-header">
 
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -34,15 +38,20 @@
           </button>
 
           <div class="col-xs-9 phone-nav">
-            <a class="navbar-brand" href="#" id="logo">Olympics</a>
+            <a class="navbar-brand" href="index.html" id="logo">Olympics</a>
               <img class="nav-olympic" src="../static/assets/images/olympicRings.jpg">
             </a>
           </div>
+
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
           <ul class="nav navbar-nav navbar-right navbar-right-custom">
+
+            <li><a href="data.html">Data</a></li>
+
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations<span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -52,13 +61,17 @@
                 <li><a href="Chart4.html">Chart4</a></li>
               </ul>
             </li>
+
             <li><a href="analysis.html">Analysis</a></li>
-            <li><a href="data.html">Data</a></li>
+
             <li><a href="olympic_facts.html">Olympic-Facts</a></li>
+
           </ul>
+        
         </div><!-- /.navbar-collapse -->
 
-      </div>
+      </div><!-- /end of row -->
+
     </div><!-- /.container-fluid -->
   </nav>
   <!-- End of navbar -->
@@ -69,8 +82,8 @@
   <div class="wrapper">
 
     <div class="hero text-center">
-      <h1>Olympics</h1>
-      <p>Does money buy medals?</p>
+      <h1>Do you know?</h1>
+      <p>Subtitle here</p>
     </div>
 
     <!-- Analysis -->
@@ -192,11 +205,11 @@
         </article>
         </div>
 
-    <footer class="footer">
-      <span class="bottom">Olympics Dashboard</span>
-    </footer>
-
   </div>
+
+  <footer class="footer">
+    <span class="bottom">Olympics Dashboard</span>
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
