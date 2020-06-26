@@ -1,23 +1,23 @@
 
-function createPlot (indexNumber) { 
+function createPlot(indexNumber) { 
      d3.json("data/combined_bodycomp_age.json").then((importedData) => {
-       console.log(importedData)
+       // console.log(importedData)
 
-      // Setting Age, Height, and Weight as the xvalue
+      // Setting age, height, and weight as the xvalue
       var xValue = ['Age', 'Height', 'Weight'];
 
 
       // Setting yvalue
-      var yValue1 = [importedData[indexNumber].Age,importedData[indexNumber].Height, importedData[indexNumber].Weight]
-      var yValue2 = [importedData[indexNumber +1].Age,importedData[indexNumber + 1].Height, importedData[indexNumber + 1].Weight]
-      var yValue3 = [importedData[indexNumber + 2].Age,importedData[indexNumber +2].Height, importedData[indexNumber +2].Weight]
+      var yValue1 = [importedData[indexNumber].age,importedData[indexNumber].height, importedData[indexNumber].weight]
+      var yValue2 = [importedData[indexNumber +1].age,importedData[indexNumber + 1].height, importedData[indexNumber + 1].weight]
+      var yValue3 = [importedData[indexNumber + 2].age,importedData[indexNumber +2].height, importedData[indexNumber +2].weight]
 
       // Setting textvalue 
-      var textValue1 = (importedData[indexNumber].Event + " for "+ "<br>" + importedData[indexNumber].Country + " in " + importedData[indexNumber].Year)
-      var textValue2 = (importedData[indexNumber +1].Event + " for "+ "<br>" + importedData[indexNumber +1].Country + " in " + importedData[indexNumber +1].Year)
-      var textValue3 = (importedData[indexNumber +2].Event + " for "+ "<br>" + importedData[indexNumber +2].Country + " in " + importedData[indexNumber +2].Year)
+      var textValue1 = (importedData[indexNumber].event + " for "+ "<br>" + importedData[indexNumber].country + " in " + importedData[indexNumber].year)
+      var textValue2 = (importedData[indexNumber +1].event + " for "+ "<br>" + importedData[indexNumber +1].country + " in " + importedData[indexNumber +1].year)
+      var textValue3 = (importedData[indexNumber +2].event + " for "+ "<br>" + importedData[indexNumber +2].country + " in " + importedData[indexNumber +2].year)
 
-    // ONLY GETS THE FIRST THREE IN INDEX - WANT TO GET FIRST THREE UNIQUE EVENTS
+    // ONLY GETS THE FIRST THREE IN INDEX - WANT TO GET FIRST THREE UNIQUE eventS
       function barChart1() {
 
 
@@ -160,6 +160,5 @@ function createPlot (indexNumber) {
       barChart3();
     }); 
 }
-createPlot(10) 
 
 
