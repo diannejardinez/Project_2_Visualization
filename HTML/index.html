@@ -64,8 +64,10 @@
   <div class="container mt-5 mb-5">
     <form class="form-inline form-row justify-content-center">
           <!-- Gender -->
-          <select class="form-control mx-3 mb-3" id="sex" onchange="optionChanged(this.value)">
+          <select class="form-control mx-3 mb-3" id="selDataset" onchange="getData(this.value)">
           <option selected="true" disabled="disabled">Select Gender</option>
+          <option value="female">Female</option>
+          <option value="male">Male</option>
           </select>
           <!-- Filtered options -->
     </form>
@@ -100,7 +102,7 @@
 <div class="container d-flex justify-content-center ">
   <div class="row">
     <div class="col-md-12"> 
-      <div class ="mb-2 text-warning"><h2>Age and body composition for Gold medallists</h2></div>
+      <div class ="my-5 text-warning"><h1>Age and body composition for Gold medallists</h1></div>
     </div>
   </div>
 </div>
@@ -113,18 +115,75 @@
         </div>
       </div>
 </div>
-<div class="container d-flex justify-content-center ">
+
+<!-- Horizontal line -->
+<div class="container">
+  <hr>
+</div>
+
+<div class="container d-flex justify-content-center">
       <div class="row">
-        <div class="col-md-12"> 
-        <!-- First sport bar chart -->
+        <div class="col-md-12 mb-5"> 
+        <!-- Second sport bar chart -->
           <div class="" id="plot2"></div>
         </div>
       </div>
 </div>
-<div class="container d-flex justify-content-center ">
+
+
+<!-- Other side jumbotron -->
+<!-- <section class="container-fluid px-0">
+<div class="row align-items-center content"> -->
+    <!-- Image -->
+<!--       <div class="col-md-6 order-2 order-md-1">
+          <div class="" id="plot2"></div>
+      </div> -->
+    <!-- Text -->
+<!--       <div class="col-md-6 text-center order-1 order-md-2">
+          <div class="row justify-content-end justify content-center mr-5 mx-0"> -->
+<!--               <div class="col-10 col-lg-8 blurb mb-5 mb-md-0"> -->
+<!--                 <section class="jumbotron ml-5">
+                  <h2>Tallest and Shortest</h2>
+                  <i class="fab fa-envira d-none d-lg-inline"></i>
+                  <img class="images mr-5" src="images/cycling.png" alt="cycling" title="cycling">
+                  <img class="images mr-5" src="images/basketball.png" alt="basketball" title="basketball">
+                </section> -->
+             <!--  </div> -->
+<!--           </div>
+      </div>
+  </div>
+</section> -->
+
+<!-- Side Jumbotron -->
+<!-- <div class="container d-flex justify-content-center mb-3">
       <div class="row">
-        <div class="col-md-12"> 
+        <div class="col-md-7">  -->
         <!-- First sport bar chart -->
+<!--           <div class="" id="plot2"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5"> 
+            <section class="jumbotron">
+              <h3 class="text-center text-danger display-5 justify-content-center">Tallest and Shortest </h3>
+              <img class="images mr-5" src="images/cycling.png" alt="cycling" title="cycling">
+              <img class="images mr-5" src="images/basketball.png" alt="basketball" title="basketball">
+            </section>
+        </div>
+      </div>
+</div>
+ -->
+
+
+<!-- Horizontal line -->
+<div class="container">
+  <hr>
+</div>
+
+<div class="container d-flex justify-content-center">
+      <div class="row">
+        <div class="col-md-12 mb-5"> 
+        <!-- Third sport bar chart -->
           <div class="" id="plot3"></div>
         </div>
       </div>
