@@ -8,11 +8,11 @@ function changeImages() {
 
   // if the dropdown menu option is female, use this image
   if (dataset == 'female') {
-    imageChange.setAttribute('src', "static/assets/images/gymnastics.png");
+    imageChange.setAttribute('src', "../static/assets/images/gymnastics.png");
   }
   // if the dropdown menu option is male, use this image
   if (dataset == 'male') {
-    imageChange.setAttribute('src',"static/assets/images/wrestling.png");
+    imageChange.setAttribute('src',"../static/assets/images/wrestling.png");
   }
 }
 selDataset.addEventListener("change", changeImages);
@@ -20,8 +20,8 @@ selDataset.addEventListener("change", changeImages);
 
 // Setting json files to a variable
 var promises = [
-  d3.json("static/assets/data/female_bodycomp_age.json"),
-  d3.json("static/assets/data/male_bodycomp_age.json")]
+  d3.json("../static/assets/data/female_bodycomp_age.json"),
+  d3.json("../static/assets/data/male_bodycomp_age.json")]
 
 // Loading multiple datasets 
 Promise.all(promises).then(function(allData){
@@ -40,10 +40,10 @@ Promise.all(promises).then(function(allData){
 
 // Getting Age, Height, Weight and pushing to lists
   for(var i = 0; i < maleData.length; i++) {
-    m_event_list.push(maleData[i].Event)
-    m_age_list.push(maleData[i].Age)
-    m_height_list.push((maleData[i].Height)/ 30.48)
-    m_weight_list.push((maleData[i].Weight) * 2.205)}
+    m_event_list.push(maleData[i].event)
+    m_age_list.push(maleData[i].age)
+    m_height_list.push((maleData[i].height)/ 30.48)
+    m_weight_list.push((maleData[i].weight) * 2.205)}
    // console.log(m_event_list)
    // console.log(m_age_list)
    // console.log(m_height_list)
@@ -85,12 +85,12 @@ Promise.all(promises).then(function(allData){
   f_height_list = [];
   f_weight_list = [];
 
-// Getting Age, Height, Weight and pushing to lists
+// Getting age, height, Weight and pushing to lists
   for(var i = 0; i < femaleData.length; i++) {
-    f_event_list.push(femaleData[i].Event)
-    f_age_list.push(femaleData[i].Age)
-    f_height_list.push((femaleData[i].Height)/ 30.48)
-    f_weight_list.push((femaleData[i].Weight) * 2.205)}
+    f_event_list.push(femaleData[i].event)
+    f_age_list.push(femaleData[i].age)
+    f_height_list.push((femaleData[i].height)/ 30.48)
+    f_weight_list.push((femaleData[i].weight) * 2.205)}
    // console.log(m_event_list)
    // console.log(m_age_list)
    // console.log(m_height_list)

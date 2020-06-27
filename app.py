@@ -13,7 +13,7 @@ app = Flask(__name__)
 # Database Setup
 #################################################
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:Seaweed3@localhost:5432/Olympics"
+app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:postgres@localhost:5432/Olympics"
 db = SQLAlchemy(app)
 db.init_app(app)
 
