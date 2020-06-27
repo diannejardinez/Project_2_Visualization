@@ -195,9 +195,9 @@ def gender_body_composition(gender):
         body_composition = {}
         body_composition["event"] = event
         body_composition["sport"] = sport
-        body_composition["median age"] = medianAge
-        body_composition["median height"] = medianHeight
-        body_composition["median weight"] = medianWeight
+        body_composition["age"] = medianAge
+        body_composition["height"] = medianHeight
+        body_composition["weight"] = medianWeight
         event_body_composition.append(body_composition)
 
     return jsonify(event_body_composition)
