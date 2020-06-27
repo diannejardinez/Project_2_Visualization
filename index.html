@@ -6,7 +6,6 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="" media="screen">
 
-
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -32,8 +31,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Data</a>
-            </li>
-            
+            </li>      
           </ul>
         </div>
       </nav>
@@ -41,17 +39,38 @@
     <div class="row">
         <div class="col-md-12">  
                 <h1><b>Olympic</b></h1>
-                <img id="photo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/1200px-Olympic_rings_without_rims.svg.png"/>   
+                <img class="col-md-12" id="photo" src="https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/96040/olympic_rings.jpg&w=2000&op=resize"/>   
         </div>
         <div class="col-md-12">  
             <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(0, 0, 0)">
+        </div>    
+        <div class="container">
+          <div class="jumbotron" style="text-align: center">
+              <h1>Does money buy medals?</h1>
+              <p></p>
+          </div>
+  
+          <div class="row">
+              <div class="col-md-12">
+                  <h2></h2>
+                  <div id="plot"></div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+                <h2></h2>
+                <p>There is a significant relationship between a nation’s GDP and the number of gold medals they win at the Olympics.
+                  <br>
+                  The top 10 countries with the most medals all have GDPs of more than 1 billion dollars, while the 10 countries with the fewest medals have GDPs well below 1 billion. The average GDP for gold medal winning countries is $1,062,860,000.
+                  <br>
+                  China has seen phenomenal economic growth over the last couple of decades, which has corresponded with China’s emergence as a global force in international sports.
+                
+                
+                </p>
+                <div id="myDiv"></div>
+            </div>
         </div>
-        
-        
-        <div class="col-md-12">  
-        </div>
-        
-        
+      </div>
         <div class="col-md-12">  
         </div>
     </div>
@@ -59,7 +78,10 @@
 
 </div>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
 
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="plot.js"></script>
 <!-- Bootstrap CDN -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
