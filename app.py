@@ -36,9 +36,52 @@ def home():
     """Return the homepage."""
     return render_template("index.html")
 
-
 # Query the database and send the jsonified results
-@app.route('/api/total-medals')
+@app.route("/api/all-medal-winners/<country_name>")
+@app.route("/api/all-medal-winners/<country_name>/<season>")
+@app.route("/api/all-medal-winners/<country_name>/<season>/<year>")
+def entire_data_dump(country_name=None, season=None, year=None):
+    """Return the list for all player who won a medal in Olympics based on input parameter"""
+    sel = [
+            Athletes.games,
+            Athletes.country,
+            Athletes.name,
+            Athletes.sex,
+            Athletes.sport,
+            Athletes.event,
+            Athletes.medal
+            ]
+
+    results = db.session.query(*sel).filter(Athletes.medal.isnot(None))\
+        .filter(Athletes.country.ilike(country_name))
+    
+    if season is not None:
+        results = results.filter(Athletes.season.ilike(season))
+    if year is not None:
+        results = results.filter(Athletes.year == year)
+   
+    results = results.order_by(Athletes.games, Athletes.country, Athletes.sport, Athletes.event)
+    
+    all_athletes = []
+
+    for games, country, name, sex, sport, event, medal in results.all():
+        altlete_dict = {}
+        altlete_dict["name"] = name
+        altlete_dict["sex"] = sex
+        altlete_dict["country"] = country
+        altlete_dict["games"] = games
+        altlete_dict["sport"] = sport
+        altlete_dict["event"] = event
+        altlete_dict["medal"] = medal
+        
+        
+        all_athletes.append(altlete_dict)
+
+    # Return a list of the column names (sample names)
+    return jsonify(all_athletes)
+
+
+@app.route("/api/total-medals")
 def total_medals():
     """ 
     Return the the total number of medals won by all the countrie in Summer Olympics held after 1980 
@@ -69,7 +112,7 @@ def total_medals():
 
 
 
-@app.route('/api/event/body-composition/<gender>')
+@app.route("/api/event/body-composition/<gender>")
 def gender_body_comosition(gender):
     """
     INPUT: Enter M or F for selecting gender
@@ -107,12 +150,12 @@ def gender_body_comosition(gender):
     return jsonify(event_body_composition)
 
 
-@app.route('/api/test2')
+@app.route("/api/test2")
 def test_2():
     return "Work in progress Route test2"
 
 
-@app.route('/api/test3')
+@app.route("/api/test3")
 def test_3():
     return "Work in progress Route test3"
 
