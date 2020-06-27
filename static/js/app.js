@@ -1,9 +1,27 @@
 
+// Changing sport images between female and male options
+function changeImages() {
+
+  // Set variables for image id and dropdown values
+  let imageChange = document.getElementById("imageChange");
+  let dataset = d3.select("#selDataset").property("value");
+
+  // if the dropdown menu option is female, use this image
+  if (dataset == 'female') {
+    imageChange.setAttribute('src', "static/assets/images/gymnastics.png");
+  }
+  // if the dropdown menu option is male, use this image
+  if (dataset == 'male') {
+    imageChange.setAttribute('src',"static/assets/images/wrestling.png");
+  }
+}
+selDataset.addEventListener("change", changeImages);
+
 
 // Setting json files to a variable
 var promises = [
-  d3.json("female_bodycomp_age.json"),
-  d3.json("male_bodycomp_age.json")]
+  d3.json("static/assets/data/female_bodycomp_age.json"),
+  d3.json("static/assets/data/male_bodycomp_age.json")]
 
 // Loading multiple datasets 
 Promise.all(promises).then(function(allData){
@@ -39,7 +57,7 @@ Promise.all(promises).then(function(allData){
   var yValue2 = m_height_list;
   var yValue3 = m_weight_list;
 
-// Making male dictionary
+// Making male object
   var male_obj = {
     xValue: m_event_list,
     yValue1: m_age_list,
@@ -50,13 +68,15 @@ Promise.all(promises).then(function(allData){
     textValue3: ("Male Weight")}
   // console.log(male_obj)
 
+// Setting male object values to variables for barplot
   var xValue_male = (male_obj.xValue)
   var yValue1_male = (male_obj.yValue1)
   var yValue2_male = (male_obj.yValue2)
   var yValue3_male = (male_obj.yValue3)
-  var textValue1_male = (male_obj.textValue1)
-  var textValue2_male = (male_obj.textValue2)
-  var textValue3_male = (male_obj.textValue3)
+  // var textValue1_male = (male_obj.textValue1)
+  // var textValue2_male = (male_obj.textValue2)
+  // var textValue3_male = (male_obj.textValue3)
+
 
   // Female ///////////////////////////
   female_obj = {};
@@ -84,7 +104,7 @@ Promise.all(promises).then(function(allData){
   var yValue2 = f_height_list;
   var yValue3 = f_weight_list;
 
-// Making female dictionary
+// Making female object
   var female_obj = {
     xValue: f_event_list,
     yValue1: f_age_list,
@@ -95,6 +115,7 @@ Promise.all(promises).then(function(allData){
     // textValue3 : ("Female Weight")
   }
 
+// Setting female object values to variables for barplot
   var xValue_female = (female_obj.xValue)
   var yValue1_female = (female_obj.yValue1)
   var yValue2_female = (female_obj.yValue2)
@@ -103,7 +124,7 @@ Promise.all(promises).then(function(allData){
   // var textValue2_female = (female_obj.textValue2)
   // var textValue3_female = (female_obj.textValue3)
 
-// Display default plots - Female
+// Display default plot - Female
   function init1() {
     var barChart1 = {
       name: "Gold",
@@ -118,7 +139,7 @@ Promise.all(promises).then(function(allData){
     };
     var layout1 = {
       title: {
-        text: "Age",
+        text: 'Age',
         font: {
           size: 20,
         }},
@@ -211,26 +232,27 @@ init1()
 init2()
 init3()
 
-  // On change to the DOM, call getData()
+  // Function to change values when female of male is selected and plot barcharts
  d3.selectAll("#selDataset").on("change", getData);
   function getData() {
     function barchart1 () {
-      // Use D1 to select the dropdown menu
-      var dropdownMenu = d3.select("#selDataset");
-      // Assign the value of the dropdown menu option to a variable
-      var dataset = dropdownMenu.property("value");
+      // Set variable for dropdown menu value
+      var dataset = d3.select("#selDataset").property("value");
 
+      // Set empty arrays for changes to values 
       var x = [];
       var y = [];
       var text = [];
       var hovertemplate = [];
 
+      // if the dropdown menu option is female, use these values
       if (dataset == 'female') {
         x = xValue_female;
         y = yValue1_female;
         text = (yValue1_female).map(String);
         hovertemplate = 'Female Age: %{y}<extra></extra>';
       }
+      // if the dropdown menu option is male, use these values
       if (dataset === 'male') {
         x = xValue_male;
         y = yValue1_male;
@@ -243,22 +265,22 @@ init3()
       Plotly.restyle("plot1", "hovertemplate", [hovertemplate]);
     }
     function barchart2 () {
-      // Use D2 to select the dropdown menu
-      var dropdownMenu = d3.select("#selDataset");
-      // Assign the value of the dropdown menu option to a variable
-      var dataset = dropdownMenu.property("value");
+      // Set variable for dropdown menu value
+      var dataset = d3.select("#selDataset").property("value");
 
+      // Set empty arrays for changes to values 
       var x = [];
       var y = [];
       var text = [];
       var hovertemplate = [];
-
+      // if the dropdown menu option is female, use these values
       if (dataset == 'female') {
         x = xValue_female;
         y = yValue2_female;
         text = (yValue2_female).map(String);
         hovertemplate = 'Female Height: %{y:.1f}<extra></extra>';
       }
+      // if the dropdown menu option is male, use these values
       if (dataset === 'male') {
         x = xValue_male;
         y = yValue2_male;
@@ -270,24 +292,24 @@ init3()
       Plotly.restyle("plot2", "text", [text]);
       Plotly.restyle("plot2", "hovertemplate", [hovertemplate]);
     }
-
     function barchart3 () {
-      // Use D3 to select the dropdown menu
-      var dropdownMenu = d3.select("#selDataset");
-      // Assign the value of the dropdown menu option to a variable
-      var dataset = dropdownMenu.property("value");
+      // Set variable for dropdown menu value
+      var dataset = d3.select("#selDataset").property("value");
 
+      // Set empty arrays for changes to values 
       var x = [];
       var y = [];
       var text = [];
       var hovertemplate = [];
 
+      // if the dropdown menu option is female, use these values
       if (dataset == 'female') {
         x = xValue_female;
         y = yValue3_female;
         text = (yValue3_female).map(String);;
         hovertemplate = 'Female Weight: %{y:.2f}<extra></extra>'
       }
+      // if the dropdown menu option is male, use these values
       if (dataset === 'male') {
         x = xValue_male;
         y = yValue3_male;
@@ -303,5 +325,4 @@ init3()
   barchart2()
   barchart3()
   }
-
 });
