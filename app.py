@@ -164,7 +164,7 @@ def total_medals():
         country_medals = {}
         country_medals["year"] = year
         country_medals["country"] = country
-        country_medals["total medals"] = totalmedals
+        country_medals["total_medals"] = totalmedals
         all_country_medals.append(country_medals)
 
     return jsonify(all_country_medals)
