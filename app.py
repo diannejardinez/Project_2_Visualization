@@ -31,14 +31,20 @@ Athletes = Base.classes.athletes
 # Flask Routes
 #################################################
 
-# Flask Route 1
+# Flask Routes to render HTML
 @app.route("/")
 def home():
     """Return the homepage."""
     return render_template("index.html")
 
 
-# Flask Route 2
+@app.route("/olympics/<page_name>")
+def render_webpage(page_name):
+    """Render the webpage"""
+    return render_template(f'{page_name}.html')
+
+
+# Flask Route 1
 # Query the database and send the jsonified results
 @app.route("/api/all-medal-winners/<country_name>")
 @app.route("/api/all-medal-winners/<country_name>/<season>")
@@ -84,7 +90,7 @@ def entire_data_dump(country_name=None, season=None, year=None):
 
 
 
-# Flask Route 3
+# Flask Route 2
 @app.route("/api/medals-tally/<selected_season>/<selected_year>")
 def total_medal_tally(selected_season, selected_year):
     """ 
@@ -133,7 +139,7 @@ def total_medal_tally(selected_season, selected_year):
 
 
 
-# Flask Route 4
+# Flask Route 3
 @app.route("/api/total-medals")
 def total_medals():
     """ 
@@ -165,7 +171,7 @@ def total_medals():
 
 
 
-# Flask Route 5
+# Flask Route 4
 @app.route("/api/event/body-composition/<gender>")
 def gender_body_composition(gender):
     """
@@ -173,9 +179,9 @@ def gender_body_composition(gender):
     OUTPUT: Return the the median age, height and weight of all Gold medal winners for all the events.
     The events are filter based on predefined list of selected sports.
     """
-    selected_sports = ('Basketball', 'Boxing', 'Cycling', 'Figure Skating','Gymnastics',
-                   'Judo', 'Rowing','Snowboarding','Speed Skating', 'Swimming',
-                   'Tennis', 'Volleyball',  'Weightlifting', 'Wrestling')
+    selected_sports = ('Basketball', 'Boxing', 'Cycling', 'Figure Skating','Gymnastics',\
+                        'Judo', 'Rowing','Snowboarding','Speed Skating', 'Swimming',
+                        'Tennis', 'Volleyball',  'Weightlifting', 'Wrestling')
 
     results = db.session.query(Athletes.event, Athletes.sport, 
         func.percentile_cont(0.5).within_group(Athletes.age).label('median age'),\
@@ -205,7 +211,7 @@ def gender_body_composition(gender):
 
 
 
-# Flask Route 6
+# Flask Route 5
 @app.route("/api/sport/<selected_sport>")
 # @app.route("/api/sport/<year_after>")
 def sport_medals_country(selected_sport):
