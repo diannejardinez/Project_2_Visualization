@@ -180,8 +180,8 @@ def gender_body_composition(gender):
     The events are filter based on predefined list of selected sports.
     """
     selected_sports = ('Basketball', 'Boxing', 'Cycling', 'Figure Skating','Gymnastics',\
-                        'Judo', 'Rowing','Snowboarding','Speed Skating', 'Swimming',
-                        'Tennis', 'Volleyball',  'Weightlifting', 'Wrestling')
+                        'Judo', 'Swimming',\
+                        'Tennis', 'Weightlifting', 'Wrestling')
 
     results = db.session.query(Athletes.event, Athletes.sport, 
         func.percentile_cont(0.5).within_group(Athletes.age).label('median age'),\
