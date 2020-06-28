@@ -15,7 +15,7 @@
 
   <script src="https://d3js.org/d3.v5.min.js"></script>
 
-  <link rel="stylesheet" href="../static/assets/css/styles.css">
+  <link rel="stylesheet" href="../static/assets/css/main_styles.css">
   
   <link rel="icon" href="data:,"> <!-- to avoid favicon error -->
 
@@ -99,9 +99,50 @@
       <p> The goal is to turn data into information, and information into insight.</p>
     </div>
 
-    <div class="row height 100px">
-      <div class = 'table'>
-        <!-- table will be appended here*/ -->
+
+    <div class='container'>
+      <form>
+      <div class = "row">
+          <div class="colm-sm-3">
+            <label for="date">Enter Country</label>
+            <input class="filter form-control" id="country_name" type="text" placeholder="USA">
+          </div>
+          <div class="colm-sm-3">
+            <label for="date">Enter Season</label>
+            <input class="filter form-control" id="season" type="text" placeholder="Summer">
+          </div>
+          <div class="colm-sm-3">
+            <label for="date">Enter Year</label>
+            <input class="filter form-control" id="year" type="text" placeholder="1984">
+          </div>
+          <div class="row">
+            <div class="colm-md-3">
+              <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class='container'>
+      <div class="row">
+        <div class = 'table'>
+          <!-- table will be appended here*/ -->
+          <table id="filtered_table" class="table table-striped">
+            <thead>
+              <tr>
+                <th class="table-head">Games</th>
+                <th class="table-head">Country</th>
+                <th class="table-head">Names</th>
+                <th class="table-head">Gender</th>
+                <th class="table-head">Sport</th>
+                <th class="table-head">Event</th>
+                <th class="table-head">Medal</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
       </div>
     </div>
     
@@ -130,7 +171,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
 
-  <script type="text/javascript" src="../static/js/barChartRace.js"> </script>
+  <script type="text/javascript" src="../static/js/data_page.js"> </script>
 
 </body>
 

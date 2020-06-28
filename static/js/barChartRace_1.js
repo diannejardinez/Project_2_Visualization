@@ -37,39 +37,35 @@ function init() {
      .attr('x', width-5)
      .attr('y', height-5)
      .style('text-anchor', 'end')
-     .html('Source: WikiPedia');
+     .html('Source: Dataset on Kaggle');
 
     let year = 1980;
 
-    console.log('@line 44');
-    console.log(year);
+    // console.log('@line 44');
+    // console.log(year);
     
-    d3.csv('../static/assets/output/MedalsByYear.csv').then(function(data) {
-    // d3.json('/MedalsByYear') // flask endpoint
 
-      //if (error) throw error;
+    d3.json("/api/total-medals").then(function(data) { 
       
-      console.log('@line 52');
+        console.log(data);
       
       data.forEach(d => {
-        d.Year = +d.Year,
-        d.Medals = +d.Medals,
-        d.Medals = isNaN(d.Medals) ? 0 : d.Medals,
+        d.total_medals = isNaN(d.total_medals) ? 0 : d.total_medals,
         d.colour = d3.hsl(Math.random()*360,0.75,0.75)
       });
       
-      console.log(data);
+    //   console.log(data);
     
-      let yearSlice = data.filter(d => d.Year == year && !isNaN(d.Medals))
-                          .sort((a,b) => b.Medals - a.Medals)
+      let yearSlice = data.filter(d => d.year == year && !isNaN(d.total_medals))
+                          .sort((a,b) => b.total_medals - a.total_medals)
                           .slice(0, top_n);
   
       yearSlice.forEach((d,i) => d.rank = i);
     
-      console.log('yearSlice: ', yearSlice)
+    //   console.log('yearSlice: ', yearSlice)
   
       let x = d3.scaleLinear()
-                .domain([0, d3.max(yearSlice, d => d.Medals)])
+                .domain([0, d3.max(yearSlice, d => d.total_medals)])
                 .range([margin.left, width-margin.right-65]);
   
       let y = d3.scaleLinear()
@@ -89,40 +85,40 @@ function init() {
           .selectAll('.tick line')
           .classed('origin', d => d == 0);
 
-      console.log('line 88');
+    //   console.log('line 88');
   
       svg.selectAll('rect.bar')
-          .data(yearSlice, d => d.Nation)
+          .data(yearSlice, d => d.country)
           .enter()
           .append('rect')
           .attr('class', 'bar')
           .attr('x', x(0)+1)
-          .attr('width', d => x(d.Medals))
+          .attr('width', d => x(d.total_medals))
           .attr('y', d => y(d.rank)+5)
           .attr('height', y(1)-y(0)-barPadding)
           .style('fill', d => d.colour);
 
-      console.log('line 101');
+    //   console.log('line 101');
       
       
       svg.selectAll('text.label')
-          .data(yearSlice, d => d.Nation)
+          .data(yearSlice, d => d.country)
           .enter()
           .append('text')
           .attr('class', 'label')
-          .attr('x', d => x(d.Medals)-8)
+          .attr('x', d => x(d.total_medals)-8)
           .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)+1)
           .style('text-anchor', 'end')
-          .html(d => d.Nation);
+          .html(d => d.country);
      
       svg.selectAll('text.valueLabel')
-          .data(yearSlice, d => d.Nation)
+          .data(yearSlice, d => d.country)
           .enter()
           .append('text')
           .attr('class', 'valueLabel')
-          .attr('x', d => x(d.Medals)+5)
+          .attr('x', d => x(d.total_medals)+5)
           .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)+1)
-          .text(d => d3.format(',.0f')(d.Medals));
+          .text(d => d3.format(',.0f')(d.total_medals));
 
       let yearText = svg.append('text')
                         .attr('class', 'yearText')
@@ -134,15 +130,15 @@ function init() {
     
       let ticker = d3.interval(e => {
 
-          yearSlice = data.filter(d => d.Year == year && !isNaN(d.Medals))
-                          .sort((a,b) => b.Medals - a.Medals)
+          yearSlice = data.filter(d => d.year == year && !isNaN(d.total_medals))
+                          .sort((a,b) => b.total_medals - a.total_medals)
                           .slice(0,top_n);
 
           yearSlice.forEach((d,i) => d.rank = i);
     
-          console.log('IntervalYear: ', yearSlice);
+        //   console.log('IntervalYear: ', yearSlice);
 
-          x.domain([0, d3.max(yearSlice, d => d.Medals)]); 
+          x.domain([0, d3.max(yearSlice, d => d.total_medals)]); 
     
           svg.select('.xAxis')
               .transition()
@@ -150,14 +146,14 @@ function init() {
               .ease(d3.easeLinear)
               .call(xAxis);
         
-          let bars = svg.selectAll('.bar').data(yearSlice, d => d.Nation);
+          let bars = svg.selectAll('.bar').data(yearSlice, d => d.country);
     
           bars
             .enter()
             .append('rect')
-            .attr('class', d => `bar ${d.Nation.replace(/\s/g,'_')}`)
+            .attr('class', d => `bar ${d.country.replace(/\s/g,'_')}`)
             .attr('x', x(0)+1)
-            .attr( 'width', d => x(d.Medals))
+            .attr( 'width', d => x(d.total_medals))
             .attr('y', d => y(top_n+1)+5)
             .attr('height', y(1)-y(0)-barPadding)
             .style('fill', d => d.colour)
@@ -170,7 +166,7 @@ function init() {
             .transition()
               .duration(tickDuration)
               .ease(d3.easeLinear)
-              .attr('width', d => x(d.Medals))
+              .attr('width', d => x(d.total_medals))
               .attr('y', d => y(d.rank)+5);
             
           bars
@@ -178,21 +174,21 @@ function init() {
             .transition()
               .duration(tickDuration)
               .ease(d3.easeLinear)
-              .attr('width', d => x(d.Medals))
+              .attr('width', d => x(d.total_medals))
               .attr('y', d => y(top_n+1)+5)
               .remove();
 
           let labels = svg.selectAll('.label')
-            .data(yearSlice, d => d.Nation);
+            .data(yearSlice, d => d.country);
     
           labels
             .enter()
             .append('text')
             .attr('class', 'label')
-            .attr('x', d => x(d.Medals)-8)
+            .attr('x', d => x(d.total_medals)-8)
             .attr('y', d => y(top_n+1)+5+((y(1)-y(0))/2))
             .style('text-anchor', 'end')
-            .html(d => d.Nation)    
+            .html(d => d.country)    
             .transition()
               .duration(tickDuration)
               .ease(d3.easeLinear)
@@ -202,7 +198,7 @@ function init() {
             .transition()
             .duration(tickDuration)
               .ease(d3.easeLinear)
-              .attr('x', d => x(d.Medals)-8)
+              .attr('x', d => x(d.total_medals)-8)
               .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)+1);
     
           labels
@@ -210,19 +206,19 @@ function init() {
             .transition()
               .duration(tickDuration)
               .ease(d3.easeLinear)
-              .attr('x', d => x(d.Medals)-8)
+              .attr('x', d => x(d.total_medals)-8)
               .attr('y', d => y(top_n+1)+5)
               .remove();
 
-          let valueLabels = svg.selectAll('.valueLabel').data(yearSlice, d => d.Nation);
+          let valueLabels = svg.selectAll('.valueLabel').data(yearSlice, d => d.country);
     
           valueLabels
             .enter()
             .append('text')
             .attr('class', 'valueLabel')
-            .attr('x', d => x(d.Medals)+5)
+            .attr('x', d => x(d.total_medals)+5)
             .attr('y', d => y(top_n+1)+5)
-            .text(d => d3.format(',.0f')(d.Medals))
+            .text(d => d3.format(',.0f')(d.total_medals))
             .transition()
               .duration(tickDuration)
               .ease(d3.easeLinear)
@@ -232,10 +228,10 @@ function init() {
             .transition()
               .duration(tickDuration)
               .ease(d3.easeLinear)
-              .attr('x', d => x(d.Medals)+5)
+              .attr('x', d => x(d.total_medals)+5)
               .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)+1)
               .tween("text", function(d) {
-                  let i = d3.interpolateRound(d.Medals, d.Medals);
+                  let i = d3.interpolateRound(d.total_medals, d.total_medals);
                   return function(t) {
                     this.textContent = d3.format(',')(i(t));
                   };
@@ -246,7 +242,7 @@ function init() {
               .transition()
                 .duration(tickDuration)
                 .ease(d3.easeLinear)
-                .attr('x', d => x(d.Medals)+5)
+                .attr('x', d => x(d.total_medals)+5)
                 .attr('y', d => y(top_n+1)+5);
               
             yearText.html(~~year);
