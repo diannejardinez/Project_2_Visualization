@@ -1,34 +1,18 @@
 
-// Changing sport images between female and male options
-function changeImages() {
-
-  // Set variables for image id and dropdown values
-  let imageChange = document.getElementById("imageChange");
-  let dataset = d3.select("#selDataset").property("value");
-
-  // if the dropdown menu option is female, use this image
-  if (dataset == 'female') {
-    imageChange.setAttribute('src', "../static/assets/images/gymnastics.png");
-  }
-  // if the dropdown menu option is male, use this image
-  if (dataset == 'male') {
-    imageChange.setAttribute('src',"../static/assets/images/wrestling.png");
-  }
-}
-selDataset.addEventListener("change", changeImages);
-
-
 // Setting json files to a variable
 var promises = [
-  d3.json("../static/assets/data/female_bodycomp_age.json"),
-  d3.json("../static/assets/data/male_bodycomp_age.json")]
+  // d3.json("../static/assets/data/female_bodycomp_age.json"),
+  // d3.json("../static/assets/data/male_bodycomp_age.json")]
+
+  d3.json("api/event/body-composition/F"),
+  d3.json("/api/event/body-composition/M")]
 
 // Loading multiple datasets 
 Promise.all(promises).then(function(allData){
   var femaleData = allData[0];
   var maleData = allData[1];
-  // console.log(femaleData)
-  // console.log(maleData)
+  console.log(femaleData)
+  console.log(maleData)
 
 // Male ///////////////////////////
 // Creating empty arrays and object 
@@ -155,7 +139,7 @@ Promise.all(promises).then(function(allData){
       xaxis: {
         categoryorder:'total descending'},
       yaxis: {
-          range: [0, 35]
+          range: [0, 35],
           },
   };
   Plotly.newPlot("plot1", [barChart1], layout1);

@@ -172,10 +172,10 @@ def gender_body_composition(gender):
     OUTPUT: Return the the median age, height and weight of all Gold medal winners for all the events.
     The events are filter based on predefined list of selected sports.
     """
-    selected_sports = ('Basketball', 'Boxing', 'Cycling', 'Figure Skating','Gymnastics',
-                   'Judo', 'Rowing','Snowboarding','Speed Skating', 'Swimming',
-                   'Tennis', 'Volleyball',  'Weightlifting', 'Wrestling')
-
+    selected_sports = ('Basketball', 'Cycling', 'Gymnastics',
+                   'Speed Skating', 'Swimming', 'Volleyball',  'Weightlifting', 'Wrestling',
+                   'Judo', 'Rowing', 'Snowboarding', 'Tennis', 'Boxing', 'Figure Skating')
+ 
     results = db.session.query(Athletes.event, Athletes.sport, 
         func.percentile_cont(0.5).within_group(Athletes.age).label('median age'),\
         func.percentile_cont(0.5).within_group(Athletes.height).label('median height'),\
@@ -195,9 +195,9 @@ def gender_body_composition(gender):
         body_composition = {}
         body_composition["event"] = event
         body_composition["sport"] = sport
-        body_composition["median age"] = medianAge
-        body_composition["median height"] = medianHeight
-        body_composition["median weight"] = medianWeight
+        body_composition["age"] = medianAge
+        body_composition["height"] = medianHeight
+        body_composition["weight"] = medianWeight
         event_body_composition.append(body_composition)
 
     return jsonify(event_body_composition)
@@ -229,7 +229,16 @@ def sport_medals_country(selected_sport):
     
     return jsonify(sport_countries)
 
+# Flask Route 7
+@app.route("/chart1.html")
+def chart1():
+    """Return the homepage."""
+    return render_template("chart1.html")
+    
 
+# if __name__ == '__main__':
+#     app.run()
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
+
