@@ -24,4 +24,4 @@
 	- Wrestling
 
 
-![]()
+![](https://github.com/diannejardinez/Project_2_Visualization/blob/dj_branch/static/assets/images/chart1html.png)
