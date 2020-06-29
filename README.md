@@ -1,3 +1,8 @@
-# Old Project 2 Repo - Using for drafting files
+# Website to visualize Olympics Dataset
 
-Link to Final Project 2 Repo: https://github.com/diannejardinez/Project2_Visualization_Final
+Data Source: Kaggle Olympics Dataset
+https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results
+
+The website is rendered using Python Flask-powered RESTful API
+
+Database Used: PostgreSQL
