@@ -1,4 +1,22 @@
 
+// Changing sport images between female and male options
+function changeImages() {
+
+  // Set variables for image id and dropdown values
+  let imageChange = document.getElementById("imageChange");
+  let dataset = d3.select("#selDataset").property("value");
+
+  // if the dropdown menu option is female, use this image
+  if (dataset == 'female') {
+    imageChange.setAttribute('src', "../static/assets/images/images_chart1/gymnastics.png");
+  }
+  // if the dropdown menu option is male, use this image
+  if (dataset == 'male') {
+    imageChange.setAttribute('src',"../static/assets/images/images_chart1/wrestling.png");
+  }
+}
+selDataset.addEventListener("change", changeImages);
+
 
 // Setting json files to a variable
 var promises = [
