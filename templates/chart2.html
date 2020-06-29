@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8">
-  <title>Olympics</title>
+  <title>Olympic Medals Bar Chart Race</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -42,7 +42,6 @@
               <img class="nav-olympic" src="../static/assets/images/olympicRings.jpg">
             </a>
           </div>
-
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -50,11 +49,27 @@
 
           <ul class="nav navbar-nav navbar-right navbar-right-custom">
 
+<<<<<<< HEAD
+            <li><a href="/data">Data</a></li>
+=======
             <li><a href="/olympics/data">Data</a></li>
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
 
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations<span class="caret"></span></a>
               <ul class="dropdown-menu">
+<<<<<<< HEAD
+               <li><a href="/chart1">Chart1</a></li>
+                <li><a href="/chart2">Chart2</a></li>
+                <li><a href="/chart3">Chart3</a></li>
+                <li><a href="/chart4">Chart4</a></li>
+              </ul>
+            </li>
+
+            <li><a href="/analysis">Analysis</a></li>
+
+            <li><a href="/olympic_facts">Olympic-Facts</a></li>
+=======
                <li><a href="/olympics/chart1">Chart1</a></li>
                 <li><a href="/olympics/chart2">Chart2</a></li>
                 <li><a href="/olympics/chart3">Chart3</a></li>
@@ -65,6 +80,7 @@
             <li><a href="/olympics/analysis">Analysis</a></li>
 
             <li><a href="/olympics/olympic_facts">Olympic-Facts</a></li>
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
 
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -73,60 +89,60 @@
     </div><!-- /.container-fluid -->
   </nav>
   <!-- End of navbar -->
-  
-  
-  <!-- Start of wrapper with image -->
 
-  <div class="wrapper">
-    <div class="hero text-center">
-      <h1>Your title here</h1>
-      <p> subtitle here</p>
-    </div>
 
-    <div class="container-fluid chart">
-      <div class = 'chart2'>
-        <!-- Your Chart will be appended here*/ -->
+  <div class= "container">
+    <div class="row">
+        <div class="col-md-12">  
+                <h1><b>Olympic</b></h1>
+                <img class="col-md-12" id="photo" src="https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/96040/olympic_rings.jpg&w=2000&op=resize"/>   
+        </div>
+        <div class="col-md-12">  
+            <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(0, 0, 0)">
+        </div>    
+        <div class="container">
+          <div class="jumbotron" style="text-align: center">
+              <h1>Does money buy medals?</h1>
+              <p></p>
+          </div>
+  
+          <div class="row">
+              <div class="col-md-12">
+                  <h2></h2>
+                  <div id="plot"></div>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+                <h2></h2>
+                <p>There is a significant relationship between a nation’s GDP and the number of gold medals they win at the Olympics.
+                  <br>
+                  The top 10 countries with the most medals all have GDPs of more than 1 billion dollars, while the 10 countries with the fewest medals have GDPs well below 1 billion. The average GDP for gold medal winning countries is $1,062,860,000.
+                  <br>
+                  China has seen phenomenal economic growth over the last couple of decades, which has corresponded with China’s emergence as a global force in international sports.
+                
+                
+                </p>
+                <div id="myDiv"></div>
+            </div>
+        </div>
       </div>
+        <div class="col-md-12">  
+        </div>
     </div>
     
-    <!-- You can remove this part if you don't need button -->
 
-    <!-- Replay button -->
-    <div class = 'container-fluid'>
-      <div class = 'row col-md-9'>
-        <button class = "btn btn-info" onclick = "location.reload();"> Reload </button>
-      </div>
-    </div>
+</div>
 
-    <!-- Analysis -->
-    <div class = 'row col-md-8'>
-      <div class = 'container-fluid card'>
-        <article> 
-          Chart2 analysis here
-        </article>
-      </div>
-    </div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
 
-    <footer class="footer">
-      <span class="bottom">Olympics Dashboard</span>
-    </footer>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
-  </div>
+<script src="../static/js/chart2plot.js"></script>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-  <script src="https://d3js.org/d3.v5.min.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
-
-  <!-- add link to your javascript file -->
-  <script type="text/javascript" src="../static/js/barChartRace.js"> </script>
+<!-- Bootstrap CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 

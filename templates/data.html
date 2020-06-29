@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
 
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
@@ -28,10 +29,14 @@
         padding: 20px;
         margin: 0;
         background: black;
-        background-image: url("../static/assets/images/dive_into_data.jpg");
+        background-image: url("../static/assets/images/dive1.jpg");
         background-attachment: fixed;
         background-position: bottom center;
         background-size: cover;
+    }
+    .form-control {
+    font-size: 14px;
+    font-family: inherit;
     }
 
   </style>
@@ -45,6 +50,7 @@
 
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="row">
+  
         <div class="navbar-header">
 
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -55,22 +61,45 @@
           </button>
 
           <div class="col-xs-9 phone-nav">
+<<<<<<< HEAD
+            <a class="navbar-brand" href="index.html" id="logo">Olympics</a>
+              <img class="nav-olympic" src="../static/assets/images/olympicRings.jpg">
+=======
             <a class="navbar-brand" href="/" id="logo">Olympics</a>
               <img class="nav-olympic" src="../static/assets/images/dive_into_data.jpg">
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
             </a>
           </div>
+
         </div>
+
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
           <ul class="nav navbar-nav navbar-right navbar-right-custom">
 
+<<<<<<< HEAD
+            <li><a href="/data">Data</a></li>
+=======
             <li><a href="/olympics/data">Data</a></li>
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
 
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations<span class="caret"></span></a>
               <ul class="dropdown-menu">
+<<<<<<< HEAD
+               <li><a href="/chart1">Gender Body-Comp</a></li>
+                <li><a href="/chart2">Gdp Vs. Medals</a></li>
+                <li><a href="/chart3">Chloropleth map</a></li>
+                <li><a href="/chart4">Chart4</a></li>
+              </ul>
+            </li>
+
+            <li><a href="/analysis">Analysis</a></li>
+
+            <li><a href="/olympic_facts">Olympic-Facts</a></li>
+=======
                <li><a href="/olympics/chart1">Chart1</a></li>
                 <li><a href="/olympics/chart2">Chart2</a></li>
                 <li><a href="/olympics/chart3">Chart3</a></li>
@@ -81,6 +110,7 @@
             <li><a href="/olympics/analysis">Analysis</a></li>
 
             <li><a href="/olympics/olympic_facts">Olympic-Facts</a></li>
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
 
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -90,15 +120,54 @@
   </nav>
   <!-- End of navbar -->
   
-  
   <!-- Start of wrapper with image -->
 
   <div class="wrapper">
     <div class="hero text-center">
-      <h1>Taking a deep dive into data!</h1>
-      <p> The goal is to turn data into information, and information into insight.</p>
+      <h1>Take a deep dive into data!</h1>
+      <p> </p>
     </div>
 
+<<<<<<< HEAD
+    <div class="container-fluid">
+      <div class="row margin-top-50">
+        <div class="col-md-2" style="margin-top: 5px; margin-left: 150px; margin-right: 50px;">
+          <aside class="filters">
+            <div class="panel panel-default">
+              <div class="panel-heading">Filter Search</div>
+              <div class="panel-body">
+                <form id = 'form'>
+                  <div class="form-group">
+                    <ul class="list-group" id="filters">
+                    </ul>
+                  </div>
+                </form>
+              </div>
+              <div class="panel-footer">
+                <button class=" btn-light" onclick="location.reload();">Clear Filters</button>
+              </div>
+            </div>
+          </aside>
+        </div>
+        <div class="col-md-7" style="margin-right: 150px;">
+          <div id="table-area" class="">
+            <table id="ufo-table" class="table table-striped">
+              <thead>
+                <tr>
+                  <th class="table-head">Year</th>
+                  <th class="table-head">Season</th>
+                  <th class="table-head">Nation</th>
+                  <th class="table-head">Medals</th>
+                  <th class="table-head">Gold</th>
+                  <th class="table-head">Silver</th>
+                  <th class="table-head">Bronze</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+=======
 
     <div class='container'>
       <form>
@@ -150,6 +219,7 @@
     <div class = 'container-fluid'>
       <div class = 'row col-md-9'>
         <button class = "btn btn-info" onclick = "location.reload();">Clear Filters</button>
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
       </div>
     </div>
 
@@ -171,6 +241,11 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
 
+<<<<<<< HEAD
+  <script src="static/js/GSB-Medals-1960-2016.js"></script>
+
+=======
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
   <script type="text/javascript" src="../static/js/data_page.js"> </script>
 
 </body>

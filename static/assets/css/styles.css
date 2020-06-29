@@ -15,7 +15,6 @@ body {
 
 /* ----NAV START---- */
 
-
 .navbar {
   padding: 5px;
   margin: 0;
@@ -95,6 +94,9 @@ body {
   padding-bottom: 130px;
   overflow: auto;
 }
+.jumbotron{
+  color: white;
+}
 
 /* The styles for the parallax */
 .hero {
@@ -110,18 +112,18 @@ body {
 }
 
 .hero h1 {
-  font-size: 30px;
-  animation: title 1.2s forwards linear;
   color: white;
   margin-top: 200px;
+  font-size: 0.1rem;
+  animation: title 1.2s forwards linear;
 }
 
 .hero p {
-  font-size: 28px;
+  font-size: 3rem;
+  color: red;
   opacity: 0;
   animation: subtitle 1.2s forwards linear;
   animation-delay: 1.2s;
-  color: red;
 }
 
 .barChartRace{
@@ -138,6 +140,9 @@ body {
   margin-left: 50px;
   font-weight: 600;
   font-size: 16px;
+}
+.button{
+  margin-bottom: 15px;
 }
 
 .card {
@@ -159,8 +164,7 @@ body {
   font-weight: 500;
   font-size: 16px;
 
-  color: steelblue;
-  font-family: Ubuntu, sans-serif;
+  color: rgb(4, 6, 7);
   fill: #777777;
 
 }
@@ -301,6 +305,7 @@ select {
 .form-control::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #8e979f;
+  font-size: 14px;
 }
 
 .form-control::-moz-placeholder {
@@ -335,8 +340,39 @@ select {
   margin-top: 50px;
 }
 
+.list-group-item {
+  background-color: lightgray;
+}
 
+.panel{
+  background-color: lightgray;
+}
+.panel-heading {
+  background-color:rgb(41, 122, 189);
+}
+.panel-footer {
+  background-color:rgba(25, 122, 201, 0.884);
+}
 
+.panel-default>.panel-heading {
+  background-color: rgba(25, 122, 201, 0.884);
+  color: white;
+  font-weight: 600;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+background-color: lightgray;
+}
+
+table, .table {
+  font-size: 13px;
+  font-weight: 500;
+}
+thead{
+  color: rgb(37, 111, 172);
+  font-size: 15px;
+}
 /* media queries which will only be activated at specific screen sizes */
 @media (max-width: 800px) {
   #table-area td {
@@ -380,11 +416,15 @@ select {
 
   #table-area td {
     font-size: 1.25em;
+  background-color: lightsteelblue;
+
   }
 
   #table-area tbody td {
     display: block;
     text-align: center;
+  background-color: lightsteelblue;
+
   }
 
   #table-area tbody td::before {
@@ -393,6 +433,8 @@ select {
     font-weight: bold;
     text-align: center;
     content: attr(data-th);
+    padding-top: 10px;
+
   }
 
   .pagination li {
@@ -403,7 +445,11 @@ select {
     padding: 4px 8px;
   }
 
+  .hero h1 {
+    animation: smaller-title 1.2s forwards linear;
+  }
 }
+
 
 /* keyframe animations which will be used to animate the title */
 @keyframes title {
@@ -412,7 +458,7 @@ select {
   }
 
   to {
-    font-size: 8.5rem;
+    font-size: 6.5rem;
     opacity: 1;
   }
 }
@@ -423,7 +469,7 @@ select {
   }
 
   to {
-    font-size: 5.5rem;
+    font-size: 3.5rem;
     opacity: 1;
   }
 }

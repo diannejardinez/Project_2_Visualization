@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, render_template
 from sqlalchemy.ext.automap import automap_base
-from sqlalchemy import func, desc, distinct
+from sqlalchemy import func, desc
 from flask_sqlalchemy import SQLAlchemy
 
 #################################################
@@ -9,7 +9,6 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 app.config['DEBUG'] = True
-app.config["TEMPLATES_AUTO_RELOAD"] = True
 
 #################################################
 # Database Setup
@@ -214,6 +213,7 @@ def gender_body_composition(gender):
 
 # Flask Route 5
 @app.route("/api/sport/<selected_sport>")
+# @app.route("/api/sport/<year_after>")
 def sport_medals_country(selected_sport):
     """
     Return the top 10 countries which have won maximum medal in particular sport over the years specified.
@@ -238,28 +238,5 @@ def sport_medals_country(selected_sport):
 
 
 
-
-# Flask Route 6
-@app.route("/api/sport/year_wise_count")
-def sport_year_wise():
-    """
-    Return the total number of distinct sports for each year
-    """
-    results = db.session.query(Athletes.year,\
-                       func.count(distinct(Athletes.sport)).label('total_sports'))\
-            .group_by(Athletes.year).all()
-
-    year_sport_count = []
-    for year, year_count in results:
-        year_sport_dict = {}
-        year_sport_dict["year"] = year
-        year_sport_dict["sport_count"] = year_count
-        year_sport_count.append(year_sport_dict)
-
-    return jsonify(year_sport_count)
-
 if __name__ == '__main__':
     app.run()
-
-
-

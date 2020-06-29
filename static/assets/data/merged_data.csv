@@ -92,4 +92,8 @@ Year,Nation,Medals,Value
 2004,Russia,90,591.02
 2008,Russia,72,1660.84
 2012,Russia,82,2210.26
+<<<<<<< HEAD
 2016,Russia,56,1283.16
+=======
+2016,Russia,56,1283.16
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82

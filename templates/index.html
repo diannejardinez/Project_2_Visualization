@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8">
-  <title>Olympics</title>
+  <title>Olympic Medals Bar Chart Race</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -49,11 +49,27 @@
 
           <ul class="nav navbar-nav navbar-right navbar-right-custom">
 
+<<<<<<< HEAD
+            <li><a href="/data">Data</a></li>
+=======
             <li><a href="/olympics/data">Data</a></li>
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
 
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations<span class="caret"></span></a>
               <ul class="dropdown-menu">
+<<<<<<< HEAD
+               <li><a href="/chart1">Gender Body-Comp</a></li>
+                <li><a href="/chart2">Gdp Vs. Medals</a></li>
+                <li><a href="/chart3">Chloropleth map</a></li>
+                <li><a href="/chart4">Chart4</a></li>
+              </ul>
+            </li>
+
+            <li><a href="/analysis">Analysis</a></li>
+
+            <li><a href="/olympic_facts">Olympic-Facts</a></li>
+=======
                <li><a href="/olympics/chart1">Chart1</a></li>
                 <li><a href="/olympics/chart2">Chart2</a></li>
                 <li><a href="/olympics/chart3">Chart3</a></li>
@@ -64,6 +80,7 @@
             <li><a href="/olympics/analysis">Analysis</a></li>
 
             <li><a href="/olympics/olympic_facts">Olympic-Facts</a></li>
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
 
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -79,7 +96,7 @@
   <div class="wrapper">
     <div class="hero text-center">
       <h1>Olympic Medals</h1>
-      <p> Whatever it takes! </p>
+      <p>Whatever it takes!</p>
     </div>
 
     <div class="container-fluid chart">
@@ -96,16 +113,77 @@
     </div>
 
     <!-- Analysis -->
-    <div class = 'row col-md-8'>
-      <div class = 'container-fluid card'>
-        <article> <strong> 
-          2020 Summer Olympics, originally scheduled to be held in Tokyo, Japan 
-          between 24 July and 9 August 2020, were rescheduled for 23 July to 8 August 2021 
-          as a result of the COVID-19 pandemic. The Games of the XXXII Olympiad will keep 
-          the name Tokyo 2020 for marketing and branding purposes despite being held in 2021.
-        </strong> </article>
+    <div class = 'row'>
+      <div class="col-md-8">
+        <div class = 'container-fluid card' style = "color: darkblue">
+          <article>
+            2020 Summer Olympics, originally scheduled to be held in Tokyo, Japan 
+            between 24 July and 9 August 2020, were rescheduled for 23 July to 8 August 2021 
+            as a result of the COVID-19 pandemic. The Games of the XXXII Olympiad will keep 
+            the name Tokyo 2020 for marketing and branding purposes despite being held in 2021.
+          </article>
+        </div>
       </div>
     </div>
+
+    <div class = 'row'>
+      <div class="col-md-8">
+        <div class = 'container-fluid card' >
+          <article>
+              <p style = "color: maroon">
+                <strong>Since when have the Summer and Winter games no longer been held in the same year?</strong>
+              </p>
+
+              <p style = 'color:rgba(25, 122, 201, 0.884)'>At its 1986 Session in Lausanne, the IOC decided to introduce this change. 
+              From 1924 to 1992, the Summer and Winter Games were each held in the same year, every four years. 
+              This four years period is called the "Olympiad". The last Summer and Winter Games held in the same 
+              year were in Barcelona (Summer) and Albertville (Winter) in 1992. Since then, the Summer and Winter 
+              Games are each still held every four years but the Summer Games are celebrated during the first year 
+              of an Olympiad and the Winter Games held in the third year.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row margin-top-50" style = "margin-left: 50px; margin-right: 150px">
+      <div class="col-md-3" style="margin-left: 5px; margin-top: 5px;">
+        <aside class="filters">
+          <div class="panel panel-default">
+            <div class="panel-heading">Filter Search</div>
+            <div class="panel-body">
+              <form id = 'form'>
+                <div class="form-group">
+                  <ul class="list-group" id="filters">
+                  </ul>
+                </div>
+              </form>
+            </div>
+            <div class="panel-footer">
+              <button class=" btn-light" onclick="location.reload();">Clear Filters</button>
+            </div>
+          </div>
+        </aside>
+      </div>
+      <div class="col-md-5" style="margin-left: 30px;">
+        <div id="table-area" class="">
+          <table id="ufo-table" class="table table-striped">
+            <thead>
+              <tr>
+                <th class="table-head">Year</th>
+                <th class="table-head">Season</th>
+                <th class="table-head">Nation</th>
+                <th class="table-head">Medals</th>
+                <th class="table-head">Gold</th>
+                <th class="table-head">Silver</th>
+                <th class="table-head">Bronze</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  
 
     <footer class="footer">
       <span class="bottom">Olympics Dashboard</span>
@@ -125,7 +203,14 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
 
+<<<<<<< HEAD
+  <script type="text/javascript" src="../static/js/barChartRace.js"> </script>
+  <script src="static/js/GSB-Medals-1960-2016.js"></script>
+
+  <script type="text/javascript" src="../static/js/data_page.js"> </script>
+=======
   <script type="text/javascript" src="../static/js/barChartRace_1.js"> </script>
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
 
 </body>
 

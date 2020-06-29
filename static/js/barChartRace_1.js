@@ -40,6 +40,12 @@ function init() {
      .html('Source: Dataset on Kaggle');
 
     let year = 1980;
+<<<<<<< HEAD:static/js/barChartRace.js
+    
+    //d3.csv('../static/assets/output/MedalsByYear.csv').then(function(data) {
+    // flask endpoint
+    d3.json('/api/total-medals').then(function(data) { 
+=======
 
     // console.log('@line 44');
     // console.log(year);
@@ -48,21 +54,33 @@ function init() {
     d3.json("/api/total-medals").then(function(data) { 
       
         console.log(data);
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82:static/js/barChartRace_1.js
       
       data.forEach(d => {
         d.total_medals = isNaN(d.total_medals) ? 0 : d.total_medals,
         d.colour = d3.hsl(Math.random()*360,0.75,0.75)
       });
       
+<<<<<<< HEAD:static/js/barChartRace.js
+      console.log(data);
+      console.log('Year: ', year);
+=======
     //   console.log(data);
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82:static/js/barChartRace_1.js
     
       let yearSlice = data.filter(d => d.year == year && !isNaN(d.total_medals))
                           .sort((a,b) => b.total_medals - a.total_medals)
                           .slice(0, top_n);
   
       yearSlice.forEach((d,i) => d.rank = i);
+<<<<<<< HEAD:static/js/barChartRace.js
+
+      
+      console.log('yearSlice: ', yearSlice)
+=======
     
     //   console.log('yearSlice: ', yearSlice)
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82:static/js/barChartRace_1.js
   
       let x = d3.scaleLinear()
                 .domain([0, d3.max(yearSlice, d => d.total_medals)])
@@ -85,8 +103,11 @@ function init() {
           .selectAll('.tick line')
           .classed('origin', d => d == 0);
 
+<<<<<<< HEAD:static/js/barChartRace.js
+=======
     //   console.log('line 88');
   
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82:static/js/barChartRace_1.js
       svg.selectAll('rect.bar')
           .data(yearSlice, d => d.country)
           .enter()
@@ -97,9 +118,12 @@ function init() {
           .attr('y', d => y(d.rank)+5)
           .attr('height', y(1)-y(0)-barPadding)
           .style('fill', d => d.colour);
+<<<<<<< HEAD:static/js/barChartRace.js
+=======
 
     //   console.log('line 101');
       
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82:static/js/barChartRace_1.js
       
       svg.selectAll('text.label')
           .data(yearSlice, d => d.country)
@@ -127,7 +151,9 @@ function init() {
                         .style('text-anchor', 'end')
                         .html(~~year)
                         .call(halo, 10);
-    
+      
+                        year = 1984;
+
       let ticker = d3.interval(e => {
 
           yearSlice = data.filter(d => d.year == year && !isNaN(d.total_medals))
@@ -135,8 +161,14 @@ function init() {
                           .slice(0,top_n);
 
           yearSlice.forEach((d,i) => d.rank = i);
+<<<<<<< HEAD:static/js/barChartRace.js
+
+          console.log('Year: ', year);
+          console.log('IntervalYear: ', yearSlice);
+=======
     
         //   console.log('IntervalYear: ', yearSlice);
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82:static/js/barChartRace_1.js
 
           x.domain([0, d3.max(yearSlice, d => d.total_medals)]); 
     
@@ -248,7 +280,6 @@ function init() {
             yearText.html(~~year);
       
             if(year == 2016) ticker.stop();
-
             year = year + 4;
 
       },4000);
