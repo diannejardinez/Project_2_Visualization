@@ -1,15 +1,13 @@
-**Project_2_Visualization: dj_branch**
 
-Files:
+**Visualization for Age and Body Composition for Gold Medallists**
 
-- `olympics_data.csv`: Aastha - Cleaned up - Kaggle - Olympics data
+- Compared Age and Body Composition for Women and Men GOld medallists for the Olympics from 1920 to 2016
 
-- `age_bodyComp_events_goldMedals.ipynb`: Jupyter notebook to transform Olympics data for median Female and Male age, height, weight
+- Kaggle Dataset: https://www.kaggle.com/heesoo37/olympic-history-data-a-thorough-analysis/data
 
-- `female_bodycomp_age.json` and `male_bodycomp_age.json`: Female and Male gold medallists data(json)
+- Visualization: Bar chart
 
-
-- `images`: Sport images - Chosen sports in data (Events will fall into these catagories)
+- Chosen sports in data (Events will fall into these categories)
 	- Basketball
 	- Boxing
 	- Cycling
@@ -24,3 +22,6 @@ Files:
 	- Volleyball
 	- Weightlifting
 	- Wrestling
+
+
+![]()

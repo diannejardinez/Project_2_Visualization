@@ -1,11 +1,11 @@
 
 // Setting json files to a variable
 var promises = [
-  // d3.json("../static/assets/data/female_bodycomp_age.json"),
-  // d3.json("../static/assets/data/male_bodycomp_age.json")]
+  d3.json("/static/assets/data/female_bodycomp_age.json"),
+  d3.json("static/assets/data/male_bodycomp_age.json")]
 
-  d3.json("api/event/body-composition/F"),
-  d3.json("/api/event/body-composition/M")]
+  // d3.json("api/event/body-composition/F"),
+  // d3.json("/api/event/body-composition/M")]
 
 // Loading multiple datasets 
 Promise.all(promises).then(function(allData){
