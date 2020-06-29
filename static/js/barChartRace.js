@@ -40,16 +40,10 @@ function init() {
      .html('Source: WikiPedia');
 
     let year = 1980;
-
-    console.log('@line 44');
-    console.log(year);
     
-    d3.csv('../static/assets/output/MedalsByYear.csv').then(function(data) {
-    // d3.json('/MedalsByYear') // flask endpoint
-
-      //if (error) throw error;
-      
-      console.log('@line 52');
+    //d3.csv('../static/assets/output/MedalsByYear.csv').then(function(data) {
+    // flask endpoint
+    d3.json('/api/total-medals').then(function(data) { 
       
       data.forEach(d => {
         d.Year = +d.Year,
@@ -59,13 +53,15 @@ function init() {
       });
       
       console.log(data);
+      console.log('Year: ', year);
     
       let yearSlice = data.filter(d => d.Year == year && !isNaN(d.Medals))
                           .sort((a,b) => b.Medals - a.Medals)
                           .slice(0, top_n);
   
       yearSlice.forEach((d,i) => d.rank = i);
-    
+
+      
       console.log('yearSlice: ', yearSlice)
   
       let x = d3.scaleLinear()
@@ -89,8 +85,6 @@ function init() {
           .selectAll('.tick line')
           .classed('origin', d => d == 0);
 
-      console.log('line 88');
-  
       svg.selectAll('rect.bar')
           .data(yearSlice, d => d.Nation)
           .enter()
@@ -101,9 +95,6 @@ function init() {
           .attr('y', d => y(d.rank)+5)
           .attr('height', y(1)-y(0)-barPadding)
           .style('fill', d => d.colour);
-
-      console.log('line 101');
-      
       
       svg.selectAll('text.label')
           .data(yearSlice, d => d.Nation)
@@ -131,7 +122,9 @@ function init() {
                         .style('text-anchor', 'end')
                         .html(~~year)
                         .call(halo, 10);
-    
+      
+                        year = 1984;
+
       let ticker = d3.interval(e => {
 
           yearSlice = data.filter(d => d.Year == year && !isNaN(d.Medals))
@@ -139,7 +132,8 @@ function init() {
                           .slice(0,top_n);
 
           yearSlice.forEach((d,i) => d.rank = i);
-    
+
+          console.log('Year: ', year);
           console.log('IntervalYear: ', yearSlice);
 
           x.domain([0, d3.max(yearSlice, d => d.Medals)]); 
@@ -252,7 +246,6 @@ function init() {
             yearText.html(~~year);
       
             if(year == 2016) ticker.stop();
-
             year = year + 4;
 
       },4000);
