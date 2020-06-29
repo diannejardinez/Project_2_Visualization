@@ -229,6 +229,26 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
+<script>
+  // Changing sport images between female and male options
+  function changeImages() {
+
+    // Set variables for image id and dropdown values
+    let imageChange = document.getElementById("imageChange");
+    let dataset = d3.select("#selDataset").property("value");
+
+    // if the dropdown menu option is female, use this image
+    if (dataset == 'female') {
+      imageChange.setAttribute('src', "../static/assets/images/images_chart1/gymnastics.png");
+    }
+    // if the dropdown menu option is male, use this image
+    if (dataset == 'male') {
+      imageChange.setAttribute('src',"../static/assets/images/images_chart1/wrestling.png");
+    }
+  }
+  selDataset.addEventListener("change", changeImages);
+</script>
+
 
 <script type="text/javascript" src="../static/js/app_chart_1.js"> </script>
 <!--   <script src="static/js/plots.js"></script> -->
