@@ -3,6 +3,7 @@
 
 <head>
 
+<<<<<<< HEAD
   <meta charset="utf-8">
   <title>Olympic Medals Bar Chart Race</title>
 
@@ -18,6 +19,79 @@
   <link rel="stylesheet" href="../static/assets/css/styles.css">
   
   <link rel="icon" href="data:,"> <!-- to avoid favicon error -->
+=======
+<meta charset="utf-8">
+<title>Olympic Medals</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+<!-- Leaflet JS & CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+crossorigin=""></script>
+
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<!-- Leaflet-Choropleth JavaScript -->
+<script type="text/javascript" src="../static/js/choropleth.js"></script>
+
+<link rel="stylesheet" href="../static/assets/css/styles.css">
+<style type="text/css">
+  body {
+    text-align: center
+  }
+
+  #map {
+    height: 800px;
+    width: 80%;
+    margin: 40px auto;
+  }
+
+  .legend {
+    color: #555;
+    padding: 6px 8px;
+    font: 12px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+  }
+
+  .legend ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    clear: both;
+  }
+
+  .legend li {
+    display: inline-block;
+    width: 30px;
+    height: 22px;
+  }
+
+  .legend .min {
+    float: left;
+    padding-bottom: 5px;
+  }
+
+  .legend .max {
+    float: right;
+  }
+
+</style>
+
+<link rel="icon" href="data:,"> <!-- to avoid favicon error -->
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
 
 </head>
 
@@ -38,7 +112,7 @@
           </button>
 
           <div class="col-xs-9 phone-nav">
-            <a class="navbar-brand" href="index.html" id="logo">Olympics</a>
+            <a class="navbar-brand" href="/" id="logo">Olympics</a>
               <img class="nav-olympic" src="../static/assets/images/olympicRings.jpg">
             </a>
           </div>
@@ -49,11 +123,16 @@
 
           <ul class="nav navbar-nav navbar-right navbar-right-custom">
 
+<<<<<<< HEAD
             <li><a href="/data">Data</a></li>
+=======
+            <li><a href="/olympics/data">Data</a></li>
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
 
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations<span class="caret"></span></a>
               <ul class="dropdown-menu">
+<<<<<<< HEAD
                <li><a href="/chart1">Gender Body-Comp</a></li>
                 <li><a href="/chart2">Gdp Vs. Medals</a></li>
                 <li><a href="/chart3">Chloropleth map</a></li>
@@ -64,6 +143,18 @@
             <li><a href="/analysis">Analysis</a></li>
 
             <li><a href="/olympic_facts">Olympic-Facts</a></li>
+=======
+               <li><a href="/olympics/chart1">Chart1</a></li>
+                <li><a href="/olympics/chart2">Chart2</a></li>
+                <li><a href="/olympics/chart3">Chart3</a></li>
+                <li><a href="/olympics/chart4">Chart4</a></li>
+              </ul>
+            </li>
+
+            <li><a href="/olympics/analysis">Analysis</a></li>
+
+            <li><a href="/olympics/olympic_facts">Olympic-Facts</a></li>
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
 
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -76,42 +167,31 @@
   
   
   <!-- Start of wrapper with image -->
-
-  <div class="wrapper">
-    <div class="hero text-center">
-      <h1>Your title here</h1>
-      <p> subtitle here</p>
-    </div>
-
-    <div class="container-fluid chart">
-      <div class = 'chart4'>
-        <!-- Your Chart will be appended here*/ -->
-      </div>
-    </div>
-    
-    <!-- You can remove this part if you don't need button -->
-
-    <!-- Replay button -->
-    <div class = 'container-fluid'>
-      <div class = 'row col-md-9'>
-        <button class = "btn btn-info" onclick = "location.reload();"> Reload </button>
-      </div>
-    </div>
-
-    <!-- Analysis -->
-    <div class = 'row col-md-8'>
-      <div class = 'container-fluid card'>
-        <article> 
-          Chart4 analysis here
-        </article>
-      </div>
-    </div>
-
-    <footer class="footer">
-      <span class="bottom">Olympics Dashboard</span>
-    </footer>
-
+<div class= "wrapper">
+  <div class="hero text-center">
+    <h1>Top Performing Countries</h1>
+    <p> View the top 10 countries for a particular sport</p>
   </div>
+
+  <div class="container">
+    <div class="row col-sm-12">
+      <form>
+        <label for="sport">Enter a sport</label>
+        <input style="text-align: center" class="filter form-control" id="sport" type="text" placeholder="Basketball">
+      </form>
+    </div>
+
+    <div id = 'map'>
+      <!-- Your Chart will be appended here*/ -->
+    </div>
+ 
+
+  <footer class="footer">
+    <span class="bottom">Olympics Dashboard</span>
+  </footer>
+
+</div>
+
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -121,13 +201,12 @@
 
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
-  
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
 
   <!-- add link to your javascript file -->
-  <script type="text/javascript" src="../static/js/barChartRace.js"> </script>
+  <script type="text/javascript" src="../static/js/sport_world_map.js"></script>
 
 </body>
 

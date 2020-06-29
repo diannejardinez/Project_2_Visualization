@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ------------------------------------------------------ */
 
 var olympicsData = data;
@@ -207,6 +208,9 @@ function filterTable() {
 
 
 /*function selectFilters() {
+=======
+function selectFilters() {
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
     var country_name = d3.select("#country_name").property("value");
     var season = d3.select("#season").property("value");
     var year = d3.select("#year").property("value");
@@ -242,6 +246,10 @@ function buildTable(country_name, season, year) {
 
 
 // Attach event to listen to changes to each filter
+<<<<<<< HEAD
 d3.selectAll("#filter-btn").on("click", selectFilters);
 
 */
+=======
+d3.selectAll("#filter-btn").on("click", selectFilters);
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82

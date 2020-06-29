@@ -16,7 +16,7 @@
 
   <script src="https://d3js.org/d3.v5.min.js"></script>
 
-  <link rel="stylesheet" href="../static/assets/css/styles.css">
+  <link rel="stylesheet" href="../static/assets/css/main_styles.css">
   
   <link rel="icon" href="data:,"> <!-- to avoid favicon error -->
 
@@ -61,8 +61,13 @@
           </button>
 
           <div class="col-xs-9 phone-nav">
+<<<<<<< HEAD
             <a class="navbar-brand" href="index.html" id="logo">Olympics</a>
               <img class="nav-olympic" src="../static/assets/images/olympicRings.jpg">
+=======
+            <a class="navbar-brand" href="/" id="logo">Olympics</a>
+              <img class="nav-olympic" src="../static/assets/images/dive_into_data.jpg">
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
             </a>
           </div>
 
@@ -74,11 +79,16 @@
 
           <ul class="nav navbar-nav navbar-right navbar-right-custom">
 
+<<<<<<< HEAD
             <li><a href="/data">Data</a></li>
+=======
+            <li><a href="/olympics/data">Data</a></li>
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
 
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations<span class="caret"></span></a>
               <ul class="dropdown-menu">
+<<<<<<< HEAD
                <li><a href="/chart1">Gender Body-Comp</a></li>
                 <li><a href="/chart2">Gdp Vs. Medals</a></li>
                 <li><a href="/chart3">Chloropleth map</a></li>
@@ -89,6 +99,18 @@
             <li><a href="/analysis">Analysis</a></li>
 
             <li><a href="/olympic_facts">Olympic-Facts</a></li>
+=======
+               <li><a href="/olympics/chart1">Chart1</a></li>
+                <li><a href="/olympics/chart2">Chart2</a></li>
+                <li><a href="/olympics/chart3">Chart3</a></li>
+                <li><a href="/olympics/chart4">Chart4</a></li>
+              </ul>
+            </li>
+
+            <li><a href="/olympics/analysis">Analysis</a></li>
+
+            <li><a href="/olympics/olympic_facts">Olympic-Facts</a></li>
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
 
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -106,6 +128,7 @@
       <p> </p>
     </div>
 
+<<<<<<< HEAD
     <div class="container-fluid">
       <div class="row margin-top-50">
         <div class="col-md-2" style="margin-top: 5px; margin-left: 150px; margin-right: 50px;">
@@ -144,6 +167,59 @@
             </table>
           </div>
         </div>
+=======
+
+    <div class='container'>
+      <form>
+      <div class = "row">
+          <div class="colm-sm-3">
+            <label for="date">Enter Country</label>
+            <input class="filter form-control" id="country_name" type="text" placeholder="USA">
+          </div>
+          <div class="colm-sm-3">
+            <label for="date">Enter Season</label>
+            <input class="filter form-control" id="season" type="text" placeholder="Summer">
+          </div>
+          <div class="colm-sm-3">
+            <label for="date">Enter Year</label>
+            <input class="filter form-control" id="year" type="text" placeholder="1984">
+          </div>
+          <div class="row">
+            <div class="colm-md-3">
+              <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class='container'>
+      <div class="row">
+        <div class = 'table'>
+          <!-- table will be appended here*/ -->
+          <table id="filtered_table" class="table table-striped">
+            <thead>
+              <tr>
+                <th class="table-head">Games</th>
+                <th class="table-head">Country</th>
+                <th class="table-head">Names</th>
+                <th class="table-head">Gender</th>
+                <th class="table-head">Sport</th>
+                <th class="table-head">Event</th>
+                <th class="table-head">Medal</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Replay button -->
+    <div class = 'container-fluid'>
+      <div class = 'row col-md-9'>
+        <button class = "btn btn-info" onclick = "location.reload();">Clear Filters</button>
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
       </div>
     </div>
 
@@ -165,8 +241,11 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
 
+<<<<<<< HEAD
   <script src="static/js/GSB-Medals-1960-2016.js"></script>
 
+=======
+>>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
   <script type="text/javascript" src="../static/js/data_page.js"> </script>
 
 </body>
