@@ -47,14 +47,12 @@ function init() {
 
     d3.json("/api/total-medals").then(function(data) { 
       
-        // console.log(data);
-      
       data.forEach(d => {
         d.total_medals = isNaN(d.total_medals) ? 0 : d.total_medals,
         d.colour = d3.hsl(Math.random()*360,0.75,0.75)
       });
       
-    //   console.log(data);
+      //console.log(data);
     
       let yearSlice = data.filter(d => d.year == year && !isNaN(d.total_medals))
                           .sort((a,b) => b.total_medals - a.total_medals)
@@ -62,7 +60,7 @@ function init() {
   
       yearSlice.forEach((d,i) => d.rank = i);
     
-    //   console.log('yearSlice: ', yearSlice)
+      console.log('yearSlice: ', yearSlice)
   
       let x = d3.scaleLinear()
                 .domain([0, d3.max(yearSlice, d => d.total_medals)])
@@ -85,8 +83,6 @@ function init() {
           .selectAll('.tick line')
           .classed('origin', d => d == 0);
 
-    //   console.log('line 88');
-  
       svg.selectAll('rect.bar')
           .data(yearSlice, d => d.country)
           .enter()
@@ -98,9 +94,6 @@ function init() {
           .attr('height', y(1)-y(0)-barPadding)
           .style('fill', d => d.colour);
 
-    //   console.log('line 101');
-      
-      
       svg.selectAll('text.label')
           .data(yearSlice, d => d.country)
           .enter()
@@ -136,7 +129,7 @@ function init() {
 
           yearSlice.forEach((d,i) => d.rank = i);
     
-        //   console.log('IntervalYear: ', yearSlice);
+          console.log('IntervalYear: ', yearSlice);
 
           x.domain([0, d3.max(yearSlice, d => d.total_medals)]); 
     
