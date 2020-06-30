@@ -1,149 +1,123 @@
+  
 <!DOCTYPE html>
 <html>
-
 <head>
-
   <meta charset="utf-8">
-  <title>Olympic Medals Bar Chart Race</title>
+  <title>Olympics</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+<!--   Bootstrap 3 -->
+<!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+<!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+ -->
+    <!-- Bootstrap 4 superhero theme -->
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/superhero/bootstrap.min.css" rel="stylesheet" integrity="sha384-rvwYMW9Z/bbxZfgxHQEKx6D91KwffWAG+XnsoYNCGWi/qL1P9dIVYm1HBiHFqQEt" crossorigin="anonymous">
+​
 
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-
   <script src="https://d3js.org/d3.v5.min.js"></script>
-
-  <link rel="stylesheet" href="../static/assets/css/styles.css">
-  
+  <link rel="stylesheet" href="../static/assets/css/main_styles.css">
   <link rel="icon" href="data:,"> <!-- to avoid favicon error -->
 
 </head>
-
 <body>
+
   <!-- Start of navbar -->
-  <nav class="navbar navbar-default">
-    <div class="container-fluid navbar-custom">
-
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="row">
-        <div class="navbar-header">
-
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle Navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-
-          <div class="col-xs-9 phone-nav">
-            <a class="navbar-brand" href="/" id="logo">Olympics</a>
-              <img class="nav-olympic" src="../static/assets/images/olympicRings.jpg">
-            </a>
-          </div>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-          <ul class="nav navbar-nav navbar-right navbar-right-custom">
-
-<<<<<<< HEAD
-            <li><a href="/data">Data</a></li>
-=======
-            <li><a href="/olympics/data">Data</a></li>
->>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
-
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-<<<<<<< HEAD
-               <li><a href="/chart1">Chart1</a></li>
-                <li><a href="/chart2">Chart2</a></li>
-                <li><a href="/chart3">Chart3</a></li>
-                <li><a href="/chart4">Chart4</a></li>
-              </ul>
-            </li>
-
-            <li><a href="/analysis">Analysis</a></li>
-
-            <li><a href="/olympic_facts">Olympic-Facts</a></li>
-=======
-               <li><a href="/olympics/chart1">Chart1</a></li>
-                <li><a href="/olympics/chart2">Chart2</a></li>
-                <li><a href="/olympics/chart3">Chart3</a></li>
-                <li><a href="/olympics/chart4">Chart4</a></li>
-              </ul>
-            </li>
-
-            <li><a href="/olympics/analysis">Analysis</a></li>
-
-            <li><a href="/olympics/olympic_facts">Olympic-Facts</a></li>
->>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
-
-          </ul>
-        </div><!-- /.navbar-collapse -->
-
-      </div>
-    </div><!-- /.container-fluid -->
-  </nav>
-  <!-- End of navbar -->
-
-
-  <div class= "container">
-    <div class="row">
-        <div class="col-md-12">  
-                <h1><b>Olympic</b></h1>
-                <img class="col-md-12" id="photo" src="https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/96040/olympic_rings.jpg&w=2000&op=resize"/>   
-        </div>
-        <div class="col-md-12">  
-            <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(0, 0, 0)">
-        </div>    
-        <div class="container">
-          <div class="jumbotron" style="text-align: center">
-              <h1>Does money buy medals?</h1>
-              <p></p>
-          </div>
-  
-          <div class="row">
-              <div class="col-md-12">
-                  <h2></h2>
-                  <div id="plot"></div>
-              </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-                <h2></h2>
-                <p>There is a significant relationship between a nation’s GDP and the number of gold medals they win at the Olympics.
-                  <br>
-                  The top 10 countries with the most medals all have GDPs of more than 1 billion dollars, while the 10 countries with the fewest medals have GDPs well below 1 billion. The average GDP for gold medal winning countries is $1,062,860,000.
-                  <br>
-                  China has seen phenomenal economic growth over the last couple of decades, which has corresponded with China’s emergence as a global force in international sports.
-                
-                
-                </p>
-                <div id="myDiv"></div>
-            </div>
-        </div>
-      </div>
-        <div class="col-md-12">  
-        </div>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="col-xs-9 phone-nav">
+      <a class="navbar-brand text-white mt-3" href="/" id="logo">Olympics</a>
+      <img class="nav-olympic" src="../static/assets/images/olympicRings.jpg"> 
     </div>
-    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav mr-auto"></ul>
+      <ul class="nav navbar-nav navbar-right-custom">
+        <li class="nav-item">
+          <a class="nav-link" href="/olympics/data">Data </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Visualizations</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/olympics/chart1">Chart 1</a>
+            <a class="dropdown-item" href="/olympics/chart2">Chart 2</a>
+            <a class="dropdown-item" href="/olympics/chart3">Chart 3</a>
+            <a class="dropdown-item" href="/olympics/chart4">Chart 4</a>
+          </div>
+        <li class="nav-item">
+          <a class="nav-link" href="/olympics/analysis">Analysis</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/olympics/olympic_fact">Olympic-Facts</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
+<div class= "container">
+  <div class="row">
+      <div class="col-md-12">  
+        <img class="col-md-12" id="photo" src="https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/96040/olympic_rings.jpg&w=2000&op=resize"/>   
+      </div>
+      <div class="col-md-12">  
+        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(0, 0, 0)">
+      </div> 
+   </div>
+</div>   
+
+<div class= "container">
+  <div class="jumbotron text-center" style="background: #eee !important">
+    <h1>Does money buy medals?</h1>
+    <p></p>
+  </div>
+</div>
+
+<div class= "container container d-flex justify-content-center ">
+  <div class="row">
+      <div class="col-md-12">
+          <h2>Analysis: Sport Participation and Popularity</h2>
+          <p></p>
+            <div id="plot"></div>
+      </div>
+  </div>
+</div>
+
+<div class= "container container d-flex justify-content-center mt-5">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Analysis: Relationship between GDP and Olympic Medals</h2>
+        <p>There is a significant relationship between a nation’s GDP and the number of gold medals they win at the Olympics.
+        <br>
+        The top 10 countries with the most medals all have GDPs of more than 1 billion dollars, while the 10 countries with the fewest medals have GDPs well below 1 billion. The average GDP for gold medal winning countries is $1,062,860,000.
+        <br>
+        China has seen phenomenal economic growth over the last couple of decades, which has corresponded with China’s emergence as a global force in international sports.
+        </p>
+      <div id="myDiv"></div>
+    </div>
+  </div>
+</div>
+
+<div class="text-center text-white py-2 bg-secondary">  
+  <footer class="footer">
+    <span class="bottom">Olympics Dashboard</span>
+  </footer>
 </div>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-
+<!-- <script src="plot.js"></script> -->
 <script src="../static/js/chart2plot.js"></script>
 
-<!-- Bootstrap CDN -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
+
+<!-- Bootstrap 4 CDN witout superhero theme-->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
 </body>
+
 
 </html>

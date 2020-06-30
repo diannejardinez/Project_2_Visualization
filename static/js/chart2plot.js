@@ -1,58 +1,65 @@
 function buildPlot() {
-
-  //d3.csv("athlete_events.csv")
-  d3.json("/api/total-medals").then(function(response) {
+// First plot
+  d3.json("/api/sport/year_wise_count").then(function(response) {
+  // d3.csv("../static/assets/data/athlete_events.csv").then(function(response) {
 
   console.log(response);
 
-  const data = response;
+  // const data = response;
 
-  var year = []
+  // var year = []
 
-  var dict = []
+  // var dict = []
   
-  var summer_data = data.filter(row => row.Season == "Summer")
-  //var winter_data = data.filter(row => row.Season == "Winter")
+  // var summer_data = data.filter(row => row.Season == "Summer")
+  // //var winter_data = data.filter(row => row.Season == "Winter")
 
-  for (var i = 0; i< summer_data.length; i++) {
-    var item = summer_data[i]["Year"]
-    if (!year.includes(item)) {
-        year.push(item)
-    }
-  } 
+  // for (var i = 0; i< summer_data.length; i++) {
+  //   var item = summer_data[i]["Year"]
+  //   if (!year.includes(item)) {
+  //       year.push(item)
+  //   }
+  // } 
 
-  year = year.sort()
+  // year = year.sort()
 
-  console.log(year)
+  // // console.log(year)
 
-  for (var a = 0; a< year.length; a++) {
-    var sport_list = []
-    var cur_year =  year[a];
-    var cur_year_data = summer_data.filter(row => row.Year == cur_year)
-    cur_year_data.forEach(row => {
-      Object.entries(row).forEach(([key, value]) => {
-        if (key == "Sport" && !sport_list.includes(value)) {
-          sport_list.push(value)
-        }
-      })
-    })
-    dict.push({key : cur_year,
-              value : sport_list
-    })
-  }
+  // for (var a = 0; a< year.length; a++) {
+  //   var sport_list = []
+  //   var cur_year =  year[a];
+  //   var cur_year_data = summer_data.filter(row => row.Year == cur_year)
+  //   cur_year_data.forEach(row => {
+  //     Object.entries(row).forEach(([key, value]) => {
+  //       if (key == "Sport" && !sport_list.includes(value)) {
+  //         sport_list.push(value)
+  //       }
+  //     })
+  //   })
+  //   dict.push({key : cur_year,
+  //             value : sport_list
+  //   })
+  // }
 
-  console.log(dict)
+  // console.log(dict)
   
+  // x_value = []
+  // y_value = []
+  // dict.forEach(row => x_value.push(row.key))
+  // dict.forEach(row => y_value.push((row.value).length))
+
+// Code to read ("/api/sport/year_wise_count")
   x_value = []
   y_value = []
-  dict.forEach(row => x_value.push(row.key))
-  dict.forEach(row => y_value.push((row.value).length))
-
+  response.forEach(row => x_value.push(key))
+  response.forEach(row => y_value.push((value)))
   trace1 = {
     x: x_value,
     y: y_value,
     type: "line"
   }
+  // console.log("x_value:" + x_value)
+  //  console.log("y_value:" + y_value)
 
   const layout = {
     scope: "usa",
@@ -84,9 +91,12 @@ function unpack(rows, index) {
   });
 }
 
+
+// Second plot
+  // d3.json("/api/???").then(function(response) {
 d3.csv("../static/assets/data/merged_data.csv").then(function(response) {
 
-  console.log(response);
+  // console.log(response);
   const GDPdata = response;
 
   var AU_medals = []
@@ -99,7 +109,8 @@ d3.csv("../static/assets/data/merged_data.csv").then(function(response) {
   AU_data.forEach(row => AU_medals.push(row.Medals))  
   AU_data.forEach(row => AU_GDP.push(row.Value))  
   AU_data.forEach(row => AU_year.push(row.Year))  
-  console.log(AU_year)
+  // console.log("AU_year:"+ AU_year)
+  // console.log("AU_medals:" +AU_medals)
 
   var CN_medals = []
   var CN_GDP = []
@@ -199,6 +210,7 @@ d3.csv("../static/assets/data/merged_data.csv").then(function(response) {
   USA_data.forEach(row => USA_medals.push(row.Medals))  
   USA_data.forEach(row => USA_GDP.push(row.Value))  
   USA_data.forEach(row => USA_year.push(row.Year))  
+
 
   var US_bar = {
     x: USA_year,

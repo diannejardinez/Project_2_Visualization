@@ -1,6 +1,7 @@
-from flask import Flask, jsonify, render_template
+from config_database import password, database_name
+from flask import Flask, jsonify, render_template, redirect
 from sqlalchemy.ext.automap import automap_base
-from sqlalchemy import func, desc
+from sqlalchemy import func, desc, distinct
 from flask_sqlalchemy import SQLAlchemy
 
 #################################################
@@ -9,12 +10,13 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 app.config['DEBUG'] = True
+app.config["TEMPLATES_AUTO_RELOAD"] = True
 
 #################################################
 # Database Setup
 #################################################
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:postgres@localhost:5432/olympics_db"
+app.config["SQLALCHEMY_DATABASE_URI"] = f"postgresql://postgres:{password}@localhost:5432/{database_name}"
 db = SQLAlchemy(app)
 db.init_app(app)
 
@@ -22,6 +24,8 @@ db.init_app(app)
 Base = automap_base()
 # reflect the tables
 Base.prepare(db.engine, reflect=True)
+
+print(Base.classes.keys())
 
 # Save references to the table in database
 Athletes = Base.classes.athletes
@@ -46,10 +50,9 @@ def render_webpage(page_name):
 
 # Flask Route 1
 # Query the database and send the jsonified results
+@app.route("/api/all-medal-winners")
 @app.route("/api/all-medal-winners/<country_name>")
-@app.route("/api/all-medal-winners/<country_name>/<season>")
-@app.route("/api/all-medal-winners/<country_name>/<season>/<year>")
-def entire_data_dump(country_name=None, season=None, year=None):
+def entire_data_dump(country_name=None):
     """Return the list for all player who won a medal in Olympics based on input parameter"""
     sel = [
             Athletes.games,
@@ -61,13 +64,10 @@ def entire_data_dump(country_name=None, season=None, year=None):
             Athletes.medal
             ]
 
-    results = db.session.query(*sel).filter(Athletes.medal.isnot(None))\
-        .filter(Athletes.country.ilike(country_name))
+    results = db.session.query(*sel).filter(Athletes.medal.isnot(None))
     
-    if season is not None:
-        results = results.filter(Athletes.season.ilike(season))
-    if year is not None:
-        results = results.filter(Athletes.year == year)
+    if country_name is not None:
+        results = results.filter(Athletes.country.ilike(country_name))
    
     results = results.order_by(Athletes.games, Athletes.country, Athletes.sport, Athletes.event)
     
@@ -236,6 +236,94 @@ def sport_medals_country(selected_sport):
     
     return jsonify(sport_countries)
 
+
+
+# Flask Route 6
+@app.route("/api/sport/year_wise_count")
+def sport_year_wise():
+    """
+    Return the total number of distinct sports for each year
+    """
+    results = db.session.query(Athletes.year, Athletes.season,\
+                       func.count(distinct(Athletes.sport)).label('total_sports'))\
+            .group_by(Athletes.year, Athletes.season).all()
+
+    year_sport_count = []
+    for year, season, year_count in results:
+        year_sport_dict = {}
+        year_sport_dict["year"] = year
+        year_sport_dict["season"] = season
+        year_sport_dict["sport_count"] = year_count
+        year_sport_count.append(year_sport_dict)
+
+    return jsonify(year_sport_count)
+
+
+
+# Flask Route 7
+@app.route("/api/medals-tally/years_after_1960")
+def total_medal_tally_year_after_1960():
+    """ 
+    Return the the total number of gold, silver, bronze and total medals won by all the countries after year 1960
+    """
+
+    subquery = db.session.query(Athletes.games, Athletes.season, Athletes.year,\
+                         Athletes.country, Athletes.event, Athletes.medal)\
+            .filter(Athletes.medal.isnot(None))\
+            .filter(Athletes.year >= 1960)\
+            .distinct()\
+            .subquery()
+
+    medals_query = db.session.query(subquery.c.games, subquery.c.season,\
+            subquery.c.year, subquery.c.country,\
+            (func.count(subquery.c.medal).label('total_medals')),\
+            func.count(subquery.c.medal).filter(subquery.c.medal == "Gold").label('gold_medals'),\
+            func.count(subquery.c.medal).filter(subquery.c.medal == "Silver").label('silver_medals'),\
+            func.count(subquery.c.medal).filter(subquery.c.medal == "Bronze").label('bronze_medals'))\
+            .group_by(subquery.c.games, subquery.c.season,\
+                      subquery.c.year, subquery.c.country)\
+            .order_by(subquery.c.season, subquery.c.year,\
+                      desc('total_medals'))\
+            .all()
+
+    all_medals = []
+
+    for games, season, year, country, total_medals, gold, silver, bronze in medals_query:
+    
+        country_dict= {}
+        country_dict["Season"] = season
+        country_dict["Year"] = year
+        country_dict["Nation"] = country
+        country_dict["Medals"] = total_medals
+        country_dict["Gold"] = gold
+        country_dict["Silver"] = silver
+        country_dict["Bronze"] = bronze
+        all_medals.append(country_dict)
+
+    return jsonify(all_medals)
+
+
+
+# Flask Route 8
+@app.route("/api/sport/year_season_sport")
+def sport_year_season():
+    """
+    Return the total number of distinct sports for each year
+    """
+    results = db.session.query(Athletes.year, Athletes.season,Athletes.sport)\
+            .group_by(Athletes.year, Athletes.season, Athletes.sport)\
+            .order_by(Athletes.year, Athletes.season)\
+            .all()
+
+    year_sport_count = []
+    for year, season, sport_name in results:
+        year_sport_dict = {}
+        year_sport_dict["year"] = year
+        year_sport_dict["season"] = season
+        year_sport_dict["sport_count"] = sport_name
+        year_sport_count.append(year_sport_dict)
+
+    return jsonify(year_sport_count)
 
 
 if __name__ == '__main__':

@@ -8,13 +8,17 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
 
+  <!--
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/superhero/bootstrap.min.css" rel="stylesheet" integrity="sha384-rvwYMW9Z/bbxZfgxHQEKx6D91KwffWAG+XnsoYNCGWi/qL1P9dIVYm1HBiHFqQEt" crossorigin="anonymous">
+  --> 
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <script src="https://d3js.org/d3.v5.min.js"></script>
 
-  <link rel="stylesheet" href="../static/assets/css/styles.css">
+  <link rel="stylesheet" href="../static/assets/css/sl_styles.css">
 
   <link rel="icon" href="data:,"> <!-- to avoid favicon error -->
 
@@ -50,27 +54,11 @@
 
           <ul class="nav navbar-nav navbar-right navbar-right-custom">
 
-<<<<<<< HEAD
-            <li><a href="/data">Data</a></li>
-=======
             <li><a href="/olympics/data">Data</a></li>
->>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
 
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations<span class="caret"></span></a>
               <ul class="dropdown-menu">
-<<<<<<< HEAD
-               <li><a href="/chart1">Gender Body-Comp</a></li>
-                <li><a href="/chart2">Gdp Vs. Medals</a></li>
-                <li><a href="/chart3">Chloropleth map</a></li>
-                <li><a href="/chart4">Chart4</a></li>
-              </ul>
-            </li>
-
-            <li><a href="/analysis">Analysis</a></li>
-
-            <li><a href="/olympic_facts">Olympic-Facts</a></li>
-=======
                <li><a href="/olympics/chart1">Chart1</a></li>
                 <li><a href="/olympics/chart2">Chart2</a></li>
                 <li><a href="/olympics/chart3">Chart3</a></li>
@@ -81,7 +69,6 @@
             <li><a href="/olympics/analysis">Analysis</a></li>
 
             <li><a href="/olympics/olympic_facts">Olympic-Facts</a></li>
->>>>>>> 3350ff92ef3d026438b8abe30f956b1c9de4df82
 
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -99,88 +86,107 @@
 
     <div class="hero text-center">
       <h1>Do you know?</h1>
-      <p>Subtitle here</p>
+      <p>Olympic Facts</p>
     </div>
 
     <!-- Analysis -->
     <div class = 'row col-md-12 mx-auto'>
 
-      <div class = 'container-fluid card'>
-        <article>  
+      <div class="row card mx-1" >
+        <h5 class="card-header" style="background: #eee !important"> Ancient Olympic Games: </h5>
+        <div class="card-body">
+          <p class="card-text">
             The first Olympic Games took place in the 8th century B.C. in Olympia, Greece. 
             Held every four years, in honor of the Greek God Zeus, records show the Ancient 
             Olympic Games began in 776 BC in Olympia and weren't halted until 394 AD.  Then, 
             in the 4th century A.D., all pagan festivals were banned by Emperor Theodosius I 
             and the Olympics were no more.
-        </article>
+          </p>
+        </div>
       </div>
 
-      <div class = 'container-fluid card'>
-        <article>  
-            However, the athletic tradition was resurrected about 1500 years later.
+
+      <div class="row card mx-1" >
+        <h5 class="card-header"> Modern Olympic Games: </h5>
+        <div class="card-body">
+          <p class="card-text">
+            The athletic tradition was resurrected about 1500 years later.
             The first modern Olympics were held in 1896 in Greece.
             The Modern Olympic Games are based on the Olympic Games of Ancient Greece.
-        </article>
+          </p>
+        </div>
       </div>
 
-      <div class = 'container-fluid card'>
-        <article>  
+
+      <div class="row card mx-1" >
+        <h5 class="card-header"> Olympic Prize:</h5>
+        <div class="card-body">
+          <p class="card-text">
             The prize for event winners in the Ancient Olympics was an olive branch wreath.
             Since the 1904 Olympics, medals have been awarded in each event, with gold medals 
             for first place, silver for second and bronze for third.
-            
-        </article>
+          </p>
+        </div>
       </div>
 
-      <div class = 'container-fluid card'>
-        <article>  
+      <div class="row card mx-1" >
+        <h5 class="card-header">Olympic Motto:</h5>
+        <div class="card-body">
+          <p class="card-text">
             The Olympic motto is "Citius, Altius, Fortius", which is Latin for "Faster, Higher, Stronger". 
             It was proposed by Pierre de Coubertin upon the creation of the International Olympic Committee in 1894.
-        </article>
+          </p>
+        </div>
       </div>
 
-      <div class = 'container-fluid card'>
-        <article> 
+      <div class="row card mx-1" >
+        <h5 class="card-header"> Olympic Torch: </h5>
+        <div class="card-body">
+          <p class="card-text">
             <p>
-                The Olympic flame is lit at Olympia in Greece every two years (Summer and Winter Olympics) 
-                before it journeys to the next host nation where it is paraded around until the lighting 
-                of the Olympic Cauldron at the opening ceremony.
+              The Olympic flame is lit at Olympia in Greece every two years (Summer and Winter Olympics) 
+              before it journeys to the next host nation where it is paraded around until the lighting 
+              of the Olympic Cauldron at the opening ceremony.
             </p> 
             <p>
-                The Olympic torch is lit the old-fashioned way in an ancient ceremony at the temple of Hera, 
-                in Greece: Actresses, wearing costumes of Greek priestesses, use a parabolic mirror and sun rays 
-                to kindle the torch.
+              The Olympic torch is lit the old-fashioned way in an ancient ceremony at the temple of Hera, 
+              in Greece: Actresses, wearing costumes of Greek priestesses, use a parabolic mirror and sun rays 
+              to kindle the torch.
             </p> 
             <p>
-                From there, the torch starts its relay to the host city: It is usually carried by runners, 
-                but it has traveled on a boat, on an airplane (and the Concorde), on horseback, on the back 
-                of a camel, via radio signal, underwater, and in a canoe.
+              From there, the torch starts its relay to the host city: It is usually carried by runners, 
+              but it has traveled on a boat, on an airplane (and the Concorde), on horseback, on the back 
+              of a camel, via radio signal, underwater, and in a canoe.
             </p>
             <p>
-                The relay torch and the Olympic flame are supposed to burn during the whole event. In case 
-                the flame goes out, it can only be reignited with a backup flame, which has been lit in Greece 
-                as well, and with never a regular lighter!
+              The relay torch and the Olympic flame are supposed to burn during the whole event. In case 
+              the flame goes out, it can only be reignited with a backup flame, which has been lit in Greece 
+              as well, and with never a regular lighter!
             </p> 
             <p>
-                The unlit Olympic torch has also been taken to space several times.
+              The unlit Olympic torch has also been taken to space several times.
             </p>
-        </article>
+          </p>
+        </div>
       </div>
 
-      <div class = 'container-fluid card'>
-        <article> 
+      <div class="row card mx-1" >
+        <h5 class="card-header"> Olympic Symbol </h5>
+        <div class="card-body">
+          <p class="card-text">
             <p>
-                The five rings of the Olympic symbol – designed by Baron Pierre de Coubertin, co-founder 
-                of the modern Olympic Games – represent the five inhabited continents of the world 
-                (Africa, Asia, Australia, Europe, and the Americas), they are linked together in friendship.
+              The five rings of the Olympic symbol – designed by Baron Pierre de Coubertin, co-founder 
+              of the modern Olympic Games – represent the five inhabited continents of the world 
+              (Africa, Asia, Australia, Europe, and the Americas), they are linked together in friendship.
             </p>
-
             <p>
-                The six colors – blue,  yellow,  black,  green,  red, and the  white background – were 
-                chosen because every nation’s flag contains at least one of them.
+              The six colors – blue,  yellow,  black,  green,  red, and the  white background – were 
+              chosen because every nation’s flag contains at least one of them.
             </p>
-        </article>
+          </p>
+        </div>
       </div>
+
 
       <div class = 'container-fluid card'>
         <article>  
@@ -202,9 +208,9 @@
       </div>
       
       <div class = 'container-fluid card'>
-        <article>  
-            SINCE WHEN HAVE THE SUMMER AND WINTER GAMES NO LONGER BEEN HELD IN THE SAME YEAR?
-
+        <article>
+          <h5 class="card-header">SINCE WHEN HAVE THE SUMMER AND WINTER GAMES NO LONGER BEEN HELD IN THE SAME YEAR?</h5>
+            
             At its 1986 Session in Lausanne, the IOC decided to introduce this change. 
             From 1924 to 1992, the Summer and Winter Games were each held in the same year, every four years. 
             This four years period is called the "Olympiad". The last Summer and Winter Games held in the same 
@@ -218,8 +224,24 @@
         <article>  
             The Olympic Games have been hosted by 23 different countries.
             The 2012 London Games were the first Olympics in which all participating countries sent female athletes.
+            Great Britain is the only country to have one at least 1 gold medal at every Summer Olympics.
         </article>
-        </div>
+      </div>
+
+      <div class = 'container-fluid card'>
+        <h5 class="card-header">1904 Olympics Marathon:</h5>
+        <article>  
+          At the 1904 Olympics in St. Louis, the marathon was a total mess: The first place finisher did most of the race in a car, the guy in second almost died from eating rat poison, and the fourth place finisher raced in dress pants and shoes, and took a nap by the side of the road for part of the race.
+
+          First off, the entire course was very dusty and breathing in that dust caused all kinds of injuries, including one runner who was hospitalized with hemorrhaging after the dust tore his esophagus and stomach lining. The organizer of the race purposefully withheld water in order to test the effects of dehydration. So the whole thing was a nightmare from the start.
+          
+          That first-place finisher, Fred Lorz, hitched a ride in a car to the end of the course after he was struck with serious cramping. He got out shortly before the finish line and crossed it, which fooled some of the onlookers. He claimed he did it "as a joke."
+          
+          That second-place finisher, Thomas Hicks, was given a mixture of egg whites and strychnine, a poison that is often used to kill rodents or birds, as an attempt at a performance-enhancing drug. He was carried across the finish line by his handlers.
+          
+          That fourth-place finisher, Andarín Carbajal (pictured above), was a Cuban national who raised money to attend the Olympics by running the entire length of Cuba. He gambled away all the money when he arrived in the States, and showed up for the race in dress clothing. Thankfully, another runner used a knife to cut his pants into shorts. Carbajal stopped at a roadside orchard for a snack during the race, but the apples were rotten so he was struck with stomach cramps and had to sleep it off
+        </article>
+      </div>
 
   </div>
 
