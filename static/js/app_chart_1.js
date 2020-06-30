@@ -1,9 +1,8 @@
+
+
 // Setting json files to a variable
 var promises = [
-  // d3.json("/static/assets/data/female_bodycomp_age.json"),
-  // d3.json("static/assets/data/male_bodycomp_age.json")]
-
-  d3.json("api/event/body-composition/F"),
+  d3.json("/api/event/body-composition/F"),
   d3.json("/api/event/body-composition/M")]
 
 // Loading multiple datasets 
@@ -12,6 +11,7 @@ Promise.all(promises).then(function(allData){
   var maleData = allData[1];
   // console.log(femaleData)
   // console.log(maleData)
+
 
 // Male ///////////////////////////
 // Creating empty arrays and object 
@@ -25,7 +25,7 @@ Promise.all(promises).then(function(allData){
   for(var i = 0; i < maleData.length; i++) {
     m_event_list.push(maleData[i].event)
     m_age_list.push(maleData[i].age)
-    m_height_list.push((maleData[i].height)/ 30.48)
+    m_height_list.push((maleData[i].height))
     m_weight_list.push((maleData[i].weight) * 2.205)}
    // console.log(m_event_list)
    // console.log(m_age_list)
@@ -40,7 +40,7 @@ Promise.all(promises).then(function(allData){
   var yValue2 = m_height_list;
   var yValue3 = m_weight_list;
 
-// Making male object
+// Making male dictionary
   var male_obj = {
     xValue: m_event_list,
     yValue1: m_age_list,
@@ -51,15 +51,13 @@ Promise.all(promises).then(function(allData){
     textValue3: ("Male Weight")}
   // console.log(male_obj)
 
-// Setting male object values to variables for barplot
   var xValue_male = (male_obj.xValue)
   var yValue1_male = (male_obj.yValue1)
   var yValue2_male = (male_obj.yValue2)
   var yValue3_male = (male_obj.yValue3)
-  // var textValue1_male = (male_obj.textValue1)
-  // var textValue2_male = (male_obj.textValue2)
-  // var textValue3_male = (male_obj.textValue3)
-
+  var textValue1_male = (male_obj.textValue1)
+  var textValue2_male = (male_obj.textValue2)
+  var textValue3_male = (male_obj.textValue3)
 
   // Female ///////////////////////////
   female_obj = {};
@@ -68,11 +66,11 @@ Promise.all(promises).then(function(allData){
   f_height_list = [];
   f_weight_list = [];
 
-// Getting age, height, Weight and pushing to lists
+// Getting Age, Height, Weight and pushing to lists
   for(var i = 0; i < femaleData.length; i++) {
     f_event_list.push(femaleData[i].event)
     f_age_list.push(femaleData[i].age)
-    f_height_list.push((femaleData[i].height)/ 30.48)
+    f_height_list.push((femaleData[i].height))
     f_weight_list.push((femaleData[i].weight) * 2.205)}
    // console.log(m_event_list)
    // console.log(m_age_list)
@@ -87,7 +85,7 @@ Promise.all(promises).then(function(allData){
   var yValue2 = f_height_list;
   var yValue3 = f_weight_list;
 
-// Making female object
+// Making female dictionary
   var female_obj = {
     xValue: f_event_list,
     yValue1: f_age_list,
@@ -98,7 +96,6 @@ Promise.all(promises).then(function(allData){
     // textValue3 : ("Female Weight")
   }
 
-// Setting female object values to variables for barplot
   var xValue_female = (female_obj.xValue)
   var yValue1_female = (female_obj.yValue1)
   var yValue2_female = (female_obj.yValue2)
@@ -107,7 +104,7 @@ Promise.all(promises).then(function(allData){
   // var textValue2_female = (female_obj.textValue2)
   // var textValue3_female = (female_obj.textValue3)
 
-// Display default plot - Female
+// Display default plots - Female
   function init1() {
     var barChart1 = {
       name: "Gold",
@@ -122,7 +119,7 @@ Promise.all(promises).then(function(allData){
     };
     var layout1 = {
       title: {
-        text: 'Age',
+        text: "Age",
         font: {
           size: 20,
         }},
@@ -138,7 +135,7 @@ Promise.all(promises).then(function(allData){
       xaxis: {
         categoryorder:'total descending'},
       yaxis: {
-          range: [0, 35],
+          range: [0, 35]
           },
   };
   Plotly.newPlot("plot1", [barChart1], layout1);
@@ -215,27 +212,26 @@ init1()
 init2()
 init3()
 
-  // Function to change values when female of male is selected and plot barcharts
+  // On change to the DOM, call getData()
  d3.selectAll("#selDataset").on("change", getData);
   function getData() {
     function barchart1 () {
-      // Set variable for dropdown menu value
-      var dataset = d3.select("#selDataset").property("value");
+      // Use D1 to select the dropdown menu
+      var dropdownMenu = d3.select("#selDataset");
+      // Assign the value of the dropdown menu option to a variable
+      var dataset = dropdownMenu.property("value");
 
-      // Set empty arrays for changes to values 
       var x = [];
       var y = [];
       var text = [];
       var hovertemplate = [];
 
-      // if the dropdown menu option is female, use these values
       if (dataset == 'female') {
         x = xValue_female;
         y = yValue1_female;
         text = (yValue1_female).map(String);
         hovertemplate = 'Female Age: %{y}<extra></extra>';
       }
-      // if the dropdown menu option is male, use these values
       if (dataset === 'male') {
         x = xValue_male;
         y = yValue1_male;
@@ -248,22 +244,22 @@ init3()
       Plotly.restyle("plot1", "hovertemplate", [hovertemplate]);
     }
     function barchart2 () {
-      // Set variable for dropdown menu value
-      var dataset = d3.select("#selDataset").property("value");
+      // Use D2 to select the dropdown menu
+      var dropdownMenu = d3.select("#selDataset");
+      // Assign the value of the dropdown menu option to a variable
+      var dataset = dropdownMenu.property("value");
 
-      // Set empty arrays for changes to values 
       var x = [];
       var y = [];
       var text = [];
       var hovertemplate = [];
-      // if the dropdown menu option is female, use these values
+
       if (dataset == 'female') {
         x = xValue_female;
         y = yValue2_female;
         text = (yValue2_female).map(String);
         hovertemplate = 'Female Height: %{y:.1f}<extra></extra>';
       }
-      // if the dropdown menu option is male, use these values
       if (dataset === 'male') {
         x = xValue_male;
         y = yValue2_male;
@@ -275,24 +271,24 @@ init3()
       Plotly.restyle("plot2", "text", [text]);
       Plotly.restyle("plot2", "hovertemplate", [hovertemplate]);
     }
-    function barchart3 () {
-      // Set variable for dropdown menu value
-      var dataset = d3.select("#selDataset").property("value");
 
-      // Set empty arrays for changes to values 
+    function barchart3 () {
+      // Use D3 to select the dropdown menu
+      var dropdownMenu = d3.select("#selDataset");
+      // Assign the value of the dropdown menu option to a variable
+      var dataset = dropdownMenu.property("value");
+
       var x = [];
       var y = [];
       var text = [];
       var hovertemplate = [];
 
-      // if the dropdown menu option is female, use these values
       if (dataset == 'female') {
         x = xValue_female;
         y = yValue3_female;
         text = (yValue3_female).map(String);;
         hovertemplate = 'Female Weight: %{y:.2f}<extra></extra>'
       }
-      // if the dropdown menu option is male, use these values
       if (dataset === 'male') {
         x = xValue_male;
         y = yValue3_male;
@@ -308,4 +304,6 @@ init3()
   barchart2()
   barchart3()
   }
+
+
 });
