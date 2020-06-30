@@ -4,7 +4,7 @@
 <head>
 
 <meta charset="utf-8">
-<title>Olympic Medals</title>
+<title>Olympic Sports</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -26,52 +26,8 @@ crossorigin=""></script>
 <!-- Leaflet-Choropleth JavaScript -->
 <script type="text/javascript" src="../static/js/choropleth.js"></script>
 
-<link rel="stylesheet" href="../static/assets/css/styles.css">
-<style type="text/css">
-  body {
-    text-align: center
-  }
-
-  #map {
-    height: 800px;
-    width: 80%;
-    margin: 40px auto;
-  }
-
-  .legend {
-    color: #555;
-    padding: 6px 8px;
-    font: 12px Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    background: white;
-    background: rgba(255,255,255,0.8);
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    border-radius: 5px;
-  }
-
-  .legend ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    clear: both;
-  }
-
-  .legend li {
-    display: inline-block;
-    width: 30px;
-    height: 22px;
-  }
-
-  .legend .min {
-    float: left;
-    padding-bottom: 5px;
-  }
-
-  .legend .max {
-    float: right;
-  }
-
-</style>
+<link rel="stylesheet" href="../static/assets/css/sl_styles_chart4.css">
+<link rel="stylesheet" href="../static/assets/css/style_chart4.css">
 
 <link rel="icon" href="data:,"> <!-- to avoid favicon error -->
 
@@ -95,7 +51,6 @@ crossorigin=""></script>
 
           <div class="col-xs-9 phone-nav">
             <a class="navbar-brand" href="/" id="logo">Olympics</a>
-              <img class="nav-olympic" src="../static/assets/images/olympicRings.jpg">
             </a>
           </div>
         </div>
@@ -135,14 +90,26 @@ crossorigin=""></script>
 <div class= "wrapper">
   <div class="hero text-center">
     <h1>Top Performing Countries</h1>
-    <p> View the top 10 countries for a particular sport</p>
+    <p> Based On Particular Sport</p>
   </div>
 
-  <div class="container">
+  <div class="container-fluid">
     <div class="row col-sm-12">
-      <form>
-        <label for="sport">Enter a sport</label>
-        <input style="text-align: center" class="filter form-control" id="sport" type="text" placeholder="Basketball">
+      <h1 id="subject">The map shows the top 10 countries that have won the most Olympic medals for the selected sport</h1>
+    </div>
+    <div class="row">
+      <form class="query">
+        <div class="form-group">
+           <div class="col-md-4">
+              <label for="sport"><p>Enter a sport</p></label>
+            </div>
+            <div class="col-md-4">
+              <input class="form-control" style="text-align: center" class="filter form-control" id="sport" type="text" placeholder="Basketball">
+            </div>
+            <div class="col-md-4">
+              <button id="filter-btn" type="button" class="btn btn-info">Search Results</button>
+            </div>
+        </div>
       </form>
     </div>
 

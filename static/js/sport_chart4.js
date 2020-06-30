@@ -3,15 +3,20 @@ const API_KEY = "pk.eyJ1IjoiYmthcHNhbGlzIiwiYSI6ImNrMzg2OTZnMzA0bTMzaW5yMWhyb2hx
 // Adding tile layer
 var satelliteMap = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {	
 attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
-maxZoom: 18,
+minZoom: 1,
+maxZoom: 6,
 id: "mapbox/light-v10", 
 accessToken: API_KEY
 });
 
 // Creating map object
 var map = L.map("map", {
-  center: [33.589886, -7.603869],
-  zoom: 2,
+    center: [33.589886, -7.603869],
+    zoom: 2,
+    doubleClickZoom: false,
+    scrollWheelZoom: false,
+    minZoom: 1,
+    maxZoom: 6,
 });
 
 satelliteMap.addTo(map);
@@ -86,9 +91,9 @@ function updateMap() {
                     fillOpacity: 0.9
                 },
                 onEachFeature: function(feature, layer) {
-                    layer.bindPopup(`Country: ${feature.properties.ADMIN}
+                    layer.bindPopup(`<h4><strong>Country: ${feature.properties.ADMIN}
                         <br> Sport: ${selected_sport} 
-                        <br> Medals: ${feature.properties.Medals}`)
+                        <br> Medals: ${feature.properties.Medals}</strong></h4>`)
                 }
             })
             choroplethLayer.addTo(map);
@@ -117,5 +122,5 @@ function updateMap() {
     });
 }
     
-d3.select("#sport").on("change", updateMap);
+d3.select("#filter-btn").on("click", updateMap);
     
