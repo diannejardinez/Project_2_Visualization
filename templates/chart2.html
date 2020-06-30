@@ -19,9 +19,43 @@
   
   <link rel="icon" href="data:,"> <!-- to avoid favicon error -->
 
+  <style>
+
+    .card {
+        padding: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    footer {
+      text-align: center;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: 3px;
+      color: white;
+      background: rgb(22, 80, 138);
+    }
+    /* The code styles the text at the bottom of the footer */
+    .footer > .bottom {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: 5px;
+      background:steelblue;
+      color: white;
+      font-size: 24px;
+      text-align: center;
+    }
+  
+  </style>
+
+
 </head>
 
 <body>
+  
   <!-- Start of navbar -->
   <nav class="navbar navbar-default">
     <div class="container-fluid navbar-custom">
@@ -72,70 +106,78 @@
   </nav>
   <!-- End of navbar -->
 
-<div class= "container">
-  <div class="row">
-      <div class="col-md-12">  
-        <img class="col-md-12" id="photo" src="https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/96040/olympic_rings.jpg&w=2000&op=resize"/>   
-      </div>
-      <div class="col-md-12">  
-        <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(0, 0, 0)">
-      </div> 
-   </div>
-</div>   
 
-<div class= "container">
-  <div class="jumbotron text-center" style="background: #eee !important">
-    <h1 style = "color: black">Does money buy medals?</h1>
-    <p></p>
-  </div>
-</div>
+  <div>
 
-<div class= "container container d-flex justify-content-center ">
-  <div class="row">
-      <div class="col-md-12">
-          <h2>Analysis: Sport Participation and Popularity</h2>
-          <p></p>
-            <div id="plot"></div>
+    <div class= "container">
+      <div class="row">
+          <div class="col-md-12">  
+            <img class="col-md-12" id="photo" src="https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/96040/olympic_rings.jpg&w=2000&op=resize"/>   
+          </div>
+          <div class="col-md-12">  
+            <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(0, 0, 0)">
+          </div> 
       </div>
-  </div>
-</div>
-<div class= "container container d-flex justify-content-center ">
-  <div class="row">
-      <div class="col-md-12">
-        <p>There is a significant relationship between a nation’s GDP and the number of gold medals they win at the Olympics.
-        <br>
-        The top 10 countries with the most medals all have GDPs of more than 1 billion dollars, while the 10 countries with the fewest medals have GDPs well below 1 billion. The average GDP for gold medal winning countries is $1,062,860,000.
-        <br>
-        China has seen phenomenal economic growth over the last couple of decades, which has corresponded with China’s emergence as a global force in international sports.
-        </p>
+    </div>   
+
+    <div class= "container">
+      <div class="jumbotron text-center" style="background: #eee !important">
+        <h1 style = "color: black">Does money buy medals?</h1>
+        <p></p>
       </div>
-  </div>
-</div>
-<div class= "container container d-flex justify-content-center mt-5">
-  <div class="row">
-    <div class="col-md-12">
-      <div id="myDiv"></div>
     </div>
+
+    <div class= "container d-flex justify-content-center ">
+      <div class="row">
+          <div class="col-md-12">
+              <h2>Analysis: Sport Participation and Popularity</h2>
+              <p></p>
+                <div id="plot"></div>
+          </div>
+      </div>
+    </div>
+
+    <div class= "container d-flex justify-content-center">
+      <div class="row card">
+          <div class="col-md-12">
+            <p>There is a significant relationship between a nation’s GDP and the number of gold medals they win at the Olympics.
+            <br>
+            The top 10 countries with the most medals all have GDPs of more than 1 billion dollars, while the 10 countries with the fewest medals have GDPs well below 1 billion. The average GDP for gold medal winning countries is $1,062,860,000.
+            <br>
+            China has seen phenomenal economic growth over the last couple of decades, which has corresponded with China’s emergence as a global force in international sports.
+            </p>
+          </div>
+      </div>
+    </div>
+
+    <div class= "container d-flex justify-content-center">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="myDiv"></div>
+        </div>
+      </div>
+    </div>
+      
+    <footer>
+      <span class = 'bottom'>Olympics Dashboard</span>
+    </footer>    
+
   </div>
-</div>
-</div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-crossorigin="anonymous"></script>
-<script src="https://d3js.org/d3.v5.min.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
-
-<!-- <script type="text/javascript" src="../static/js/app_data_table.js"> </script> -->
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<script type="text/javascript" src="../static/js/chart2plot.js"> </script>
+  <!-- <script type="text/javascript" src="../static/js/app_data_table.js"> </script> -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script type="text/javascript" src="../static/js/chart2plot.js"> </script>
 
 </body>
 
