@@ -30,6 +30,12 @@
 
   <!-- d3 JS -->
   <script src="https://d3js.org/d3.v4.min.js"></script><!-- to avoid favicon error -->
+  <style>
+
+  .btn {
+    margin-left: 25px;
+  }
+  </style>
 
 </head>
 
@@ -116,7 +122,7 @@
                     <ul class="list-group" id="filters">
                       <li class="filter list-group-item">
                         <label for="date">Olympic Type</label>
-                        <input class="form-control" id="type" type="text" placeholder="Summer">
+                        <input class="form-control" id="type" type="text" placeholder="summer">
                       </li>
                       <li class="filter list-group-item">
                         <label for="city">Enter Year</label>
@@ -144,14 +150,14 @@
             <table class="table table-bordered table-striped table-hover table-condensed">
                 <thead id="thtable">
                 <tr>
-                  <th class="table-head">type</th>
-                  <th class="table-head">year</th>
-                  <th class="table-head">region</th>
-                  <th class="table-head">latitude</th>
-                  <th class="table-head">longitude</th>
-                  <th class="table-head">gold</th>
-                  <th class="table-head">silver</th>
-                  <th class="table-head">bronze</th>
+                  <th class="table-head">Type</th>
+                  <th class="table-head">Year</th>
+                  <th class="table-head">Region</th>
+                  <th class="table-head">Latitude</th>
+                  <th class="table-head">Longitude</th>
+                  <th class="table-head">Gold</th>
+                  <th class="table-head">Silver</th>
+                  <th class="table-head">Bronze</th>
                 </tr>
               </thead>
               <tbody></tbody>
@@ -186,7 +192,7 @@
     </div>
 
     <div class="container mx-auto">
-      <div class="col-md-10">
+      <div class="col-md-11">
         <div id="map" style="width: 900px; height: 500px; left:10%;" ></div>
       </div>
     </div>

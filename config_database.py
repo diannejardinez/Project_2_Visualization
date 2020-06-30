@@ -1,4 +1,4 @@
 #######   ENTER THE PASSWORD AND NAME_OF_POSTGRES_DATABASE #######
 
-password = "ENTER YOUR PASSWORD"
-database_name = "ENTER DATABASE NAME"
+password = "Lathalu1"
+database_name = "olympics_database"
