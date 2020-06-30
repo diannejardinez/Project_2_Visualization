@@ -95,6 +95,8 @@ d3.csv("athlete_events.csv")
     }
     const layout = {
       title: "Number of Olympic Sports",
+      width: 900,
+      height: 800
     }
 
     Plotly.newPlot("plot", [trace1, trace2], layout);
@@ -379,7 +381,9 @@ d3.csv("athlete_events.csv")
       yaxis2: {title: "Medal Counts",
               side: "right",
               overlaying: "y",
-              position: .96}
+              position: .96,
+              width: 900,
+              height: 800}
     }
     Plotly.newPlot('myDiv', data1, layout1);
 
