@@ -1,12 +1,4 @@
 
-/*Chart 3.html css*/
-/* Custom table scroll */
-#thtable {
-  background-color: #39444f;
-  color: #ffffff;
-}
-
-/*#4e5d6c*/
 /*custom scrollbar visbility in data html*/
 /*css from https://mdbootstrap.com/docs/jquery/tables/scroll/*/
 .my-custom-scrollbar {
@@ -24,9 +16,9 @@ css from https://mdbootstrap.com/docs/jquery/javascript/scroll/*/
 .scrollbar-primary::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-  background-color: #39444f; 
+  background-color: #95989b; 
 }
 .scrollbar-primary::-webkit-scrollbar {
   width: 12px;
-  background-color: #4e5d6c; 
+  background-color: #e3e4e6; 
 }
