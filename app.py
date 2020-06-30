@@ -16,7 +16,7 @@ app.config["TEMPLATES_AUTO_RELOAD"] = True
 # Database Setup
 #################################################
 
-app.config["SQLALCHEMY_DATABASE_URI"] = f"postgresql://postgres:{password}@localhost:5432/{database_name}"
+app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:Seaweed3@localhost:5432/Olympics"
 db = SQLAlchemy(app)
 db.init_app(app)
 
@@ -45,7 +45,7 @@ def home():
 @app.route("/olympics/<page_name>")
 def render_webpage(page_name):
     """Render the webpage"""
-    return render_template(f'{page_name}.html')
+    return render_template(page_name+'.html')
 
 
 # Flask Route 1
