@@ -95,7 +95,8 @@ d3.csv("athlete_events.csv")
     }
     const layout = {
       title: "Number of Olympic Sports",
-      width: 900,
+      autosize: true,
+      width: 1200,
       height: 800
     }
 
@@ -382,8 +383,8 @@ d3.csv("athlete_events.csv")
               side: "right",
               overlaying: "y",
               position: .96,
-              width: 900,
-              height: 800}
+              width: 1400,
+              height: 1000}
     }
     Plotly.newPlot('myDiv', data1, layout1);
 
