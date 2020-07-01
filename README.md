@@ -30,7 +30,7 @@
 # How to Run our Visualization Project
 - Prerequisites: 
 	- [pgAdmin and Postgres installed](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
-		- During Setup Wizard: select PostgreSQL Serve, pgAdmin 4, Command Line Tools
+		- During Setup Wizard: select PostgreSQL Server, pgAdmin 4, Command Line Tools
 
 - Git clone this Repo 
 - Use `olympics_data.csv` inside database directory to import in a pdAdmin 4 database
