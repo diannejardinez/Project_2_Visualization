@@ -21,7 +21,7 @@
 - Chart.js Barchart
 
 **Project scope** :
-- Which top 10 countries had the highest medal count by year, by country, and by sport
+- Which top 10 countries had the highest medal count by year, by country and season, and by sport
 - What it takes to be at the top for 14 sports by gender for all Olympic years and Gold medallists
 - Which sports were popular
 - The relationship between medal count and country's GDP
