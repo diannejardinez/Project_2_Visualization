@@ -2,7 +2,6 @@ init();
 
 function init() {
 
-    // Feel free to change or delete any of the code you see in this editor!
     var svg = d3.select(".barChartRace").append("svg")
       .attr("width", 960)
       .attr("height", 600);
@@ -41,10 +40,8 @@ function init() {
 
     let year = 1980;
 
-    // console.log('@line 44');
     // console.log(year);
     
-
     d3.json("/api/total-medals").then(function(data) { 
       
       data.forEach(d => {
@@ -52,7 +49,7 @@ function init() {
         d.colour = d3.hsl(Math.random()*360,0.75,0.75)
       });
       
-      //console.log(data);
+      console.log(data);
     
       let yearSlice = data.filter(d => d.year == year && !isNaN(d.total_medals))
                           .sort((a,b) => b.total_medals - a.total_medals)
