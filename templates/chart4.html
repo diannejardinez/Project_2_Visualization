@@ -95,27 +95,64 @@ crossorigin=""></script>
 
   <div class="container-fluid">
     <div class="row col-sm-12">
-      <h1 id="subject">The map shows the top 10 countries that have won the most Olympic medals for the selected sport</h1>
+      <h2 class="subject">The map shows the top 10 countries that have won the most olympic medals for the selected sport</h2>
     </div>
-    <div class="row">
-      <form class="query">
-        <div class="form-group">
-           <div class="col-md-4">
-              <label for="sport"><p>Enter a sport</p></label>
-            </div>
-            <div class="col-md-4">
-              <input class="form-control" style="text-align: center" class="filter form-control" id="sport" type="text" placeholder="Basketball">
-            </div>
-            <div class="col-md-4">
-              <button id="filter-btn" type="button" class="btn btn-info">Search Results</button>
-            </div>
-        </div>
-      </form>
+    <div class="container">
+      <div class="row">
+        <form class="query">
+          <div class="form-group">
+             <div class="col-sm-4">
+                <label for="sport"><p>Enter a sport</p></label>
+              </div>
+              <div class="col-sm-4">
+                <input class="form-control" class="filter form-control" id="sport" type="text" placeholder="Athletics">
+              </div>
+              <div class="col-sm-4">
+                <button id="filter-btn" type="button" class="btn btn-info">Search Results</button>
+              </div>
+          </div>
+        </form>
+      </div>
     </div>
 
+
+    <!-- Choropleth Map -->
     <div id = 'map'>
-      <!-- Your Chart will be appended here*/ -->
+      <!-- Map will be appended here*/ -->
     </div>
+
+    <br>
+    <br>
+    <hr>
+    
+
+    <div class="row col-sm-12">
+      <h2 class="subject">The bar chart shows the top sports for which the selected country has won most Olympic Medals</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <form class="query">
+          <div class="form-group">
+             <div class="col-sm-4">
+                <label for="country"><p>Enter a country</p></label>
+              </div>
+              <div class="col-sm-4">
+                <input class="form-control" style="text-align: center" class="filter form-control" id="country_name" type="text" placeholder="USA">
+              </div>
+              <div class="col-sm-4">
+                <button id="filter-btn-country" type="button" class="btn btn-info">Search Results</button>
+              </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+    <!-- Bar Chart -->
+    <div id="bar_chart_new">
+      <!-- Bar Chart will be appended here*/ -->
+    </div>
+    
  
 
   <footer class="footer">
@@ -136,6 +173,9 @@ crossorigin=""></script>
   <script src="https://d3js.org/d3.v5.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+
+  <!-- chart.js script tag -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 
   <!-- add link to your javascript file -->
   <script type="text/javascript" src="../static/js/sport_chart4.js"></script>

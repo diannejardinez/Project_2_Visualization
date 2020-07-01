@@ -213,21 +213,27 @@ def gender_body_composition(gender):
 
 # Flask Route 5
 @app.route("/api/sport/<selected_sport>")
-# @app.route("/api/sport/<year_after>")
 def sport_medals_country(selected_sport):
     """
-    Return the top 10 countries which have won maximum medal in particular sport over the years specified.
+    Return the top 10 countries which have won maximum medal in particular sport over all the years.
     """
-    results = db.session.query(Athletes.sport, Athletes.country,\
-            func.count(Athletes.medal).label("medals_won"))\
-            .filter(Athletes.sport.ilike(selected_sport))\
-            .group_by(Athletes.sport, Athletes.country)\
-            .order_by(Athletes.sport, desc("medals_won"))\
-            .limit(10)
+    subquery = db.session.query(Athletes.year, Athletes.country,\
+             Athletes.sport, Athletes.medal)\
+            .filter(Athletes.medal.isnot(None))\
+            .distinct()\
+            .subquery()
+
+    results = db.session.query(subquery.c.sport, subquery.c.country,\
+            func.count(subquery.c.medal).label("medals_won"))\
+            .filter(subquery.c.sport.ilike(selected_sport))\
+            .group_by(subquery.c.sport, subquery.c.country)\
+            .order_by(subquery.c.sport, desc("medals_won"))\
+            .limit(10)\
+            .all()
 
     sport_countries = []
 
-    for sport, country, medals in results.all():
+    for sport, country, medals in results:
         country_dict = {}
         country_dict["sport"] = sport
         country_dict["country"] = country
@@ -308,7 +314,7 @@ def total_medal_tally_year_after_1960():
 @app.route("/api/sport/year_season_sport")
 def sport_year_season():
     """
-    Return the total number of distinct sports for each year
+    Return the sports in olympics for each olympic year and season
     """
     results = db.session.query(Athletes.year, Athletes.season,Athletes.sport)\
             .group_by(Athletes.year, Athletes.season, Athletes.sport)\
@@ -324,6 +330,39 @@ def sport_year_season():
         year_sport_count.append(year_sport_dict)
 
     return jsonify(year_sport_count)
+
+
+
+# Flask Route 9
+@app.route("/api/sport/country/<selected_country>")
+def country_sport_medal(selected_country):
+    """
+    Return the total number of medals won (sport wise) by the 
+    """
+
+    subquery = db.session.query(Athletes.year, Athletes.country, Athletes.sport, Athletes.medal)\
+        .filter(Athletes.medal.isnot(None))\
+        .distinct()\
+        .subquery()
+
+    results = db.session.query(subquery.c.country, subquery.c.sport, \
+              func.count(subquery.c.medal).label('medals_won'))\
+        .filter(subquery.c.country.ilike(selected_country))\
+        .group_by(subquery.c.country, subquery.c.sport)\
+        .order_by(subquery.c.country, desc('medals_won'))\
+        .limit(10)\
+        .all()
+
+    country_sport = []
+    for country, sport, medals_won in results:
+        country_sport_dict = {}
+        country_sport_dict["country"] = country
+        country_sport_dict["sport"] = sport
+        country_sport_dict["medals_won"] = medals_won
+        country_sport.append(country_sport_dict)
+
+    return jsonify(country_sport)
+
 
 
 if __name__ == '__main__':

@@ -9,15 +9,17 @@ body {
  }
 
 .query label {
-	font-size: 26px;
+	font-size: 24px;
+	text-align: center
 }
 
 .query input {
- 	font-size: 26px;
+ 	font-size: 24px;
  	border: 1px solid grey;
+ 	text-align: center
  }
 
-#subject {
+.subject {
 	margin-bottom: 50px;
 }
 
