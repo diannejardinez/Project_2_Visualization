@@ -35,8 +35,5 @@
 - Git clone this Repo 
 - Use `olympics_data.csv` inside database directory to import in a pdAdmin 4 database
 - Update `config_database.py` with own pgAdmin 4 password and database name
-- To run:
-```bash
-$ python app.py
-```
+- Run in Terminal `$ python app.py`
 - Copy Server Flask app pathway provided by the Terminal into a Web browser 
