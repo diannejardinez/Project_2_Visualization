@@ -123,4 +123,67 @@ function updateMap() {
 }
     
 d3.select("#filter-btn").on("click", updateMap);
-    
+
+
+
+// Second chart on page (Using chart.js library)
+
+
+
+function updateBarChart() {
+    d3.event.preventDefault();
+
+    var selected_country = d3.select("#country_name").property("value");
+        
+    d3.json(`/api/sport/country/${selected_country}`).then(function(top_sports){
+
+        console.log(top_sports);
+
+        myLabels = top_sports.map(function(country_obj) {
+            return country_obj.sport
+        });
+
+        myData = top_sports.map(function(country_obj) {
+            return country_obj.medals_won
+        });
+
+        renderBarChart(myLabels, myData)
+
+    })
+
+}
+
+function renderBarChart(myLabels, myData) {
+    // clear canvas if exists
+    d3.select("#bar_chart_new").html("");
+    // Append canvas tag
+    d3.select("#bar_chart_new").html('<canvas id="myChart"></canvas>');
+
+    var ctx = document.getElementById('myChart');
+    var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: myLabels,
+        datasets: [{
+            label: '# of Medals',
+            data: myData,
+            backgroundColor: ["#67001f", "#980043", "#ce1256", "#e7298a",
+                                "#df65b0", "#c994c7", "#c994c7", "#c994c7",
+                                "#c994c7", "#c994c7"],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+});
+}
+
+
+d3.select("#filter-btn-country").on("click", updateBarChart);
