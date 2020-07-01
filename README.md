@@ -26,3 +26,17 @@
 - Which sports were popular
 - The relationship between medal count and country's GDP
 
+
+# How to Run our Visualization Project
+- Prerequisites: 
+	- [pgAdmin and Postgres installed](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+		- During Setup Wizard: select PostgreSQL Serve, pgAdmin 4, Command Line Tools
+
+- Use `olympics_data.csv` to import in pdAdmin 4 database
+- Update `config_database.py` with own password and database name
+- Git clone this Repository 
+- To run:
+```bash
+$ python app.py
+```
+- Copy Server Flask app pathway provided in the Terminal into a Web browser 
