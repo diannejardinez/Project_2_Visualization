@@ -42,7 +42,8 @@ def home():
     return render_template("index.html")
 
 
-@app.route("/olympics/<page_name>")
+# @app.route("/olympics/<page_name>")
+@app.route("/<page_name>")
 def render_webpage(page_name):
     """Render the webpage"""
     return render_template(f'{page_name}.html')
