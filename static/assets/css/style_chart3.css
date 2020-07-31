@@ -5,7 +5,7 @@
   position: relative;
   height: 370px;
   overflow: auto;
-  width: 925px;
+/*  width: 925px;*/
 }
 .table-wrapper-scroll-y {
   display: block;

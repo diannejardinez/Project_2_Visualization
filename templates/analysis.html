@@ -1,94 +1,120 @@
+
 <!DOCTYPE html>
 <html>
-
 <head>
+<meta charset="UTF-8">
 
-  <meta charset="utf-8">
-  <title>Olympics</title>
+<title>Olympics - Visualization & Prediction</title>
+  <!-- Icon for window -->
+  <link rel="icon" href="https://image.flaticon.com/icons/svg/1021/1021169.svg">
+  <!-- Font awesome icons -->
+    <script src="https://kit.fontawesome.com/2e362d4438.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap 4 Link -->
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-smnSwzHqW1zKbeuSMsAM/fMQpkk7HY11LuHiwT8snL/W2QBoZtVCT4H5x1CEcJCs" crossorigin="anonymous">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
-
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <!-- Link to D3 -->
   <script src="https://d3js.org/d3.v5.min.js"></script>
-
-  <link rel="stylesheet" href="../static/assets/css/sl_styles.css">
-
-  <link rel="icon" href="data:,"> <!-- to avoid favicon error -->
-
+<!-- Link to Plotly -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
-
 <body>
-  <!-- Start of navbar -->
-  <nav class="navbar navbar-default">
-    <div class="container-fluid navbar-custom">
 
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="row">
-        <div class="navbar-header">
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle Navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
 
-          <div class="col-xs-9 phone-nav">
-            <a class="navbar-brand" href="/" id="logo">Olympics</a>
-            </a>
-          </div>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand mt-3" href="index.html"><h2 class="text-dark ml-2">OLYMPICS</h2></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav mr-auto"></ul>
+      <ul class="nav navbar-nav navbar-right-custom">
+      <li class="nav-item">
+        <a class="nav-link" href="data.html">DATA</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Visualizations</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Chart0.html">Medals Timeline</a>
+          <a class="dropdown-item" href="Chart1.html">Gender & Body Composition</a>
+          <a class="dropdown-item" href="Chart2.html">Medals VS GDP</a>
+          <a class="dropdown-item" href="Chart3.html">Medals World View - Seasons</a>
+          <a class="dropdown-item" href="Chart4.html">Medals World View - Sport</a>
         </div>
+      <li class="nav-item">
+        <a class="nav-link" href="analysis.html">Analysis</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="olympic_facts.html">Olympic Facts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="machine_learning.html">Olympic Medal Predictions</a>
+      </li>
+      </ul>
+  </div>
+</nav>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-          <ul class="nav navbar-nav navbar-right navbar-right-custom">
-
-            <li><a href="/olympics/data">Data</a></li>
-
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualizations<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="/olympics/chart1">Gender & BodyComposition</a></li>
-                <li><a href="/olympics/chart2">Medals Vs GDP</a></li>
-                <li><a href="/olympics/chart3">Medals World View</a></li>
-                <li><a href="/olympics/chart4">Sport Choropleth</a></li>
-              </ul>
-            </li>
-
-            <li><a href="/olympics/analysis">Analysis</a></li>
-
-            <li><a href="/olympics/olympic_facts">Olympic-Facts</a></li>
-
-          </ul>
-        </div><!-- /.navbar-collapse -->
-
+ <!-- Image header -->
+    <div class= "container">
+      <div class="row">
+          <div class="col-md-12">  
+            <img class="col-md-12" id="photo" src="../static/assets/images/images_analysis/analysis.jpeg"/>   
+          </div>
       </div>
-    </div><!-- /.container-fluid -->
-  </nav>
-  <!-- End of navbar -->
+    </div>  
+
+<hr>
+<!--Insert title and subtitle here --> 
+<!--------------------------><!-------------------------->
+<div class= "container">
   
-  
-  <!-- Start of wrapper with image -->
+  <section id="header" class="text-center">
+      <h1 class="mb-5 display-3 content">Analysis</h1>
+<!--       <h2 class="mb-5 content">Subtitle here</h2> -->
+  </section>
+</div>
 
-  <div class="wrapper">
 
-    <div class="hero text-center">
-      <h1>Analysis</h1>
-      <p></p>
-    </div>
 
-    <!-- Analysis -->
+
+<!-- Input code here for visualizations -->
+<!--------------------------><!-------------------------->
+<!--------------------------><!-------------------------->
+<!-- Analysis -->
     <div class = 'row col-md-12 mx-auto'>
 
-      <div class = 'container-fluid card'>
+      <div class = 'container-fluid my-3'>
+        <article>  
+          <!-- Start Analysis Chart0 -->
+              <h4 class="text-center mt-3">Medals Timeline Analysis</h4>
+                <h4 class="small text-center mb-3">We analyzed the top countries medal count from 1896-2016</h4>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <ul>
+                          <li></li><br>
+                          <li></li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+        </article>
+      </div>
+
+      <div class = 'container-fluid my-3'>
         <article> 
           <!-- Start Analysis Chart1 -->
-                <p class="text-muted text-center">Age and Body Composition Analysis</p>
-                <p class="small text-muted text-center">We analyzed Olympians to see the spread of age, height, and weight across the sports for women and men</p>
+                <h4 class="text-center mt-3">Age and Body Composition Analysis</h4>
+                <h4 class="small text-center mb-3">We analyzed Olympians to see the spread of age, height, and weight across the sports for women and men</h4>
                 <table class="table table-bordered">
                   <thead>
                     <tr>
@@ -141,52 +167,105 @@
         </article>
       </div>
 
-      <!-- 
-      <div class = 'container-fluid card'>
+      
+
+      <div class = 'container-fluid my-3'>
         <article>  
-            Analysis here
+          <!-- Start Analysis Chart0 -->
+              <h4 class="text-center mt-3">Medals VS GDP</h4>
+                <h4 class="small text-center mb-3">We analyzed the Relationship between GDP and Olympic Medals</h4>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <ul>
+                          <li>There is a significant relationship between a nation’s GDP and the number of gold medals they win at the Olympics.</li>
+                          <li>The top 10 countries with the most medals all have GDPs of more than 1 billion dollars, while the 10 countries with the fewest medals have GDPs well below 1 billion. The average GDP for gold medal winning countries is $1,062,860,000.</li>
+                          <li>China has seen phenomenal economic growth over the last couple of decades, which has corresponded with China’s emergence as a global force in international sports.</li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
         </article>
       </div>
 
-      <div class = 'container-fluid card'>
+
+      <div class = 'container-fluid my-3'>
         <article>  
-            Analysis here
+          <!-- Start Analysis Chart0 -->
+              <h4 class="text-center mt-3">Medals World View - Seasons</h4>
+                <h4 class="small text-center mb-3">We analyzed all countries by Season and Year and the amount of medals they won</h4>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <ul>
+                          <li></li>
+                          <li></li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
         </article>
       </div>
 
-      <div class = 'container-fluid card'>
+
+      <div class = 'container-fluid my-3'>
         <article>  
-            Analysis here
+          <!-- Start Analysis Chart0 -->
+              <h4 class="text-center mt-3">Medals World View - Sport</h4>
+                <h4 class="small text-center mb-3">We analyzed the top performing countries based on particular sport and the amount of medals they won</h4>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <ul>
+                          <li></li>
+                          <li></li>
+                         
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
         </article>
       </div>
 
-      <div class = 'container-fluid card'>
-        <article>  
-            Analysis here
-        </article>
-      </div>
-      -->
 
-    </div>
+<!-- Footer -->
 
-    <footer class="footer">
-        <span class="bottom">Olympics Dashboard</span>
-    </footer>
+<div class="container-fluid ml-5">
+  <footer>
+    <p class="text-muted">Olympics Visualization and Prediction 2020.
+      Images: <a href="https://unsplash.com/">Unsplash</a></p></a></p>
+  </footer>
+  
+</div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-  <script src="https://d3js.org/d3.v5.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
 
-  <!--<script type="text/javascript" src="../static/js/barChartRace.js"> </script>-->
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
 
 </body>
-
 </html>
