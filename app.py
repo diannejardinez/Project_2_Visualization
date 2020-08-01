@@ -46,7 +46,8 @@ def home():
 @app.route("/<page_name>")
 def render_webpage(page_name):
     """Render the webpage"""
-    return render_template(f'{page_name}.html')
+    return render_template(page_name)
+     # return render_template(f'{page_name}.html')
 
 
 # Flask Route 1
