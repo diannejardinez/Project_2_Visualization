@@ -100,7 +100,7 @@ function init() {
           .attr('y', d => y(d.rank)+5+((y(1)-y(0))/2)+1)
           .style('text-anchor', 'end')
           .html(d => d.country);
-     
+     
       svg.selectAll('text.valueLabel')
           .data(yearSlice, d => d.country)
           .enter()

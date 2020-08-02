@@ -17,7 +17,45 @@
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
 <!-- Link to customized stylesheet -->
-  <link rel="stylesheet" href="../static/assets/css/style_chart4.css">
+<!--   <link rel="stylesheet" href="../static/assets/css/style_data.css"> -->
+
+  <style>
+
+/* Fixed table header
+css from https://adrianroselli.com/2020/01/fixed-table-headers.html */
+th {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #C0C0C0; 
+}
+
+/*custom scrollbar visbility in data html*/
+/*css from https://mdbootstrap.com/docs/jquery/tables/scroll/*/
+.my-custom-scrollbar {
+  position: relative;
+  height: 1000px;
+  overflow: auto;
+  width: 1200px;
+}
+.table-wrapper-scroll-y {
+  display: block;
+}
+
+/*Scrollbar edit in data html table
+css from https://mdbootstrap.com/docs/jquery/javascript/scroll/*/
+.scrollbar-primary::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #95989b; 
+}
+.scrollbar-primary::-webkit-scrollbar {
+  width: 12px;
+  background-color: #e3e4e6; 
+}
+
+  </style>
 
 </head>
 <body>
@@ -62,7 +100,7 @@
     <div class= "container">
       <div class="row">
           <div class="col-md-12">  
-            <img class="col-md-12" id="photo" src="../static/assets/images/images_data/dive_into_data.jpeg"/>   
+            <img class="col-md-12" id="photo" src="../static/assets/images/images_data/dive_into_data.png"/>   
           </div>
       </div>
     </div>  
@@ -82,36 +120,36 @@
 <!--------------------------><!-------------------------->
 <!--------------------------><!-------------------------->
 
-    <div class="container-fluid">
-      <div class="row margin-top-50">
+    <div class="container">
+      <div class="row">
 
-        <div class="col-md-1"> </div>
+<!--         <div class="col-md-1"> </div> -->
 
-        <div class="col-md-2 mt-5" >
-          <aside class="filters">
-            <div class="panel panel-default">
-              <div class="panel-heading"><h5>Filter Search</h5></div>
-              <div class="panel-body">
-                <form id = 'form'>
-                  <div class="form-group">
-                    <ul class="list-group" id="filters">
-                    </ul>
+            <div class="col-md-2 mt-5" >
+              <aside class="filters">
+                <div class="panel panel-default">
+                  <div class="panel-heading mb-3"><h5>Filter Search</h5></div>
+                  <div class="panel-body">
+                    <form id = 'form'>
+                      <div class="form-group">
+                        <ul class="list-group" id="filters">
+                        </ul>
+                      </div>
+                    </form>
                   </div>
-                </form>
-              </div>
-              <div class="panel-footer">
-                <button class="btn btn-info" onclick="location.reload();">Clear Filters</button>
-              </div>
+                  <div class="panel-footer">
+                    <button class="btn btn-info" onclick="location.reload();">Clear Filters</button>
+                  </div>
+                </div>
+              </aside>
             </div>
-          </aside>
-        </div>
 
-        <div class="col-md-1"> </div>
+<!--         <div class="col-md-1"> </div> -->
 
-        <div class="col-md-7">
-          <div id="table-area" class="">
+        <div class="col-md-10 mt-5">
+          <div id="table-area" class="table-responsive table-wrapper-scroll-y my-custom-scrollbar scrollbar-primary">
             <table id="ufo-table" class="table table-bordered table-striped table-hover table-condensed">
-              <thead>
+              <thead id="thtable">
                 <tr>
                 <th class="table-head"><h6>Year</h6></th>
                 <th class="table-head"><h6>Season</h6></th>
@@ -127,7 +165,7 @@
           </div>
         </div>
 
-        <div class="col-md-1"> </div>
+        <div class="col-md-1 mb-5"> </div>
 
       </div>
     </div>
@@ -141,7 +179,7 @@
 
 <!-- Footer -->
 
-<div class="container-fluid ml-5">
+<div class="container-fluid ml-5 mt-5">
   <footer>
     <p class="text-muted">Olympics Visualization and Prediction 2020.
       Images: <a href="https://unsplash.com/">Unsplash &</a>  <a href="https://www.fool.com/amp/features/specials/2014/01/15/does-it-pay-to-host-the-olympics.aspx">Motley Fool, </a>

@@ -17,6 +17,19 @@
   <script src="https://d3js.org/d3.v5.min.js"></script>
 <!-- Link to Plotly -->
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<!--  <style>
+  /* Fixed table header
+css from https://adrianroselli.com/2020/01/fixed-table-headers.html */
+th {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #C0C0C0; 
+}
+ </style> -->
+
 </head>
 <body>
 
@@ -52,6 +65,7 @@
       <li class="nav-item">
         <a class="nav-link" href="machine_learning.html">Olympic Medal Predictions</a>
       </li>
+    </li>
       </ul>
   </div>
 </nav>
@@ -86,15 +100,21 @@
 
 
   <div class="container">
-      <h2 class="text-danger mt-5 text-center">Medals for 2020 </h2>
-    </div>
+      <h2 class="text-danger mt-5 mb-3 text-center">Medals for 2020 </h2>
   </div>
 
-    <div class="container">
-        <div class="col-md-10">
+<!-- First row Linear Regression -->
+    <div class="container-fluid ml-5 d-flex justify-content-center">
+       <div class="row">
+
+        <div class="col-md-2">
+          <h3 class="text-muted mt-5 mb-3 text-center">Linear<br>Regression</h3>
+        </div>
+
+        <div class="col-md-7">
           <div id="table-area" class="">
-            <table id="machine-learning-table-2020" class="table table-bordered table-striped table-hover table-condensed">
-              <thead>
+            <table id="machine-learning-table-2020" class="table table-bordered table-hover table-sm table-responsive-sm table-responsive-md ">
+              <thead class="table-active">
                 <tr>
                 <th class="table-head"><h6>Year</h6></th>
                 <th class="table-head"><h6>Country</h6></th>
@@ -106,27 +126,68 @@
                 <th class="table-head"><h6>Silver</h6></th>
                 <th class="table-head"><h6>Bronze</h6></th>
                 <th class="table-head"><h6>Medals</h6></th>
+                <th class="table-head"><h6>Predicted Gold</h6></th>
+                <th class="table-head"><h6>Predicted Silver</h6></th>
+                <th class="table-head"><h6>Predicted Bronze</h6></th>
+                <th class="table-head"><h6>Predicted Medals</h6></th>
+                <th class="table-head"><h6>Model Score</h6></th>
                 </tr>
               </thead>
-              <tbody></tbody>
+              <tbody>
+                <tr>
+                  <td>2016</td>
+                  <td>USA</td>
+                  <td>0</td>
+                  <td>555</td>
+                  <td>33</td>
+                  <td>245</td>
+                  <td>46</td>
+                  <td>37</td>
+                  <td>38</td>
+                  <td>121</td>
+                  <td class="text-warning">43</td>
+                  <td class="text-warning">33</td>
+                  <td class="text-warning">28</td>
+                  <td class="text-warning">104</td>
+                  <td class="text-warning">Score</td>
+              </tr>
+              <tr>
+                  <td>2020</td>
+                  <td>USA</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td class="text-warning"></td>
+                  <td class="text-warning"></td>
+                  <td class="text-warning"></td>
+                  <td class="text-warning"></td>
+                  <td class="text-warning">Score</td>
+              </tr>
+              </tbody>
             </table>
           </div>
         </div>
       </div>
     </div>
-<hr>
 
+<!-- Second row - ARIMA -->
 
-  <div class="container">
-      <h2 class="text-danger mt-5 text-center">Medals for Sports</h2>
-    </div>
-  </div>
+     <div class="container-fluid ml-5 d-flex justify-content-center">
+       <div class="row">
 
-    <div class="container">
-        <div class="col-md-10">
+        <div class="col-md-2">
+          <h3 class="text-muted mt-5 mb-3 text-center">ARIMA Model</h3>
+        </div>
+
+        <div class="col-md-7">
           <div id="table-area" class="">
-            <table id="machine-learning-table-sports" class="table table-bordered table-striped table-hover table-condensed">
-              <thead>
+            <table id="machine-learning-table-2020" class="table table-bordered table-hover table-sm table-responsive-sm table-responsive-md ">
+              <thead class="table-active">
                 <tr>
                 <th class="table-head"><h6>Year</h6></th>
                 <th class="table-head"><h6>Country</h6></th>
@@ -138,9 +199,131 @@
                 <th class="table-head"><h6>Silver</h6></th>
                 <th class="table-head"><h6>Bronze</h6></th>
                 <th class="table-head"><h6>Medals</h6></th>
+                <th class="table-head"><h6>Predicted Gold</h6></th>
+                <th class="table-head"><h6>Predicted Silver</h6></th>
+                <th class="table-head"><h6>Predicted Bronze</h6></th>
+                <th class="table-head"><h6>Predicted Medals</h6></th>
+                <th class="table-head"><h6>Model Score</h6></th>
                 </tr>
               </thead>
-              <tbody></tbody>
+              <tbody>
+                <tr>
+                  <td>2016</td>
+                  <td>USA</td>
+                  <td>0</td>
+                  <td>555</td>
+                  <td>33</td>
+                  <td>245</td>
+                  <td>46</td>
+                  <td>37</td>
+                  <td>38</td>
+                  <td>121</td>
+                  <td class="text-warning"></td>
+                  <td class="text-warning"></td>
+                  <td class="text-warning"></td>
+                  <td class="text-warning"></td>
+                  <td class="text-warning">Score</td>
+              </tr>
+              <tr>
+                  <td>2020</td>
+                  <td>USA</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td class="text-warning"></td>
+                  <td class="text-warning"></td>
+                  <td class="text-warning"></td>
+                  <td class="text-warning"></td>
+                  <td class="text-warning">Score</td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+<hr>
+
+
+  <div class="container">
+      <h2 class="text-danger mt-5 mb-3 text-center">Medals for Sports</h2>
+    </div>
+  </div>
+
+
+    <div class="container-fluid ml-5 d-flex justify-content-center">
+       <div class="row">
+
+        <div class="col-md-2">
+          <h3 class="text-muted mt-5 mb-3 text-center">Logistic<br>Regression</h3>
+        </div>
+
+        <div class="col-md-7">
+          <div id="table-area" class="">
+            <table id="machine-learning-table-2020" class="table table-bordered table-hover table-sm table-responsive-sm table-responsive-md ">
+              <thead class="table-active">
+                <tr>
+                <th class="table-head"><h6>Year</h6></th>
+                <th class="table-head"><h6>Country</h6></th>
+                <th class="table-head"><h6>Host</h6></th>
+                <th class="table-head"><h6>Athletes</h6></th>
+                <th class="table-head"><h6>Sports</h6></th>
+                <th class="table-head"><h6>Events</h6></th>
+                <th class="table-head"><h6>Gold</h6></th>
+                <th class="table-head"><h6>Silver</h6></th>
+                <th class="table-head"><h6>Bronze</h6></th>
+                <th class="table-head"><h6>Medals</h6></th>
+                <th class="table-head"><h6>Predicted Gold</h6></th>
+                <th class="table-head"><h6>Predicted Silver</h6></th>
+                <th class="table-head"><h6>Predicted Bronze</h6></th>
+                <th class="table-head"><h6>Predicted Medals</h6></th>
+                <th class="table-head"><h6>Model Score</h6></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2016</td>
+                  <td>USA</td>
+                  <td>0</td>
+                  <td>555</td>
+                  <td>33</td>
+                  <td>245</td>
+                  <td>46</td>
+                  <td>37</td>
+                  <td>38</td>
+                  <td>121</td>
+                  <td class="text-warning"></td>
+                  <td class="text-warning"></td>
+                  <td class="text-warning"></td>
+                  <td class="text-warning"></td>
+                  <td class="text-warning">Score</td>
+              </tr>
+              <tr>
+                  <td>2020</td>
+                  <td>USA</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td class="text-warning"></td>
+                  <td class="text-warning"></td>
+                  <td class="text-warning"></td>
+                  <td class="text-warning"></td>
+                  <td class="text-warning">Score</td>
+              </tr>
+              </tbody>
             </table>
           </div>
         </div>

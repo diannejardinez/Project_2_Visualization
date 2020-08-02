@@ -1,4 +1,3 @@
-
 // Changing sport images between female and male options
 function changeImages() {
   ​
@@ -329,4 +328,3 @@ function changeImages() {
     barchart3()
     }
   });
-  

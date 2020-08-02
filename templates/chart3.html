@@ -26,6 +26,18 @@
 <!-- Link to customized stylesheet -->
   <link rel="stylesheet" href="../static/assets/css/style_chart3.css">
 
+ <style>
+  /* Fixed table header
+css from https://adrianroselli.com/2020/01/fixed-table-headers.html */
+th {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #C0C0C0; 
+}
+ </style>
+
 </head>
 <body>
 
@@ -97,10 +109,10 @@
     
   <div class="container">
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-md-2 mt-5">
         <aside class="filters">
           <div class="panel panel-default">
-            <div class="panel-heading"><h5>Filter Search</h5></div>
+            <div class="panel-heading mb-3"><h5>Filter Search</h5></div>
               <div class="panel-body">
                 <form>
                   <div class="form-group">
@@ -130,7 +142,7 @@
 <!--       <div class="col-md-1"> </div> -->
 
         <!-- Table start -->
-      <div class="col-md-10">
+      <div class="col-md-10 mt-5">
         <div id="table-area" class ="table-responsive table-wrapper-scroll-y my-custom-scrollbar scrollbar-primary">
           <table class="table table-bordered table-striped table-hover table-condensed">
             <thead id="thtable">
@@ -166,7 +178,7 @@
 
 <!-- Footer -->
 
-<div class="container-fluid ml-5">
+<div class="container-fluid ml-5 mt-5">
   <footer>
     <p class="text-muted">Olympics Visualization and Prediction 2020.
       Images: <a href="https://unsplash.com/">Unsplash &</a>  <a href="https://www.fool.com/amp/features/specials/2014/01/15/does-it-pay-to-host-the-olympics.aspx">Motley Fool, </a>
