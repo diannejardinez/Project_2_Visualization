@@ -65,317 +65,332 @@
   <div class= "container">
 
     <section id="header" class="text-center">
-        <h1 class="mt-5 display-3 content">Olympic Medal Predictions</h1>
+        <h1 class="display-4 content">Olympic Medal Predictions</h1>
         <h2 class="mb-5 content text-muted">with machine learning</h2>
     </section>
   </div>
 
+  <section class="container-fluid my-3 text-center">
+    <br>
+    <a class="text-danger" href="#predicted_medals"><h5>Medal Prediction</a> | <a class="text-danger" href="#gymnastic_body_comp">Gymnastics Age & Body Composition</a></h5>
+    <br>
+  </section>
+
   <div class="container">
-      <h2 class="text-danger ml-5 mt-5 mb-3 text-center">Predicted Medals</h2>
+      <h2 class="text-danger ml-5 mt-5 text-center" id="predicted_medals" >Predicted Medals</h2>
+  </div>
+          <!-- Table - Actual count -->
+         <div class="container"> 
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h5 class="m-0 font-weight-bold text-primary">Actual Medal Count</h5>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>Year</th>
+                      <th>Country</th>
+                      <th>Host</th>
+                      <th>Athletes</th>
+                      <th>Sports</th>
+                      <th>Events</th>
+                      <th>Gold</th>
+                      <th>Silver</th>
+                      <th>Bronze</th>
+                      <th>Medals</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                    <td>2016</td>
+                    <td>USA</td>
+                    <td>0</td>
+                    <td>555</td>
+                    <td>33</td>
+                    <td>245</td>
+                    <td>46</td>
+                    <td>37</td>
+                    <td>38</td>
+                    <td>121</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+<!-- Table - Predicted count -Linear Regression-->
+     <div class="container"> 
+      <div class="card shadow mb-4">
+        <div class="card-header py-3">
+          <h5 class="m-0 font-weight-bold text-info text-center">Linear Regression: Predicted count</h5>
+        </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+              <thead>
+                <tr>
+                  <th>Year</th>
+                  <th>Country</th>
+                  <th>Gold</th>
+                  <th>Silver</th>
+                  <th>Bronze</th>
+                  <th>Medals</th>
+                  <th>Model score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                <td>2016</td>
+                <td>USA</td>
+                <td class="text-warning">43</td>
+                <td class="text-warning">33</td>
+                <td class="text-warning">28</td>
+                <td class="text-warning">104</td>
+                <td>Gold: 94.3%, Silver:93.5%, <br>Bronze: 93.3%, Medals: 94.8%</td>
+                </tr>
+                <tr>
+                <td>2020</td>
+                <td>USA</td>
+                <td class="text-warning">34</td>
+                <td class="text-warning">17</td>
+                <td class="text-warning">8</td>
+                <td class="text-warning">59</td>
+                <td>Gold: 94.6%, Silver:93.8%, <br>Bronze: 93.4%, Medals: 95.0%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
   </div>
 
-<!-- Table - Linear Regression -->
-  <div class = 'row col-md-12 mx-auto'>
-    <div class = 'container-fluid my-3'>
-      <article>  
-             <h4 class="mt-3 text-warning">Linear Regresion: Predicted Count</h4>
-              <table class="table table-bordered  table-hover table-sm table-responsive-sm table-responsive-md">
-                <thead class="table-active">
-                  <tr>
-                    <th><h6>Year</h6></th>
-                    <th><h6>Country</h6></th>
-                    <th><h6>Host</h6></th>
-                    <th><h6>Athletes</h6></th>
-                    <th><h6>Sports</h6></th>
-                    <th><h6>Events</h6></th>
-                    <th><h6>Gold</h6></th>
-                    <th><h6>Silver</h6></th>
-                    <th><h6>Bronze</h6></th>
-                    <th><h6>Medals</h6></th>
-                    <th><h6>Predicted<br>Gold</h6></th>
-                    <th><h6>Predicted<br>Silver</h6></th>
-                    <th><h6>Predicted<br>Bronze</h6></th>
-                    <th><h6>Predicted<br>Medals</h6></th>
-                    <th><h6>Model Score</h6></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>2016</td>
-                    <td>USA</td>
-                    <td>0</td>
-                    <td>555</td>
-                    <td>33</td>
-                    <td>245</td>
-                    <td>46</td>
-                    <td>37</td>
-                    <td>38</td>
-                    <td>121</td>
-                    <td class="text-warning">43</td>
-                    <td class="text-warning">33</td>
-                    <td class="text-warning">28</td>
-                    <td class="text-warning">104</td>
-                    <td class="text-warning">
-                        Gold: 94.3%<br>
-                        Silver: 93.5%<br>
-                        Bronze: 93.3%<br>
-                        Medals: 94.8%<br>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>2020</td>
-                    <td>USA</td>
-                    <td>0</td>
-                    <td>340</td>
-                    <td>25</td>
-                    <td>191</td>
-                    <td>---</td>
-                    <td>---</td>
-                    <td>---</td>
-                    <td>---</td>
-                    <td class="text-warning">34</td>
-                    <td class="text-warning">17</td>
-                    <td class="text-warning">8</td>
-                    <td class="text-warning">59</td>
-                    <td class="text-warning">
-                        Gold: 94.6%<br>
-                        Silver: 93.8%<br>
-                        Bronze: 93.4%<br>
-                        Medals: 95.0%<br>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-                <p class="text-muted ml-2">Source: <a href="https://en.wikipedia.org/wiki/United_States_at_the_2020_Summer_Olympics">Athletes, Sports, and Events count as of August 2020. Note: Qualification period extended to June 2021.</a></p>
-      </article>
-    </div>
+<!-- Table - Predicted count -ARIMA Model-->
+     <div class="container"> 
+      <div class="card shadow mb-4">
+        <div class="card-header py-3">
+          <h5 class="m-0 font-weight-bold text-info text-center">ARIMA Model: Predicted count</h5>
+        </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+              <thead>
+                <tr>
+                  <th>Year</th>
+                  <th>Country</th>
+                  <th>Gold</th>
+                  <th>Silver</th>
+                  <th>Bronze</th>
+                  <th>Medals</th>
+                  <th>Model score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                <td>2016</td>
+                <td></td>
+                <td class="text-warning"></td>
+                <td class="text-warning"></td>
+                <td class="text-warning"></td>
+                <td class="text-warning"></td>
+                <td>Gold: %, Silver:%, <br>Bronze: %, Medals: %</td>
+                </tr>
+                <tr>
+                <td>2020</td>
+                <td></td>
+                <td class="text-warning"></td>
+                <td class="text-warning"></td>
+                <td class="text-warning"></td>
+                <td class="text-warning"></td>
+                <td>Gold: %, Silver: %, <br>Bronze: %, Medals: %</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+       <p class="text-muted ml-2">Source: <a href="https://en.wikipedia.org/wiki/United_States_at_the_2020_Summer_Olympics">Tokyo  Olympics Athletes, Sports, and Events count as of August 2020. Note: Qualification period extended to June 2021.</a></p>
+  </div>
 
-<!-- Table - ARIMA -->
-  <div class = 'row col-md-12 mx-auto'>
-    <div class = 'container-fluid my-3'>
-      <article>  
-            <h4 class="mt-3 text-warning">ARIMA Model: Predicted Count</h4>
-              <table class="table table-bordered  table-hover table-sm table-responsive-sm table-responsive-md">
-                <thead class="table-active">
-                  <tr>
-                    <th><h6>Year</h6></th>
-                    <th><h6>Country</h6></th>
-                    <th><h6>Host</h6></th>
-                    <th><h6>Athletes</h6></th>
-                    <th><h6>Sports</h6></th>
-                    <th><h6>Events</h6></th>
-                    <th><h6>Gold</h6></th>
-                    <th><h6>Silver</h6></th>
-                    <th><h6>Bronze</h6></th>
-                    <th><h6>Medals</h6></th>
-                    <th><h6>Predicted<br>Gold</h6></th>
-                    <th><h6>Predicted<br>Silver</h6></th>
-                    <th><h6>Predicted<br>Bronze</h6></th>
-                    <th><h6>Predicted<br>Medals</h6></th>
-                    <th><h6>Model Score</h6></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>2016</td>
-                    <td>USA</td>
-                    <td>0</td>
-                    <td>555</td>
-                    <td>33</td>
-                    <td>245</td>
-                    <td>46</td>
-                    <td>37</td>
-                    <td>38</td>
-                    <td>121</td>
-                    <td class="text-warning"></td>
-                    <td class="text-warning"></td>
-                    <td class="text-warning"></td>
-                    <td class="text-warning"></td>
-                    <td class="text-warning">
-                      <ul>
-                        <li>Score</li>
-                        <li>Score</li>
-                        <li>Score</li>
-                        <li>Score</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>2020</td>
-                    <td>USA</td>
-                    <td>0</td>
-                    <td>340</td>
-                    <td>25</td>
-                    <td>191</td>
-                    <td>---</td>
-                    <td>---</td>
-                    <td>---</td>
-                    <td>---</td>
-                    <td class="text-warning"></td>
-                    <td class="text-warning"></td>
-                    <td class="text-warning"></td>
-                    <td class="text-warning"></td>
-                    <td class="text-warning">
-                      <ul>
-                        <li>Score</li>
-                        <li>Score</li>
-                        <li>Score</li>
-                        <li>Score</li>
-                      </ul>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-                <p class="text-muted ml-2">Source: <a href="https://en.wikipedia.org/wiki/United_States_at_the_2020_Summer_Olympics">Athletes, Sports, and Events count as of August 2020. Note: Qualification period extended to June 2021.</a></p>
-      </article>
-    </div>
+
+
 
 <hr>
 
-  <div class="container">
+  <div class="container" id="gymnastic_body_comp">
       <h2 class="text-danger ml-5 mt-5 mb-3 text-center">Predicted Age, Height, Weight<br>for Gymnastic Gold Medalists</h2>
   </div>
 
-<!-- Table - Random Forest -->
-    <div class = 'row col-md-12 mx-auto'>
-      <div class = 'container-fluid my-3'>
-        <article>  
-              <h4 class="mt-3 text-warning">Random Forest: Predicted Count</h4>
-                <table class="table table-bordered  table-hover table-sm table-responsive-sm table-responsive-md">
-                  <thead class="table-active">
+
+          <!-- Table - Actual count -->
+         <div class="container"> 
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h5 class="m-0 font-weight-bold text-primary">Actual Age and Body Composition</h5>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
                     <tr>
-                      <th><h6>Year</h6></th>
-                      <th><h6>Country</h6></th>
-                      <th><h6>Age</h6></th>
-                      <th><h6>Height</h6></th>
-                      <th><h6>Weight</h6></th>
-                      <th><h6>Predicted<br>Age</h6></th>
-                      <th><h6>Predicted<br>Height</h6></th>
-                      <th><h6>Predicted<br>Weight</h6></th>
-                      <th><h6>Model Score</h6></th>
+                      <th>Year</th>
+                      <th>Country</th>
+                      <th>Age</th>
+                      <th>Height</th>
+                      <th>Weight</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>2016</td>
-                      <td>USA</td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td class="text-warning"></td>
-                      <td class="text-warning"></td>
-                      <td class="text-warning"></td>
-                      <td class="text-warning">Score</td>
-                    </tr>
-                    <tr>
-                      <td>2020</td>
-                      <td>USA</td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td class="text-warning"></td>
-                      <td class="text-warning"></td>
-                      <td class="text-warning"></td>
-                      <td class="text-warning">Score</td>
+                    <td>2016</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
                     </tr>
                   </tbody>
                 </table>
-        </article>
+              </div>
+            </div>
+          </div>
       </div>
 
-<!-- Table KNN -->
-    <div class = 'row col-md-12 mx-auto'>
-      <div class = 'container-fluid my-3'>
-        <article>  
-              <h4 class="mt-3 text-warning">K-Nearest Neighbors (KNN): Predicted Count</h4>
-                <table class="table table-bordered  table-hover table-sm table-responsive-sm table-responsive-md">
-                  <thead class="table-active">
-                    <tr>
-                      <th><h6>Year</h6></th>
-                      <th><h6>Country</h6></th>
-                      <th><h6>Age</h6></th>
-                      <th><h6>Height</h6></th>
-                      <th><h6>Weight</h6></th>
-                      <th><h6>Predicted<br>Age</h6></th>
-                      <th><h6>Predicted<br>Height</h6></th>
-                      <th><h6>Predicted<br>Weight</h6></th>
-                      <th><h6>Model Score</h6></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>2016</td>
-                      <td>USA</td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td class="text-warning"></td>
-                      <td class="text-warning"></td>
-                      <td class="text-warning"></td>
-                      <td class="text-warning">Score</td>
-                    </tr>
-                    <tr>
-                      <td>2020</td>
-                      <td>USA</td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td class="text-warning"></td>
-                      <td class="text-warning"></td>
-                      <td class="text-warning"></td>
-                      <td class="text-warning">Score</td>
-                    </tr>
-                  </tbody>
-                </table>
-        </article>
-      </div>
 
-<!-- Table SVM -->
-    <div class = 'row col-md-12 mx-auto'>
-      <div class = 'container-fluid my-3'>
-        <article>  
-              <h4 class="mt-3 text-warning">Support Vector Machine(SVM): Predicted count</h4>
-                <table class="table table-bordered  table-hover table-sm table-responsive-sm table-responsive-md">
-                  <thead class="table-active">
-                    <tr>
-                      <th><h6>Year</h6></th>
-                      <th><h6>Country</h6></th>
-                      <th><h6>Age</h6></th>
-                      <th><h6>Height</h6></th>
-                      <th><h6>Weight</h6></th>
-                      <th><h6>Predicted<br>Age</h6></th>
-                      <th><h6>Predicted<br>Height</h6></th>
-                      <th><h6>Predicted<br>Weight</h6></th>
-                      <th><h6>Model Score</h6></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>2016</td>
-                      <td>USA</td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td class="text-warning"></td>
-                      <td class="text-warning"></td>
-                      <td class="text-warning"></td>
-                      <td class="text-warning">Score</td>
-                    </tr>
-                    <tr>
-                      <td>2020</td>
-                      <td>USA</td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td class="text-warning"></td>
-                      <td class="text-warning"></td>
-                      <td class="text-warning"></td>
-                      <td class="text-warning">Score</td>
-                    </tr>
-                  </tbody>
-                </table>
-        </article>
+<!-- Table - Predicted count -Random Forest-->
+     <div class="container"> 
+      <div class="card shadow mb-4">
+        <div class="card-header py-3">
+          <h5 class="m-0 font-weight-bold text-info text-center">Random Forest: Predicted Count</h5>
+        </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+              <thead>
+                <tr>
+                  <th>Year</th>
+                  <th>Country</th>
+                  <th>Age</th>
+                  <th>Height</th>
+                  <th>Weight</th>
+                  <th>Model score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                <td>2016</td>
+                <td></td>
+                <td class="text-warning"></td>
+                <td class="text-warning"></td>
+                <td class="text-warning"></td>
+                <td>%</td>
+                </tr>
+                <tr>
+                <td>2020</td>
+                <td></td>
+                <td class="text-warning"></td>
+                <td class="text-warning"></td>
+                <td class="text-warning"></td>
+                <td>%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
+  </div>
+
+
+<!-- Table - Predicted count -KNN-->
+     <div class="container"> 
+      <div class="card shadow mb-4">
+        <div class="card-header py-3">
+          <h5 class="m-0 font-weight-bold text-info text-center">K-Nearest Neighbors (KNN): Predicted Count</h5>
+        </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+              <thead>
+                <tr>
+                  <th>Year</th>
+                  <th>Country</th>
+                  <th>Age</th>
+                  <th>Height</th>
+                  <th>Weight</th>
+                  <th>Model score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                <td>2016</td>
+                <td></td>
+                <td class="text-warning"></td>
+                <td class="text-warning"></td>
+                <td class="text-warning"></td>
+                <td>%</td>
+                </tr>
+                <tr>
+                <td>2020</td>
+                <td></td>
+                <td class="text-warning"></td>
+                <td class="text-warning"></td>
+                <td class="text-warning"></td>
+                <td>%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+  </div>
+
+<!-- Table - Predicted count -SVM-->
+     <div class="container"> 
+      <div class="card shadow mb-4">
+        <div class="card-header py-3">
+          <h5 class="m-0 font-weight-bold text-info text-center">Support Vector Machine(SVM): Predicted count</h5>
+        </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+              <thead>
+                <tr>
+                  <th>Year</th>
+                  <th>Country</th>
+                  <th>Age</th>
+                  <th>Height</th>
+                  <th>Weight</th>
+                  <th>Model score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                <td>2016</td>
+                <td></td>
+                <td class="text-warning"></td>
+                <td class="text-warning"></td>
+                <td class="text-warning"></td>
+                <td>%</td>
+                </tr>
+                <tr>
+                <td>2020</td>
+                <td></td>
+                <td class="text-warning"></td>
+                <td class="text-warning"></td>
+                <td class="text-warning"></td>
+                <td>%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
 
 <hr>
 
