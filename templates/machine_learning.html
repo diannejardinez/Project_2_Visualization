@@ -12,6 +12,44 @@
   <!-- Bootstrap 4 Link -->
   <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-smnSwzHqW1zKbeuSMsAM/fMQpkk7HY11LuHiwT8snL/W2QBoZtVCT4H5x1CEcJCs" crossorigin="anonymous">
 
+  <style>
+
+/* Fixed table header
+css from https://adrianroselli.com/2020/01/fixed-table-headers.html */
+th {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #C0C0C0; 
+}
+
+/*custom scrollbar visbility in data html*/
+/*css from https://mdbootstrap.com/docs/jquery/tables/scroll/*/
+.my-custom-scrollbar {
+  position: relative;
+  height: 700px;
+  overflow: auto;
+  width: auto;
+}
+.table-wrapper-scroll-y {
+  display: block;
+}
+
+/*Scrollbar edit in data html table
+css from https://mdbootstrap.com/docs/jquery/javascript/scroll/*/
+.scrollbar-primary::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #95989b; 
+}
+.scrollbar-primary::-webkit-scrollbar {
+  width: 12px;
+  background-color: #e3e4e6; 
+}
+
+  </style>
+
 </head>
 <body>
 
@@ -31,11 +69,11 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Visualizations</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="chart0.html">Medals Timeline</a>
+            <a class="dropdown-item" href="chart0.html">Total Medals Timeline</a>
             <a class="dropdown-item" href="chart1.html">Gender & Body Composition</a>
-            <a class="dropdown-item" href="chart2.html">Medals VS GDP</a>
-            <a class="dropdown-item" href="chart3.html">Medals World View - Seasons</a>
-            <a class="dropdown-item" href="chart4.html">Medals World View - Sport</a>
+            <a class="dropdown-item" href="chart2.html">Total Medals VS GDP</a>
+            <a class="dropdown-item" href="chart3.html">Total Medals World View - Seasons</a>
+            <a class="dropdown-item" href="chart4.html">Total Medals World View - Sport</a>
           </div>
         <li class="nav-item">
           <a class="nav-link" href="analysis.html">Analysis</a>
@@ -72,12 +110,12 @@
 
   <section class="container-fluid my-3 text-center">
     <br>
-    <a class="text-danger" href="#predicted_medals"><h5>Medal Prediction</a> | <a class="text-danger" href="#gymnastic_body_comp">Gymnastics Age & Body Composition</a></h5>
+    <a class="text-danger" href="#predicted_medals"><h5>Medal Prediction</a> | <a class="text-danger" href="#gymnastic_body_comp"> Age & Body Composition</a></h5>
     <br>
   </section>
 
   <div class="container">
-      <h2 class="text-danger ml-5 mt-5 text-center" id="predicted_medals" >Predicted Medals</h2>
+      <h2 class="text-danger ml-5 mt-5 text-center" id="predicted_medals" >Predicted Total Medals</h2>
   </div>
           <!-- Table - Actual count -->
          <div class="container"> 
@@ -99,10 +137,46 @@
                       <th>Gold</th>
                       <th>Silver</th>
                       <th>Bronze</th>
-                      <th>Medals</th>
+                      <th>Total Medals</th>
                     </tr>
                   </thead>
                   <tbody>
+                    <tr>
+                    <td>2004</td>
+                    <td>USA</td>
+                    <td>0</td>
+                    <td>533</td>
+                    <td>31</td>
+                    <td>254</td>
+                    <td>36</td>
+                    <td>39</td>
+                    <td>26</td>
+                    <td>101</td>
+                    </tr>
+                    <tr>
+                    <td>2008</td>
+                    <td>USA</td>
+                    <td>0</td>
+                    <td>588</td>
+                    <td>32</td>
+                    <td>258</td>
+                    <td>36</td>
+                    <td>39</td>
+                    <td>35</td>
+                    <td>110</td>
+                    </tr>
+                    <tr>
+                    <td>2012</td>
+                    <td>USA</td>
+                    <td>0</td>
+                    <td>529</td>
+                    <td>31</td>
+                    <td>245</td>
+                    <td>46</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>103</td>
+                    </tr>
                     <tr>
                     <td>2016</td>
                     <td>USA</td>
@@ -114,6 +188,18 @@
                     <td>37</td>
                     <td>38</td>
                     <td>121</td>
+                    </tr>
+                    <tr>
+                    <td>2020</td>
+                    <td>USA</td>
+                    <td>0</td>
+                    <td>340</td>
+                    <td>191</td>
+                    <td>245</td>
+                    <td>25</td>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
                     </tr>
                   </tbody>
                 </table>
@@ -139,28 +225,55 @@
                   <th>Gold</th>
                   <th>Silver</th>
                   <th>Bronze</th>
-                  <th>Medals</th>
-                  <th>Model score</th>
+                  <th>Total Medals</th>
+<!--                   <th>Test Score</th> -->
+                  <th>Test Score</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                <td>2016</td>
+                <td>2004</td>
+                <td>USA</td>
+                <td class="text-warning">99</td>
+                <td class="text-warning">41</td>
+                <td class="text-warning">30</td>
+                <td class="text-warning">28</td>
+                <td rowspan="4" class="text-centerr">Gold: 0.174 <br><br>Silver: 0.444<br><br>Bronze: -1.74<br><br>Total Medals: 0.378</td>
+                </tr>
+                <tr>
+                <td>2008</td>
                 <td>USA</td>
                 <td class="text-warning">43</td>
                 <td class="text-warning">33</td>
-                <td class="text-warning">28</td>
+                <td class="text-warning">31</td>
+                <td class="text-warning">106</td>
+                </tr>
+                <tr>
+                <td>2012</td>
+                <td>USA</td>
+                <td class="text-warning">42</td>
+                <td class="text-warning">32</td>
+                <td class="text-warning">30</td>
                 <td class="text-warning">104</td>
-                <td>Gold: 94.3%, Silver:93.5%, <br>Bronze: 93.3%, Medals: 94.8%</td>
+              
+                </tr>
+                <tr>
+                <td>2016</td>
+                <td>USA</td>
+                <td class="text-warning">44</td>
+                <td class="text-warning">34</td>
+                <td class="text-warning">32</td>
+                <td class="text-warning">110</td>
+
                 </tr>
                 <tr>
                 <td>2020</td>
                 <td>USA</td>
-                <td class="text-warning">34</td>
-                <td class="text-warning">17</td>
-                <td class="text-warning">8</td>
-                <td class="text-warning">59</td>
-                <td>Gold: 94.6%, Silver:93.8%, <br>Bronze: 93.4%, Medals: 95.0%</td>
+                <td class="text-warning">41</td>
+                <td class="text-warning">29</td>
+                <td class="text-warning">26</td>
+                <td class="text-warning">96</td>
+                <td>---</td>
                 </tr>
               </tbody>
             </table>
@@ -185,28 +298,55 @@
                   <th>Gold</th>
                   <th>Silver</th>
                   <th>Bronze</th>
-                  <th>Medals</th>
-                  <th>Model score</th>
+                  <th>Total Medals</th>
+                  <th>MSE value</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
+                <td>2004</td>
+                <td>USA</td>
+                <td class="text-warning">39</td>
+                <td class="text-warning">31</td>
+                <td class="text-warning">29</td>
+                <td class="text-warning">99</td>
+                <td rowspan="4" class="text-centerr">Gold: 29.77 <br><br>Silver: 26.13<br><br>Bronze: 21.09<br><br>Total Medals: 62.82</td>
+                </tr>
+                <tr>
+                <td>2008</td>
+                <td>USA</td>
+                <td class="text-warning">41</td>
+                <td class="text-warning">32</td>
+                <td class="text-warning">29</td>
+                <td class="text-warning">100</td>
+                <!-- <td>Gold: %, Silver:%, <br>Bronze: %, Total Medals: %</td> -->
+                </tr>
+                <tr>
+                <td>2012</td>
+                <td>USA</td>
+                <td class="text-warning">36</td>
+                <td class="text-warning">30</td>
+                <td class="text-warning">32</td>
+                <td class="text-warning">110</td>
+                <!-- <td>Gold: %, Silver:%, <br>Bronze: %, Total Medals: %</td> -->
+                </tr>
+                <tr>
                 <td>2016</td>
-                <td></td>
-                <td class="text-warning"></td>
-                <td class="text-warning"></td>
-                <td class="text-warning"></td>
-                <td class="text-warning"></td>
-                <td>Gold: %, Silver:%, <br>Bronze: %, Medals: %</td>
+                <td>USA</td>
+                <td class="text-warning">38</td>
+                <td class="text-warning">37</td>
+                <td class="text-warning">35</td>
+                <td class="text-warning">110</td>
+                <!-- <td>Gold: %, Silver:%, <br>Bronze: %, Total Medals: %</td> -->
                 </tr>
                 <tr>
                 <td>2020</td>
-                <td></td>
-                <td class="text-warning"></td>
-                <td class="text-warning"></td>
-                <td class="text-warning"></td>
-                <td class="text-warning"></td>
-                <td>Gold: %, Silver: %, <br>Bronze: %, Medals: %</td>
+                <td>USA</td>
+                <td class="text-warning">41</td>
+                <td class="text-warning">37</td>
+                <td class="text-warning">35</td>
+                <td class="text-warning">117</td>
+                <td>---</td>
                 </tr>
               </tbody>
             </table>
@@ -227,7 +367,7 @@
 
 
           <!-- Table - Actual count -->
-         <div class="container"> 
+<!--          <div class="container"> 
           <div class="card shadow mb-4">
             <div class="card-header py-3">
               <h5 class="m-0 font-weight-bold text-primary">Actual Age and Body Composition</h5>
@@ -258,137 +398,56 @@
             </div>
           </div>
       </div>
+ -->
 
 
-<!-- Table - Predicted count -Random Forest-->
-     <div class="container"> 
-      <div class="card shadow mb-4">
-        <div class="card-header py-3">
-          <h5 class="m-0 font-weight-bold text-info text-center">Random Forest: Predicted Count</h5>
-        </div>
-        <div class="card-body">
-          <div class="table-responsive">
-            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-              <thead>
-                <tr>
-                  <th>Year</th>
-                  <th>Country</th>
-                  <th>Age</th>
-                  <th>Height</th>
-                  <th>Weight</th>
-                  <th>Model score</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                <td>2016</td>
-                <td></td>
-                <td class="text-warning"></td>
-                <td class="text-warning"></td>
-                <td class="text-warning"></td>
-                <td>%</td>
-                </tr>
-                <tr>
-                <td>2020</td>
-                <td></td>
-                <td class="text-warning"></td>
-                <td class="text-warning"></td>
-                <td class="text-warning"></td>
-                <td>%</td>
-                </tr>
-              </tbody>
-            </table>
+
+
+            <div class="col-md-2 mt-5" >
+              <aside class="filters">
+                <div class="panel panel-default">
+                  <div class="panel-heading mb-3"><h5>Filter Search</h5></div>
+                  <div class="panel-body">
+                    <form id = 'form'>
+                      <div class="form-group">
+                        <ul class="list-group" id="filters">
+                        </ul>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="panel-footer">
+                    <button class="btn btn-info" onclick="location.reload();">Clear Filters</button>
+                  </div>
+                </div>
+              </aside>
+            </div>
+
+
+
+
+          <!-- Table - Actual count -->
+         <div class="container"> 
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+               <h5 class="m-0 font-weight-bold text-info text-center">Logistic Regression: Predicted Age and Body Composition</h5>
+            </div>
+            <div class="card-body">
+              <div id="table-area" class="table-responsive table-wrapper-scroll-y my-custom-scrollbar scrollbar-primary">
+                <table class="table table-bordered table-striped table-hover table-condensed" id="#" width="100%" cellspacing="0">
+                  <thead id="thtable">
+                    <tr>
+                    <th class="table-head"><h6>Age</h6></th>
+                    <th class="table-head"><h6>Height</h6></th>
+                    <th class="table-head"><h6>Weight</h6></th>
+                    <th class="table-head"><h6>Total Medals</h6></th>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
           </div>
-        </div>
       </div>
-  </div>
 
-
-<!-- Table - Predicted count -KNN-->
-     <div class="container"> 
-      <div class="card shadow mb-4">
-        <div class="card-header py-3">
-          <h5 class="m-0 font-weight-bold text-info text-center">K-Nearest Neighbors (KNN): Predicted Count</h5>
-        </div>
-        <div class="card-body">
-          <div class="table-responsive">
-            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-              <thead>
-                <tr>
-                  <th>Year</th>
-                  <th>Country</th>
-                  <th>Age</th>
-                  <th>Height</th>
-                  <th>Weight</th>
-                  <th>Model score</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                <td>2016</td>
-                <td></td>
-                <td class="text-warning"></td>
-                <td class="text-warning"></td>
-                <td class="text-warning"></td>
-                <td>%</td>
-                </tr>
-                <tr>
-                <td>2020</td>
-                <td></td>
-                <td class="text-warning"></td>
-                <td class="text-warning"></td>
-                <td class="text-warning"></td>
-                <td>%</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-  </div>
-
-<!-- Table - Predicted count -SVM-->
-     <div class="container"> 
-      <div class="card shadow mb-4">
-        <div class="card-header py-3">
-          <h5 class="m-0 font-weight-bold text-info text-center">Support Vector Machine(SVM): Predicted count</h5>
-        </div>
-        <div class="card-body">
-          <div class="table-responsive">
-            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-              <thead>
-                <tr>
-                  <th>Year</th>
-                  <th>Country</th>
-                  <th>Age</th>
-                  <th>Height</th>
-                  <th>Weight</th>
-                  <th>Model score</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                <td>2016</td>
-                <td></td>
-                <td class="text-warning"></td>
-                <td class="text-warning"></td>
-                <td class="text-warning"></td>
-                <td>%</td>
-                </tr>
-                <tr>
-                <td>2020</td>
-                <td></td>
-                <td class="text-warning"></td>
-                <td class="text-warning"></td>
-                <td class="text-warning"></td>
-                <td>%</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-  </div>
 
 
 
