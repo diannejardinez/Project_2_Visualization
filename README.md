@@ -30,7 +30,7 @@
 
 
 ---
-## GitHub Page for static information
+## GitHub Page - Home
 
 [Olympics Project Website - index](https://diannejardinez.github.io/Olympic_Data_Project/templates/index.html)
 
