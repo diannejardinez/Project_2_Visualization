@@ -1,6 +1,6 @@
 # Visualization Project: Olympics 1896 - 2016
 
-**Team** : Aastha Arora, Dianne Jardinez, Duong Luu, Ritika Bhansali, and Swarna Latha 
+**Team** : Aastha Arora, Dianne Jardinez, Duong Luu, Ritika Bhansali, and Swarna Guntaka
 
 
 [Presentation](https://docs.google.com/presentation/d/15phHbRS-Q3sLNHk0l2hDTo6bSfimbzLvr5rNNoY-aXc/edit) (Google slides)
